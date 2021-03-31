@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->      
+    {{ partial "style.html" . }}
+
+    <!-- Favicons -->
+    {{ partial "favicons.html" . }}
+  
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json">
+    {{ partial "sw.html" . }}
+  
+    <!-- Google Analytics v4 (gtag.js) -->
+    {{ template "_internal/google_analytics.html" . }}
+  
+  </head>
+<body class="is-unselectable">
+  {{ partial "header.html" . }}
+  <main>
+    {{ block "main" . }}
+    {{ end }}
+  </main>
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+</html>

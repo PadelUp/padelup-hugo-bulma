@@ -1,0 +1,16 @@
+baseURL: "http://padelup.it"
+languageCode: "it"
+title: "Padel Up"
+logo: "/images/logo/padelup.svg"
+
+googleAnalytics: G-DH355JDJPH
+
+# Open Graph
+params:
+  description: "Il padel a tutto un altro livello. Recensioni, guide, news e approfondimenti sul mondo del paddle."
+  images: 
+    - /images/logo/padelup.png
+  title: "Padel Up"
+
+summaryLength: 10
+paginate: 9

@@ -1,0 +1,15 @@
+{{ define "title" }} {{ .Title }} &ndash; {{ .Site.Title }} {{ end }}
+{{ define "main" }}
+<section class="hero is-fullheight-with-navbar is-warning">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title">
+                {{.Title}}
+            </p>
+            <p class="subtitle">
+                {{.Description}}
+            </p>
+        </div>
+    </div>
+</section>
+{{ end }}

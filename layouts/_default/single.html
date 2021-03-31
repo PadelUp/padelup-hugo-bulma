@@ -1,0 +1,18 @@
+{{ define "title" }}{{ .Title }} &ndash; {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="hero">
+    <div class="hero-body has-text-centered">
+        <p class="title is-2">
+            {{ .Title }}
+        </p>
+        <p class="subtitle">
+        {{ .Description }}
+        </p>
+    </div>
+</section>
+<section class="section">
+    <div class="container is-max-desktop content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
