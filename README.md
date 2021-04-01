@@ -12,6 +12,8 @@
 
 [Hugo PWA](https://github.com/justinribeiro/blog-pwa)
 
+[Display list of subsections in section page](https://stackoverflow.com/questions/47904764/hugo-how-to-display-in-section-page-a-list-of-subsections#47971998)
+
 ## Bulma
 [Documentation](https://bulma.io/documentation/)
 
