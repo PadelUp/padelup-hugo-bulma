@@ -1,6 +1,7 @@
 ---
 title: Staff
-date: 2019-05-13
+images:
+    - /images/staff/staff.webp
 description: Our staff
 menu: main
 ---

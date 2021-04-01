@@ -2,7 +2,9 @@
 title: Mission
 images:
     - /images/mission/about.webp
-menu: main
+menu:
+  main:
+    identifier: "mission"
 ---
 
 ## Vision

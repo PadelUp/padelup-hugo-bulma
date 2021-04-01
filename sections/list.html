@@ -1,0 +1,26 @@
+{{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-body has-text-centered">
+    <p class="title is-2">{{ .Title }}</p>
+    <p class="subtitle">{{ if .Description }}{{ .Description }}{{ else }}{{ .Content }}{{ end }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <a class="button" href="{{.Parent.RelPermalink }}">Indietro</a>
+  <div class="columns is-multiline is-variable is-5-tablet">
+    {{ if .Params.Section }}
+      {{ range .Pages }}
+      {{ partial "cards.html" . }}
+      {{ end }}
+    {{ else }}
+      {{ range .Paginator.Pages }}
+      {{ partial "cards.html" . }}
+      {{ end }}
+      {{ partial "pagination.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

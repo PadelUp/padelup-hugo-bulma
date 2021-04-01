@@ -1,53 +1,37 @@
-{{ define "title" }}
-{{ .Title }} &#124; {{ .Site.Title }}
-{{ end }}
-{{ define "main" }}
+{{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
+{{ define "main" }}
 <section class="hero">
   <div class="hero-body has-text-centered">
-      <p class="title is-2">{{ .Title }}</p>
-      <p class="subtitle">{{ .Description }}</p>
+    <p class="title is-2">{{ .Title }}</p>
+    <p class="subtitle">{{ if .Description }}{{ .Description }}{{ else }}{{ .Content }}{{ end }}</p>
   </div>
 </section>
 
-
-
 <section class="section">
-    <div class="columns is-multiline is-variable is-5-tablet">
-      {{ range .Paginator.Pages }}  
-      <div class="column is-one-third-desktop is-half-tablet">
-          <div class="card">
-              <div class="card-image">
-                  <figure class="image is-4by3">
-                      <img style="object-fit: cover;" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="">
-                  </figure>
-              </div>
-          </div>
-          <div class="my-5">
-              <h3 class="title is-4">{{ .Title }}</h3>
-              <p>
-              {{ if .Description }}{{ .Description }}
-              {{ else }}
-              {{ .Summary }}
-              {{ end }}
-              </p>
-              <a href="{{.RelPermalink}}">
-                  <span class="icon-text">
-                      <span>Entra</span>
-                      <span class="icon">
-                          <ion-icon name="chevron-forward-outline"></ion-icon></span>
-                  </span>
-                  </a>
-          </div>
-      </div>
-      {{ end }}
+  <nav class="level">
+    <div class="level-left">
+      <a class="button" href="{{.Parent.RelPermalink }}"><span class="icon-text"><span class="icon"><ion-icon name="chevron-back-outline"></ion-icon></span><span>Indietro</span></span></a>
     </div>
-  </section>
-  
-  <section class="section">
-    {{ partial "pagination.html" . }}
-  </section>
-  
-  {{ end }}
-  
-  
+  </nav>
+  <div class="columns is-multiline is-variable is-5-tablet">
+    {{ if .Params.Section }}
+      {{ range .Pages }}
+      <div class="column is-one-third-desktop is-half-tablet">
+      {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+    </div>
+      {{ end }}
+    {{ else }}
+      {{ range .Paginator.Pages }}
+      <div class="column is-one-third-desktop is-half-tablet">
+      {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+    </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ partial "pagination.html" . }}
+{{ end }}
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
+{{ end }}

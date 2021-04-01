@@ -1,6 +1,7 @@
 {
     "lang": "it",
     "dir": "ltr",
+    "start_url": "/",
     "name": "Padel Up",
     "short_name": "Padel Up",
     "description": "Il padel a tutto un altro livello. Recensioni, guide, news e approfondimenti sul mondo del paddle.",
@@ -14,6 +15,12 @@
             "src": "/favicon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/favicon/maskable_icon.png",
+            "sizes": "480x480",
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ],
     "theme_color": "#ffffff",

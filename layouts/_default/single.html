@@ -1,18 +1,45 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 {{ define "main" }}
-<section class="hero">
-    <div class="hero-body has-text-centered">
-        <p class="title is-2">
-            {{ .Title }}
-        </p>
-        <p class="subtitle">
-        {{ .Description }}
-        </p>
+
+<section class="section container content">
+    <div class="columns is-variable">
+        <div class="column is-two-thirds">
+            <p class="title is-2">
+                {{ .Title }}
+            </p>
+            <p class="subtitle">
+            {{ .Description }}
+            </p>
+            <figure class="image is-5by3">
+                <img style="object-fit: {{ cond (eq .Type "wiki") "contain" "cover"}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
+            </figure>
+            <p>{{ .Content }}</p>
+            <nav class="level">
+                <div class="level-left">
+                    {{ with .NextInSection }}
+                    <a class="button" href="{{ .Permalink }}"><span class="icon-text"><span class="icon"><ion-icon name="chevron-back-outline"></ion-icon></span><span>{{.Title}}</span></span></a>
+                    {{ end }}
+                </div>
+                <div class="level-right">
+                    {{ with .PrevInSection }}
+                    <a class="button" href="{{ .Permalink }}"><span class="icon-text"><span>{{ .Title }}</span><span class="icon"><ion-icon name="chevron-forward-outline"></ion-icon></span></span></a>
+                    {{ end }}
+                </div>
+            </nav>
+        </div>
+        <div class="column">
+            <p class="title is-4">Ultimi Articoli</p>
+            <div class="columns is-multiline">
+                {{ range first 2 (where site.RegularPages "Type" "blog") }}
+                <div class="column is-full">
+                    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
 </section>
-<section class="section">
-    <div class="container is-max-desktop content">
-        {{ .Content }}
-    </div>
-</section>
+{{ end }}
+{{ define "footer" }}
+    {{ partial "footer.html" . }}
 {{ end }}

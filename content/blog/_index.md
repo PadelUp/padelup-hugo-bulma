@@ -3,5 +3,7 @@ title: Blog
 images:
     - "blog.webp"
 description: Ultime News
-menu: main
+menu:
+  main:
+    identifier: "blog"
 ---
