@@ -1,20 +1,24 @@
 {{ define "title" }}
-{{ .Title }} &ndash; {{ .Site.Title }}
+{{ .Title }} &#124; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
 
 <section class="hero">
   <div class="hero-body has-text-centered">
       <p class="title is-2">{{ .Title }}</p>
-      <p class="subtitle">{{ .Description }}</p>
+      <p class="subtitle">
+        {{ if .Description }}{{ .Description }}
+        {{ else }}
+        {{ .Content }}
+        {{ end }}
+      </p>
   </div>
 </section>
 
-
-
 <section class="section">
+    <a class="button is-light" href="{{.Parent.RelPermalink }}">Indietro</a>
     <div class="columns is-multiline is-variable is-5-tablet">
-      {{ range .Paginator.Pages }}  
+      {{ range .Paginator.Pages.Reverse }}  
       <div class="column is-one-third-desktop is-half-tablet">
           <div class="card">
               <div class="card-image">

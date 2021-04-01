@@ -1,8 +1,8 @@
 ---
 title: Starvie
 date: '2021-04-03'
-images: 
-  - /images/wiki/brands/starvie.webp
+images:
+    - /images/wiki/brands/starvie.webp
 categories: news
 author: saint
 description: >-

@@ -1,8 +1,8 @@
 ---
 title: Nuove Racchette da Padel Nox per la Temporada 2021
 date: '2021-03-26'
-images: 
-  - /images/wiki/brands/nox.webp
+images:
+    - /images/wiki/brands/nox.webp
 categories: news
 author: saint
 description: >-

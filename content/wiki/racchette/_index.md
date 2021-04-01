@@ -6,5 +6,5 @@ images:
     - /images/wiki/racchette.webp
 title: Racchette
 description: Tutti i modelli di brand nel mercato del padel, con descrizioni e caratteristiche, sempre a portata di mano
-type: racchette
+type: sections
 ---

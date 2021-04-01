@@ -1,8 +1,8 @@
 ---
 title: Collezione Head per la temporada 2021
 date: '2021-03-19'
-images: 
-  - /images/wiki/brands/head.webp
+images:
+    - /images/wiki/brands/head.webp
 categories: news
 author: saint
 description: >-

@@ -1,5 +1,5 @@
 {{ define "title" }}
-{{ .Title }} &ndash; {{ .Site.Title }}
+{{ .Title }} &#124; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
 
@@ -25,16 +25,17 @@
           </div>
           <div class="my-5">
               <h3 class="title is-4">{{ .Title }}</h3>
+              <p>
               {{ if .Description }}{{ .Description }}
               {{ else }}
               {{ .Summary }}
               {{ end }}
-              <p></p>
+              </p>
               <a href="{{.RelPermalink}}">
                   <span class="icon-text">
-                      <span>Entra ›</span>
+                      <span>Entra</span>
                       <span class="icon">
-                          <ion-icon name="chevron-forward-outline"></ion-icon>                        </span>
+                          <ion-icon name="chevron-forward-outline"></ion-icon></span>
                   </span>
                   </a>
           </div>
