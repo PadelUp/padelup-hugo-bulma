@@ -3,16 +3,10 @@
 <section class="hero is-fullheight-with-navbar">
     <div class="hero-body">
         <div class="container has-text-centered">
-            <p class="title">
-                {{.Title}}
-            </p>
-            <p class="subtitle">
-                {{.Description}}
-            </p>
+            <p class="title">{{.Title}}</p>
+            <p class="subtitle">{{.Description}}</p>
         </div>
     </div>
 </section>
 {{ end }}
-{{ define "footer" }}
-    {{ partial "footer.html" . }}
-{{ end }}
+{{ define "footer" }}{{ partial "footer.html" . }}{{ end }}

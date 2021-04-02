@@ -2,14 +2,14 @@
     <div class="level-left">
         <div class="level-item">
             {{ with .NextInSection }}
-            <a class="button" href="{{ .Permalink }}">< {{.Title}}</a>
+            <a class="button" href="{{ .Permalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>{{.Title}}</span></a>
             {{ end }}
         </div>
     </div>
     <div class="level-right">
         <div class="level-item">
             {{ with .PrevInSection }}
-            <a class="button" href="{{ .Permalink }}">{{.Title}} ></a>
+            <a class="button" href="{{ .Permalink }}"><span>{{.Title}}</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
             {{ end }}
         </div>
     </div>

@@ -10,7 +10,7 @@
 <div class="my-5">
     <h3 class="title is-4 mb-3">{{ cond (eq .Type "racchette")  .Page.Params.Model  .Page.Title }}</h3>
     <p class="mb-3">{{ if .Page.Description }}{{ .Page.Description }}{{ else }}{{ .Page.Summary }}{{ end }}</p>
-    <a href="{{.Page.RelPermalink}}" class="button">
-    <span class="icon-text"><span>Entra</span><span class="icon"><ion-icon name="chevron-forward-outline"></ion-icon></span></span>
+    <a href="{{.Page.RelPermalink}}" class="button is-uppercase">
+    <span class="icon-text"><span>Entra</span><span class="icon"><i class="fas fa-chevron-right"></i></span></span>
     </a>
 </div>

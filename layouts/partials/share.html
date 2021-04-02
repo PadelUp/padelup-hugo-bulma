@@ -1,26 +1,15 @@
-<nav class="level is-mobile">
-  <div class="level-item">
-    <a class="button" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
-  </div>
+<h1>Condividi</h1>
+<div class="buttons">
+    <a class="button" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Facebook"><span class="icon"><i class="fab fa-facebook"></i></span><span>Facebook</span></a>
   
-  <div class="level-item">
-    <a class="button" is-one-thirdhref="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
-  </div>
+    <a class="button" href="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Twitter"><span class="icon"><i class="fab fa-twitter"></i></span><span>Twitter</span></a>
   
-  <div class="level-item">
-    <a class="button" is-one-thirdhref="mailto:?subject={{ .Title }}&amp;body={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20-%20{{ .Permalink }}" target="_self" rel="noopener" aria-label="E-Mail"><ion-icon name="mail"></ion-icon></a>
-  </div>
+    <a class="button" href="mailto:?subject={{ .Title }}&amp;body={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20-%20{{ .Permalink }}" target="_self" rel="noopener" aria-label="E-Mail"><span class="icon"><i class="fas fa-envelope"></i></span><span>Mail</span></a>
   
-  <div class="level-item">
-    <a class="button" is-one-thirdhref="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}&amp;description={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" target="_blank" rel="noopener" aria-label="Pinterest"><ion-icon name="logo-pinterest"></ion-icon></a>
-  </div>
+    <a class="button" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}&amp;description={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" target="_blank" rel="noopener" aria-label="Pinterest"><span class="icon"><i class="fab fa-pinterest"></i></span><span>Pinterest</span></a>
   
-  <div class="level-item">
-    <a class="button" is-one-thirdhref="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}&amp;source={{ .Permalink }}" target="_blank" rel="noopener" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
-  </div>
+    <a class="button" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}&amp;source={{ .Permalink }}" target="_blank" rel="noopener" aria-label="LinkedIn"><span class="icon"><i class="fab fa-linkedin"></i></span><span>Linkedin</span></a>
   
-  <div class="level-item">
-    <a class="button" is-one-thirdhref="whatsapp://send?text={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp"><ion-icon name="logo-whatsapp"></ion-icon></a>
-  </div>
-</nav>
+    <a class="button" href="whatsapp://send?text={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="icon"><i class="fab fa-whatsapp"></i></span><span>Whatsapp</span></a>
+</div>
 
