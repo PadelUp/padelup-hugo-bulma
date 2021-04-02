@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -36,16 +36,16 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-// if('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//       .register('/serviceworker.js', { scope: '/' })
-//       .then(function(registration) {
-//           console.log('Service Worker Registered');
-//       });
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+      .register('/serviceworker.js', { scope: '/' })
+      .then(function(registration) {
+          console.log('Service Worker Registered');
+      });
 
-//   navigator.serviceWorker
-//       .ready
-//       .then(function(registration) {
-//           console.log('Service Worker Ready');
-//       });
-// }
+  navigator.serviceWorker
+      .ready
+      .then(function(registration) {
+          console.log('Service Worker Ready');
+      });
+}
