@@ -1,0 +1,26 @@
+<nav class="level is-mobile">
+  <div class="level-item">
+    <a class="button" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+  </div>
+  
+  <div class="level-item">
+    <a class="button" is-one-thirdhref="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}" target="_blank" rel="noopener" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+  </div>
+  
+  <div class="level-item">
+    <a class="button" is-one-thirdhref="mailto:?subject={{ .Title }}&amp;body={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20-%20{{ .Permalink }}" target="_self" rel="noopener" aria-label="E-Mail"><ion-icon name="mail"></ion-icon></a>
+  </div>
+  
+  <div class="level-item">
+    <a class="button" is-one-thirdhref="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&amp;media={{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}&amp;description={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" target="_blank" rel="noopener" aria-label="Pinterest"><ion-icon name="logo-pinterest"></ion-icon></a>
+  </div>
+  
+  <div class="level-item">
+    <a class="button" is-one-thirdhref="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink }}&amp;title={{ .Title }}&amp;summary={{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}&amp;source={{ .Permalink }}" target="_blank" rel="noopener" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </div>
+  
+  <div class="level-item">
+    <a class="button" is-one-thirdhref="whatsapp://send?text={{ .Title }}%20-%20{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="WhatsApp"><ion-icon name="logo-whatsapp"></ion-icon></a>
+  </div>
+</nav>
+

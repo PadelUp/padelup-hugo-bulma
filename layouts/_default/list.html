@@ -11,23 +11,23 @@
 <section class="section">
   <nav class="level">
     <div class="level-left">
-      <a class="button" href="{{.Parent.RelPermalink }}"><span class="icon-text"><span class="icon"><ion-icon name="chevron-back-outline"></ion-icon></span><span>Indietro</span></span></a>
+      <a class="button" href="{{.Parent.RelPermalink }}">< Indietro</a>
     </div>
   </nav>
   <div class="columns is-multiline is-variable is-5-tablet">
-    {{ if .Params.Section }}
-      {{ range .Pages }}
-      <div class="column is-one-third-desktop is-half-tablet">
-      {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+  {{ if .Params.Section }}
+    {{ range .Pages }}
+    <div class="column is-one-third-desktop is-half-tablet">
+    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
     </div>
-      {{ end }}
-    {{ else }}
-      {{ range .Paginator.Pages }}
-      <div class="column is-one-third-desktop is-half-tablet">
-      {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
-    </div>
-      {{ end }}
     {{ end }}
+  {{ else }}
+    {{ range .Paginator.Pages }}
+    <div class="column is-one-third-desktop is-half-tablet">
+    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+    </div>
+    {{ end }}
+  {{ end }}
   </div>
 </section>
 {{ partial "pagination.html" . }}

@@ -19,7 +19,7 @@
             {{ $currentPage := . }}
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
-            <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} is-active{{end}}">
+            <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}">
               <a class="navbar-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
               <div class="navbar-dropdown">
                 {{ range .Children }}
@@ -28,7 +28,7 @@
               </div>
             </div>
             {{ else }}
-            <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} is-active{{end}}" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+            <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
             {{ end }}
             {{ end }}
           </div>
