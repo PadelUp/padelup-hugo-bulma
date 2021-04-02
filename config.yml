@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://padelup-hugo-bulma.pages.dev"
 languageCode: "it"
 title: "Padel Up"
 logo: "/images/logo/padelup.svg"

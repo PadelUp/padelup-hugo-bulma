@@ -24,16 +24,28 @@ document.addEventListener('DOMContentLoaded', () => {
   
   });
 
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-      .register('/serviceworker.js', { scope: '/' })
-      .then(function(registration) {
-          console.log('Service Worker Registered');
-      });
-
-  navigator.serviceWorker
-      .ready
-      .then(function(registration) {
-          console.log('Service Worker Ready');
-      });
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (currentScrollPos > prevScrollpos && prevScrollpos > 80) {
+    document.getElementById("navbar").style.top = "-5rem";
+  } else {
+    document.getElementById("navbar").style.top = "0";
+  }
+  prevScrollpos = currentScrollPos;
 }
+
+// if('serviceWorker' in navigator) {
+//   navigator.serviceWorker
+//       .register('/serviceworker.js', { scope: '/' })
+//       .then(function(registration) {
+//           console.log('Service Worker Registered');
+//       });
+
+//   navigator.serviceWorker
+//       .ready
+//       .then(function(registration) {
+//           console.log('Service Worker Ready');
+//       });
+// }
