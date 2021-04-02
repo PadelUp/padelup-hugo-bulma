@@ -4,7 +4,7 @@ const BASE_CACHE_FILES = [
     '/sass/main.css',
     '/js/script.js',
     '/manifest.json',
-    '/favicon/favicon-128.png',
+    '/favicons/favicon-128.png',
 ];
 
 const OFFLINE_CACHE_FILES = [
