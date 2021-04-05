@@ -3,7 +3,7 @@ title: Starvie
 date: '2021-04-03'
 images:
     - /images/wiki/brands/starvie.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Qualità made in Spain per un brand che produce modelli di altà qualità per

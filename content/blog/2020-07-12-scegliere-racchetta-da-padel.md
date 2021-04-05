@@ -4,7 +4,7 @@ description: Video guida delle caratteristiche principali della racchetta da pad
 date: 2020-07-12 18:01:56
 images:
     - /images/posts/guida-scegli-pala-01.webp
-categories: guide
+categorie: guide
 author: saint
 video: https://www.youtube.com/embed/h434R8IQ_Hk
 redirect_from: /2020/07/12/scegliere-racchetta-da-padel/

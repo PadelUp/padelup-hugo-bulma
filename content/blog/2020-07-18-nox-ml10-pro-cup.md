@@ -4,7 +4,7 @@ description: Prova sul campo della racchetta di Miguel Lamperti, uno dei miglior
 date: 2020-07-18 20:11:56
 images:
     - /images/posts/nox-ml10-01.webp
-categories: recensioni
+categorie: recensioni
 author: luca
 video: https://www.youtube.com/embed/Ymc7_ZA_9po
 redirect_from: /2020/07/18/nox-ml10-pro-cup/

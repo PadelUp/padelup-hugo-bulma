@@ -2,7 +2,7 @@
 date: '2021-02-19'
 images:
     - /images/wiki/brands/adidas.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Storico brand sportivo, apporta annualmente qualità ed innovazione al mondo

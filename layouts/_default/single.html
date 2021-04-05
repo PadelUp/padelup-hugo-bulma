@@ -2,28 +2,33 @@
 {{ define "main" }}
 
 <section class="section container content">
-    <div class="columns is-variable">
+    <div class="columns">
         <div class="column is-two-thirds">
             <nav class="level">
                 <div class="level-left">
                   <a class="button is-uppercase" href="{{.Parent.RelPermalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>Indietro</span></a>
                 </div>
               </nav>
-            <p class="title is-2">
+            <h1 class="title">
                 {{ .Title }}
-            </p>
+            </h1>
+            {{ if .Description }}
             <p class="subtitle">
-            {{ .Description }}
+                {{ .Description }}
             </p>
-            <div class="card">
-                <div class="card-image">
-                    <figure class="image is-5by3 mb-4">
-                        <img style="object-fit: {{ cond (eq .Parent.Type "racchette")  "contain"  "cover" }};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
-                    </figure>
-                </div>
-            </div>
+            {{ end }}
+            <figure class="image is-5by3">
+                <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" "cover"}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
+            </figure>
+            {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
+            {{ partial "specs.html" . }}
+            {{ else }}
             {{ .Content }}
+            {{ end }}
+            {{/* if page in section, show prev-next buttons */}}
+            {{ if (ne .Section "") }}
             {{ partial "prev-next.html" . }}
+            {{ end }}
             {{ partial "share.html" . }}
         </div>
         <div class="column">
@@ -31,7 +36,7 @@
             <div class="columns is-multiline">
                 {{ range first 3 (where site.RegularPages "Type" "blog") }}
                 <div class="column is-full">
-                    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
+                    {{ partial "card.html" . }}
                 </div>
                 {{ end }}
             </div>

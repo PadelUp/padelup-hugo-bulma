@@ -4,7 +4,7 @@ description: Dopo mesi di stop forzato dal COVID-19 la massima competizione di p
 date: 2020-07-05 19:08:48
 images:
     - /images/posts/wpt-madrid-2020-01.webp
-categories: news
+categorie: news
 author: saint
 redirect_from: /2020/07/05/ritorno-campioni-wpt/
 ---

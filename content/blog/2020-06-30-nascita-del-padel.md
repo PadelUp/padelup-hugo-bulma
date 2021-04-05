@@ -4,7 +4,7 @@ description: Dagli albori del paddle alle prime manifestazioni del professionism
 date: 2020-06-30 13:01:05
 images:
     - /images/posts/historia-padel-02.webp
-categories: approfondimenti
+categorie: approfondimenti
 author: jack
 redirect_from: /2020/06/30/nascita-del-padel/
 ---

@@ -6,7 +6,7 @@ description: Online il calendario dei tornei di Padel 2021, riportati gli
 date: 2021-02-02T16:39:25.062Z
 images:
     - /images/posts/calendario-2021-01.webp
-categories:
+categorie:
   - news
 author: saint
 redirect_from: /2021/02/02/calendario-tornei-di-padel-fit-2021/

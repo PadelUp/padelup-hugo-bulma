@@ -3,7 +3,7 @@ title: Racchette Babolat Padel per la stagione 2021
 date: '2021-02-26'
 images:
     - /images/wiki/brands/babolat.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Nuovi modelli dalle forme esuberanti per racchette votate al gioco

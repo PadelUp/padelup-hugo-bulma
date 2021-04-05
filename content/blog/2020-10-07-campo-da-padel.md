@@ -4,7 +4,7 @@ description: Uno sport innovativo per indole che prevende uno spazio di gioco al
 date: 2020-10-07T16:39:25.062Z
 images:
     - /images/posts/campo-da-padel-01.webp
-categories:
+categorie:
   - approfondimenti
 author: simi
 redirect_from: /2020/10/07/campo-da-padel/

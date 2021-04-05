@@ -1,0 +1,17 @@
+{{$type := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}
+{{$title := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection .Title .Params.Model) .Title }}
+<div class="columns is-mobile is-variable is-2">
+    <div class="column is-one-third">
+        <figure class="image is-square">
+            <a href="{{.RelPermalink}}">
+            <img style="object-fit: {{ $type }};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="">
+            </a>
+        </figure>
+    </div>
+    <div class="column is-two-thirds">
+        <h3 class="title is-6">{{ $title }}</h3>
+        <a href="{{.RelPermalink}}" class="button is-uppercase is-small">
+        <span class="icon-text"><span>Entra</span><span class="icon"><i class="fas fa-chevron-right"></i></span></span>
+        </a>
+    </div>
+</div>

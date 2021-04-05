@@ -4,7 +4,7 @@ description: Dopo la ripresa ufficiale, rimane incerta la possibilità di ospita
 date: 2020-07-06 12:32:16
 images:
     - /images/posts/wpt-cagliari-01.webp
-categories: news
+categorie: news
 author: jack
 redirect_from: /2020/07/06/wpt-arriva-in-italia/
 ---

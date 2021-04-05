@@ -4,7 +4,7 @@ description: Ritorna il miglio padel del mondo con un calendario ricco di appunt
 date: 2021-02-17T16:39:25.062Z
 images:
     - /images/posts/calendario-wpt-2021-01.webp
-categories:
+categorie:
   - news
 author: jack
 redirect_from: /2021/02/17/calendario-wpt-2021/

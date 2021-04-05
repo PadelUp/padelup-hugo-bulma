@@ -4,7 +4,7 @@ description: Una pala veramente speciale, quasi unica nel suo genere, che permet
 date: 2020-09-30 08:00:33
 images:
     - /images/posts/orven-vulcano-01.webp
-categories: recensioni
+categorie: recensioni
 author: saint
 video: https://www.youtube.com/embed/keJPpDmpenE
 redirect_from: /2020/09/30/orven-vulcano/

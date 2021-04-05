@@ -4,7 +4,7 @@ description: Test di gioco della racchetta da padel Starvie Brava Carbon Soft, m
 date: 2020-08-07 10:25:37
 images:
     - /images/posts/starvie-bravia-01.webp
-categories: recensioni
+categorie: recensioni
 author: jack
 video: https://www.youtube.com/embed/X2uiysu8BiU
 redirect_from: /2020/08/07/starvie-brava-carbon-soft/

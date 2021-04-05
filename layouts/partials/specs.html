@@ -1,0 +1,66 @@
+<h2>Descrizione</h2>
+
+{{ .Content }}
+
+<h2>Caratteristiche</h2>
+
+<!-- Specs Table -->
+<table>
+<tbody>
+    {{ if .Params.Anno }}
+    <tr>
+    <td class="has-text-weight-bold">Anno:</th>
+    <td>{{ .Params.Anno }}</th>
+    </tr>
+    {{ end }}
+    {{ if .Params.Prezzo }}
+    <tr>
+    <td class="has-text-weight-bold">Prezzo:</td>
+    <td>{{ .Params.Prezzo }}€</td>
+    </tr>
+    {{ end }}
+    {{ if .Params.Forma }}
+    <tr>
+    <td class="has-text-weight-bold">Forma:</td>
+    <td>{{ humanize .Params.Forma }}</td>
+    </tr>        
+    {{ end }}
+    {{ if .Params.Bilanciamento }}
+    <tr>
+    <td class="has-text-weight-bold">Bilanciamento:</td>
+    <td>{{ humanize .Params.Bilanciamento }}</td>
+    </tr>             
+    {{ end }}
+    {{ if .Params.Peso }}
+    <tr>
+    <td class="has-text-weight-bold">Peso:</td>
+    <td>{{ humanize .Params.Peso }}gr</td>
+    </tr>
+    {{ end }}
+    {{ if .Params.Livello }}
+    <tr>
+    <td class="has-text-weight-bold">Livello di gioco consigliato:</td>
+    <td>{{ humanize .Params.Livello }}</td>
+    </tr>  
+    {{ end }}
+    {{ if .Params.Materiale }}
+    <tr>
+    <td class="has-text-weight-bold">Materiale:</td>
+    <td>{{ humanize .Params.Materiale }}</td>
+    </tr>       
+    {{ end }}
+    {{ if .Params.Gomma }}
+    <tr>
+    <td class="has-text-weight-bold">Gomma:</td>
+    <td>{{ humanize .Params.Gomma }}</td>
+    </tr>
+    {{ end }}
+    {{ if .Params.Superficie }}
+    <tr>
+    <td class="has-text-weight-bold">Superficie del piatto:</td>
+    <td>{{ humanize .Params.Superficie }}</td>
+    </tr>                
+    {{ end }}
+
+</tbody>
+</table>

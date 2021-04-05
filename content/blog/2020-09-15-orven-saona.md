@@ -4,7 +4,7 @@ description: Prova in campo della racchetta di fascia media di proposta da Orven
 date: 2020-09-15 19:06:50
 images:
     - /images/posts/orven-saona-02.webp
-categories: recensioni
+categorie: recensioni
 author: saint
 video: https://www.youtube.com/embed/Z-rSZOjNbSA
 redirect_from: /2020/09/15/orven-saona/

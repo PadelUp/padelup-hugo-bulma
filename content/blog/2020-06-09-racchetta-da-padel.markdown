@@ -4,7 +4,7 @@ description: "Tutto quello che devi sapere sulla racchetta da padel, la tua nuov
 date:   2020-06-09 22:01:35 +0200
 images:
     - /images/posts/pala-colors.webp
-categories:   guide
+categorie:   guide
 author: saint
 redirect_from: /2020/06/09/racchetta-da-padel/
 ---

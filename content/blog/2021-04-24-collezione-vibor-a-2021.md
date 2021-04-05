@@ -3,7 +3,7 @@ title: Vibor-A
 date: '2021-04-24'
 images:
     - /images/wiki/brands/vibor-a.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Questo brand spagnolo ha puntato da subito su un look unico ed un’eccellente

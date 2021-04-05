@@ -3,7 +3,7 @@ title: Prince
 date: '2021-04-31'
 images:
     - /images/wiki/brands/prince.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Marchio americano fondato negli anni 70 del secolo scorso, produce accessori

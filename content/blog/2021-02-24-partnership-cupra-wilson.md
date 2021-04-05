@@ -7,7 +7,7 @@ description: Il brand Cupra, sempre più sponsor del Padel internazionale,
 date: 2021-02-24T15:00:00.000Z
 images:
     - /images/posts/partnership-cupra-wilson-01.webp
-categories:
+categorie:
   - news
 author: saint
 redirect_from: /2021/02/24/partnership-cupra-wilson/

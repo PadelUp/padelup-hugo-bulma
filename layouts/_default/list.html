@@ -1,33 +1,27 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="hero">
+<section class="hero is-small container is-widescreen">
   <div class="hero-body has-text-centered">
-    <p class="title is-2">{{ .Title }}</p>
-    <p class="subtitle">{{ if .Description }}{{ .Description }}{{ else }}{{ .Content }}{{ end }}</p>
+    <h1 class="title is-2">{{ .Title }}</h1>
+    <p class="subtitle">{{ .Description }}</p>
   </div>
 </section>
 
-<section class="section">
+<section class="section container is-widescreen">
   <nav class="level">
     <div class="level-left">
       <a class="button is-uppercase" href="{{.Parent.RelPermalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>Indietro</span></a>
     </div>
   </nav>
-  <div class="columns is-multiline is-variable is-5-tablet">
-  {{ if .Params.Section }}
-    {{ range .Pages }}
+  <div class="columns is-multiline is-variable">
+    <!-- if list page has no subsection, iterates over pages. otherwise iterates over subsections -->
+    {{ $list := (cond (eq .Sections nil) (.Paginate .Pages) (.Paginate .Sections))}}
+    {{ range $list.Pages }}
     <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
-    </div>
+      {{ partial "card.html" . }}
+    </div> 
     {{ end }}
-  {{ else }}
-    {{ range .Paginator.Pages }}
-    <div class="column is-one-third-desktop is-half-tablet">
-    {{ partial "cards.html" (dict "Page" . "Type" $.Type) }}
-    </div>
-    {{ end }}
-  {{ end }}
   </div>
 </section>
 {{ partial "pagination.html" . }}

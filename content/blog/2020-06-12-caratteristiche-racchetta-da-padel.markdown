@@ -4,7 +4,7 @@ description: "Equilibrio tra giocatore e racchetta da padel: come convivere con 
 date:   2020-06-12 12:01:35 +0200
 images:
     - /images/posts/pala-grip.webp
-categories:   guide
+categorie:   guide
 author: saint
 redirect_from: /2020/06/12/caratteristiche-racchetta-da-padel/
 ---

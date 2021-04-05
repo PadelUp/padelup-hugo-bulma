@@ -4,7 +4,7 @@ description: Recensione con test in campo della bellissima racchetta da padel di
 date: 2020-08-01 10:12:37
 images:
     - /images/posts/adidas-essex-attk-01.webp
-categories: recensioni
+categorie: recensioni
 author: saint
 video: https://www.youtube.com/embed/bSNgktDnwSk
 redirect_from: /2020/08/01/adidas-essex-carbon-attk-rough/

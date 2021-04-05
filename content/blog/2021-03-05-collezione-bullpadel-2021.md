@@ -3,7 +3,7 @@ title: Racchette da Padel Bullpadel per il 2021
 date: '2021-03-05'
 images:
     - /images/wiki/brands/bullpadel.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Storico marchio spagnolo, in questa collezione 2021 presenta cinque linee, per

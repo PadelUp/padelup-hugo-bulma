@@ -4,7 +4,7 @@ description: L'ufficializzazione del circuito internazionale e la consacrazione 
 date: 2020-07-01 13:15:37
 images:
     - /images/posts/historia-worldpadeltour.webp
-categories: approfondimenti
+categorie: approfondimenti
 author: saint
 redirect_from: /2020/07/01/storia-contemporanea/
 ---
