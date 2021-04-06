@@ -1,7 +1,4 @@
 ---
-id: adidas-metalbone-junior
-parent: /wiki/racchette/adidas/
-permalink: /wiki/racchette/adidas/metalbone-youth/
 images:
     - /images/wiki/racchette/adidas-metalbone-youth.webp
 title: Adidas Metalbone Youth

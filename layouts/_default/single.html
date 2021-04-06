@@ -1,9 +1,9 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 {{ define "main" }}
 
-<section class="section container content">
+<section class="section container">
     <div class="columns">
-        <div class="column is-two-thirds">
+        <div class="column is-two-thirds content">
             <nav class="level">
                 <div class="level-left">
                   <a class="button is-uppercase" href="{{.Parent.RelPermalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>Indietro</span></a>
@@ -21,7 +21,9 @@
                 <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" "cover"}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
             </figure>
             {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
-            {{ partial "specs.html" . }}
+            {{ partial "racchetta.html" . }}
+            {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}
+            {{ partial "vip.html" . }}
             {{ else }}
             {{ .Content }}
             {{ end }}
@@ -31,15 +33,21 @@
             {{ end }}
             {{ partial "share.html" . }}
         </div>
-        <div class="column">
+        <div class="column is-one-third">
             <p class="title is-4">Ultimi Articoli</p>
-            <div class="columns is-multiline">
                 {{ range first 3 (where site.RegularPages "Type" "blog") }}
-                <div class="column is-full">
-                    {{ partial "card.html" . }}
-                </div>
+                    {{ partial "mini-card.html" . }}
                 {{ end }}
-            </div>
+            <p class="title is-4">Esplora le Racchette</p>
+                {{ $racchette := (.GetPage "/wiki/racchette") }}
+                {{ range first 3 $racchette.RegularPagesRecursive }}
+                    {{ partial "mini-card.html" . }}
+                {{ end }}
+            <p class="title is-4">Scopri i VIP</p>
+                {{ $racchette := (.GetPage "/wiki/vip") }}
+                {{ range first 3 $racchette.RegularPagesRecursive }}
+                    {{ partial "mini-card.html" . }}
+                {{ end }}
         </div>
     </div>
 </section>

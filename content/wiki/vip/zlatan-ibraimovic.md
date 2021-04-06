@@ -1,7 +1,4 @@
 ---
-id: zlatan-ibraimovic
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/zlatan-ibraimovic/
 images:
     - /images/wiki/vip/zlatan-ibraimovic.webp
 title: Zlatan Ibraimovic

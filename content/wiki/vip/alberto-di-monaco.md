@@ -12,11 +12,7 @@ fonte: worldpadeltour.com/
 twitter: ''
 image_alt: ''
 instagram: ''
-youtube: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/8SzzWdbXMms" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+youtube: https://www.youtube.com/embed/8SzzWdbXMms
 padel: >-
   Uno dei primi appassionati di questo sport, ha fatto ospitare una tappa del
   World Padel Tour nel Principato di Monaco. Nelle stesse manifestazioni

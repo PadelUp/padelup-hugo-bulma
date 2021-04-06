@@ -1,0 +1,23 @@
+{{ .Content }}
+{{ if .Params.padel }}
+    <h2>{{ .Title }} e il Padel</h2>
+    <p>{{ .Params.padel }}</p>
+{{ end }}
+
+{{ if .Params.youtube }}
+<figure class="image is-16by9">
+    <iframe class="has-ratio" src="{{ .Params.youtube }}" frameborder="0" allowfullscreen></iframe>
+  </figure>
+{{ end }}
+{{ if .Params.instagram }}
+    {{ .Params.instagram }}
+{{ end }}
+{{ if .Params.twitter }}
+    {{ .Params.twitter }}
+{{ end }}
+{{ if .Params.image_alt }}
+<img src="{{ .Params.image_alt }}" alt="{{ .Title}} e il Padel"></p>
+{{ end }}
+{{ if .Params.fonte }}
+<p><a href="{{.Params.fonte}}">Fonte</a></p>
+{{ end }}

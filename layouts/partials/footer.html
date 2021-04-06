@@ -1,16 +1,16 @@
 <div class="columns">
-    <div class="column is-one-third">
-        <h2 class="title is-3">Ultimi Post</h2>
+    <div class="column is-one-third is-hidden-mobile">
+        <p class="title is-4">Ultimi Post</p>
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
             {{ partial "mini-card.html" . }}
         {{ end }}
     </div>
     <div class="column is-one-third">
-        <h2 class="title is-3">Instagram</h2>
+        <p class="title is-4">Instagram</p>
         {{ partial "instagram.html" . }}
     </div>
     <div class="column is-one-third">
-        <h2 class="title is-3">Contattaci</h2>
+        <p class="title is-4">Contattaci</p>
         {{ partial "contact_form.html" . }}
     </div>
 </div>
