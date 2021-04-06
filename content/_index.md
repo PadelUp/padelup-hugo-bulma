@@ -1,5 +1,4 @@
 ---
-author: Dirk Olbrich
-title: Benvenuto in Padel Up 
-date: 2019-05-15
+title: Home
+description: Il Padel a tutto un altro livello
 ---
