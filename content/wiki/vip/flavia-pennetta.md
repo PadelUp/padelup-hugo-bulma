@@ -1,16 +1,15 @@
 ---
+subsection: tennista
 id: flavia-pennetta
-parent: /wiki/vip/tennista/
-permalink: /wiki/vip/tennista/flavia-pennetta/
-images:
+images: 
     - /images/wiki/vip/flavia-pennetta.webp
 title: Flavia Pennetta
-job: tennista
-nome: Flavia Pennetta
-professione: Tennista
+padel: >-
+  L'ex-tennista si diverte a giocare a padel nel tempo livero da diversi anni.
+  Recentemente ha annunciato tramite il proprio profilo Instagram di aver
+  avviato i lavori per l'installazione di alcuni campi al CT Brindisi.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: ''
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/CMCsqbTJm4R/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,10 +109,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Flavia Pennetta
   (@flaviapennetta82)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: ''
-padel: >-
-  L'ex-tennista si diverte a giocare a padel nel tempo livero da diversi anni.
-  Recentemente ha annunciato tramite il proprio profilo Instagram di aver
-  avviato i lavori per l'installazione di alcuni campi al CT Brindisi.
+image_alt: ''
+twitter: ''
 ---
 È una ex-tennista italiana campionessa del Grande Slam sia in singolo che in doppio. È diventata la prima giocatrice italiana della top-ten in singolare il 17 agosto 2009 e la prima italiana ad essere classificata n. 1 al mondo in doppio, il 28 febbraio 2011. È diventata campionessa del Grande Slam in singolare vincendo gli US Open nel 2015, dove ha sconfitto la sua amica d'infanzia Roberta Vinci nella prima finale tutta italiana del Grande Slam. Flavia è stata pronunciata Cavaliere dell'Ordine al Merito della Repubblica il 24 gennaio 2007 da Carlo Azeglio Ciampi, allora Presidente della Repubblica Italiana.

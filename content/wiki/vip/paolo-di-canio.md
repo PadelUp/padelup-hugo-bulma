@@ -1,22 +1,9 @@
 ---
+subsection: calciatore
 id: paolo-di-canio
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/paolo-di-canio/
-images:
+images: 
     - /images/wiki/vip/paolo-di-canio.webp
 title: Paolo Di Canio
-job: calciatore
-nome: Paolo Di Canio
-professione: calciatore
-fonte: 'https://www.corrieredellosport.it/'
-twitter: ''
-image_alt: ''
-instagram: ''
-youtube: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/EvZYor7xZGI" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 padel: >-
   Afferma di aver provato il padel, per la prima volta, cinque anni fa senza
   però affezzionarcisi troppo. Poi, l’anno dopo, con un invito di Luca
@@ -28,5 +15,14 @@ padel: >-
   con Luca partite più impegnative, siamo bravi in difesa e mettiamo in
   difficoltà gli avversari con la strategia, perché nel padel l’80% dei colpi li
   fanno gli altri a favore tuo."
+fonte: 'https://www.corrieredellosport.it/'
+video: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/EvZYor7xZGI" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+instagram: ''
+image_alt: ''
+twitter: ''
 ---
 È un dirigente calcistico italiano, opinionista televisivo ed ex calciatore professionista. Durante la sua carriera di calciatore ha fatto più di 500 presenze in campionato e ha segnato più di cento gol come attaccante. Ha iniziato la sua carriera nella Serie A italiana, giocando per Lazio, Juventus, Napoli e Milan, prima di un breve periodo con il club scozzese Celtic. Successivamente ha trascorso sette anni nella Premier League inglese con Sheffield Wednesday, West Ham United e Charlton Athletic.

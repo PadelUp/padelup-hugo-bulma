@@ -1,16 +1,18 @@
 ---
+subsection: calciatore
 id: bernardo-corradi
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/bernardo-corradi/
-images:
+images: 
     - /images/wiki/vip/bernardo-corradi.webp
 title: Bernardo Corradi
-job: calciatore
-nome: Bernardo Corradi
-professione: calciatore
+padel: >-
+  Ha iniziato a giocare a padel a Roma, come la maggior parte dei VIP, in
+  circoli come il Due Ponti ma non solo. Intervistato ha detto che pratica con
+  passione il padel oltre al tennis. Inoltre sul profilo social di un'altro
+  ex-calciatore della Lazio, Christian Ledesma, è stata pubblicata una foto di
+  una sfida in campo, insieme anche al mister del F.C. Bologna Sinisa
+  Mihajlovic, in un altro circolo di Roma Nord.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: ''
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/CBab6PFH6CT/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,13 +112,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Cristian Daniel
   Ledesma (@cristian_daniel_ledesma)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: ''
-padel: >-
-  Ha iniziato a giocare a padel a Roma, come la maggior parte dei VIP, in
-  circoli come il Due Ponti ma non solo. Intervistato ha detto che pratica con
-  passione il padel oltre al tennis. Inoltre sul profilo social di un'altro
-  ex-calciatore della Lazio, Christian Ledesma, è stata pubblicata una foto di
-  una sfida in campo, insieme anche al mister del F.C. Bologna Sinisa
-  Mihajlovic, in un altro circolo di Roma Nord.
+image_alt: ''
+twitter: ''
 ---
 Attualmente opinionista televisivo ed allantore/selezionatore della nazionale italiana Under 17, è stato anche diregnete sportivo in seguito ad una lunga carriera da calciatore professionista iniziata negli anni '90 e terminata nel 2012. Ha esordito e giocato gran parte della sua carriera in serie A, terminando la carriera da professionista al Montreal Impact. A livello internazionale ha giocato in Spagna col Valencia e in Inghilterra col Manchester City

@@ -1,16 +1,15 @@
 ---
+subsection: calciatore
 id: cristian-daniel-ledesma
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/cristian-daniel-ledesma/
-images:
+images: 
     - /images/wiki/vip/cristian-daniel-ledesma.webp
 title: Cristian Daniel Ledesma
-job: calciatore
-nome: Cristian Daniel Ledesma
-professione: calciatore
+padel: >-
+  Data la sua nazionalità possiamo ipotizzare un'avvicinamento al padel già in
+  Argentina. Adesso gioca molto spesso con amici, ex-calciatori ed altri
+  personaggi famoso mosi per divertirsi e rilassarsi.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: ''
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/CBJU4KdHxBs/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,10 +109,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Cristian Daniel
   Ledesma (@cristian_daniel_ledesma)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: ''
-padel: >-
-  Data la sua nazionalità possiamo ipotizzare un'avvicinamento al padel già in
-  Argentina. Adesso gioca molto spesso con amici, ex-calciatori ed altri
-  personaggi famoso mosi per divertirsi e rilassarsi.
+image_alt: ''
+twitter: ''
 ---
 È un ex-calciatore italiano di origine argentina che ha giocato come centrocampista centrale ed attualmente lavora come allenatore per la Ledesma Academy. Con doppia cittadinanza argentina e italiana, è apparso con la nazionale di quest'ultima nel novembre 2010. Ledesma è forse meglio noto per i suoi nove anni alla Lazio. È un playmaker centrale di centrocampo profondo, dotato di buona visione di gioco, passaggio e tecnica; possiede anche un tiro potente con entrambi i piedi, nonostante sia naturalmente destro, e occasionalmente segna gol dalla lunga distanza.

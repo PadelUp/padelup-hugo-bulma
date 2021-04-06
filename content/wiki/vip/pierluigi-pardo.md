@@ -1,14 +1,16 @@
 ---
+subsection: giornalista
 id: pierluigi-pardo
-parent: /wiki/vip/giornalista/
-permalink: /wiki/vip/giornalista/pierluigi-pardo/
-images:
+images: 
     - /images/wiki/vip/pierluigi-pardo.webp
 title: Pierluigi Pardo
-job: giornalista
-nome: Pierluigi Pardo
-professione: giornalista
+padel: >-
+  Anche lui come diversi colleghi si diverte a giocare nel tempo libero, ha
+  partecipato a diverse iniziative solidali come il Gilette Padel Vip del 2019
 fonte: ''
+video: ''
+instagram: ''
+image_alt: ''
 twitter: >-
   <blockquote class="twitter-tweet"><p lang="it" dir="ltr">Momenti di altissimo
   Padel stamattina. <a
@@ -21,11 +23,5 @@ twitter: >-
   href="https://twitter.com/PIERPARDO/status/1224715100424110082?ref_src=twsrc%5Etfw">February
   4, 2020</a></blockquote> <script async
   src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-image_alt: ''
-instagram: ''
-youtube: ''
-padel: >-
-  Anche lui come diversi colleghi si diverte a giocare nel tempo libero, ha
-  partecipato a diverse iniziative solidali come il Gilette Padel Vip del 2019
 ---
 Giornalista, conduttore televisivo e telecronista sportivo italiano, nato a Roma . Ha lavorato con le grandi emittenti nazionali come Sky, Mediaset e DAZN.

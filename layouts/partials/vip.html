@@ -5,15 +5,13 @@
 {{ end }}
 
 {{ if .Params.youtube }}
-<figure class="image is-16by9">
-    <iframe class="has-ratio" src="{{ .Params.youtube }}" frameborder="0" allowfullscreen></iframe>
-  </figure>
+    {{ .Params.youtube | safeHTML }}
 {{ end }}
 {{ if .Params.instagram }}
-    {{ .Params.instagram }}
+    {{ .Params.instagram | safeHTML }}
 {{ end }}
 {{ if .Params.twitter }}
-    {{ .Params.twitter }}
+    {{ .Params.twitter | safeHTML }}
 {{ end }}
 {{ if .Params.image_alt }}
 <img src="{{ .Params.image_alt }}" alt="{{ .Title}} e il Padel"></p>

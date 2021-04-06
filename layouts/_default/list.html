@@ -1,14 +1,17 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="hero is-small container is-widescreen">
-  <div class="hero-body has-text-centered">
-    <h1 class="title is-2">{{ .Title }}</h1>
-    <p class="subtitle">{{ .Description }}</p>
+<section class="hero is-small">
+  <div class="container is-widescreen px-5">
+    <div class="hero-body has-text-centered">
+      <h1 class="title is-2">{{ .Title }}</h1>
+      <p class="subtitle">{{ .Description }}</p>
+    </div>
   </div>
 </section>
 
-<section class="section container is-widescreen">
+<section class="section">
+<div class="container is-widescreen px-5">
   <nav class="level">
     <div class="level-left">
       <a class="button is-uppercase" href="{{.Parent.RelPermalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>Indietro</span></a>
@@ -23,6 +26,7 @@
     </div> 
     {{ end }}
   </div>
+</div>
 </section>
 {{ partial "pagination.html" . }}
 {{ end }}

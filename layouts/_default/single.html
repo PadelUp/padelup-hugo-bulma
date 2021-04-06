@@ -1,53 +1,57 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 {{ define "main" }}
 
-<section class="section container">
-    <div class="columns">
-        <div class="column is-two-thirds content">
-            <nav class="level">
-                <div class="level-left">
-                  <a class="button is-uppercase" href="{{.Parent.RelPermalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>Indietro</span></a>
-                </div>
-              </nav>
-            <h1 class="title">
-                {{ .Title }}
-            </h1>
-            {{ if .Description }}
-            <p class="subtitle">
-                {{ .Description }}
-            </p>
-            {{ end }}
-            <figure class="image is-5by3">
-                <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" "cover"}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
-            </figure>
-            {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
-            {{ partial "racchetta.html" . }}
-            {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}
-            {{ partial "vip.html" . }}
-            {{ else }}
-            {{ .Content }}
-            {{ end }}
-            {{/* if page in section, show prev-next buttons */}}
-            {{ if (ne .Section "") }}
-            {{ partial "prev-next.html" . }}
-            {{ end }}
-            {{ partial "share.html" . }}
-        </div>
-        <div class="column is-one-third">
-            <p class="title is-4">Ultimi Articoli</p>
-                {{ range first 3 (where site.RegularPages "Type" "blog") }}
-                    {{ partial "mini-card.html" . }}
+<section class="section">
+    <div class="is-widescreen px-5">
+        <div class="columns is-variable is-5">
+            <div class="column is-two-thirds content">
+                <nav class="level">
+                    <div class="level-left">
+                       <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; Indietro</a>
+                    </div>
+                </nav>
+                <h1 class="title">
+                    {{ .Title }}
+                </h1>
+                {{ if .Date }}
+                <time datetime="{{.Date}}">{{ .Date.Format "January 2, 2006" }}</time>
                 {{ end }}
-            <p class="title is-4">Esplora le Racchette</p>
-                {{ $racchette := (.GetPage "/wiki/racchette") }}
-                {{ range first 3 $racchette.RegularPagesRecursive }}
-                    {{ partial "mini-card.html" . }}
+                {{ if .Description }}
+                <p class="subtitle">
+                    {{ .Description }}
+                </p>
                 {{ end }}
-            <p class="title is-4">Scopri i VIP</p>
-                {{ $racchette := (.GetPage "/wiki/vip") }}
-                {{ range first 3 $racchette.RegularPagesRecursive }}
-                    {{ partial "mini-card.html" . }}
+                <figure class="image is-4by3">
+                    <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" (cond (.IsDescendant (.GetPage "/wiki/vip")) "contain" "cover")}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
+                </figure>
+                {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
+                    {{ partial "racchetta.html" . }}
+                {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}
+                    {{ partial "vip.html" . }}
+                {{ else }}
+                    {{ .Content }}
                 {{ end }}
+                {{ if (ne .Section "") }}
+                    {{ partial "prev-next.html" . }}
+                {{ end }}
+                {{ partial "share.html" . }}
+            </div>
+            <div class="column is-one-third">
+                <p class="title is-4">Leggi i Post</p>
+                    {{ range first 3 (shuffle (where site.RegularPages "Type" "blog")) }}
+                        {{ partial "mini-card.html" . }}
+                    {{ end }}
+                <p class="title is-4">Esplora le Racchette</p>
+                    {{ $racchette := (.GetPage "/wiki/racchette") }}
+                    {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
+                        {{ partial "mini-card.html" . }}
+                    {{ end }}
+                <p class="title is-4">Scopri i VIP</p>
+                    {{ $vip := (.GetPage "/wiki/vip") }}
+                    {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
+                        {{ partial "mini-card.html" . }}
+                    {{ end }}
+            </div>
         </div>
     </div>
 </section>

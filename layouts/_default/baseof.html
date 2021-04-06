@@ -36,12 +36,14 @@
     {{ block "main" . }}
     {{ end }}
   </main>
-  <footer class="footer container is-widescreen has-background-white">
-  {{ block "footer" . }}
-  {{ end }}
-  <div class="content has-text-centered">
-    <p>&copy; 2021 <strong>{{ .Site.Title }}</strong></p>
-  </div>
+  <footer class="footer">
+    <div class="container is-widescreen px-5">
+      {{ block "footer" . }}
+      {{ end }}
+      <div class="content has-text-centered">
+        <p>&copy; {{ now.Format "2006"}} <strong>{{ .Site.Title }}</strong></p>
+      </div>
+    </div>
   <script src="/js/script.js"></script>
   </footer>
 </html>

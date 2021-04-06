@@ -1,16 +1,18 @@
 ---
+subsection: calciatore
 id: francesco-totti
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/francesco-totti/
-images:
+images: 
     - /images/wiki/vip/francesco-totti.webp
 title: Francesco Totti
-job: calciatore
-nome: Francesco Totti
-professione: calciatore
+padel: >-
+  E' stato uno dei primi appassionati di questo sport, è stato anche uno dei
+  primi appassionati di questo sport in Italia a costruirsi il campo "personale"
+  all'interno della propria abitazione. Oltre al campo per il relax casalingo ha
+  fatto costruire successivamente altri tre all'interno del "Totti Sporting
+  Club". Oltre ad aver partecipato a diversi tornei solidali ultimamente è
+  spesso protagonista di simpatici siparietti ed aneddoti sempre a tema Padel.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: ''
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/CJ0rGLYDScf/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,13 +112,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Vincent Candela
   (@vincentcandela)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: ''
-padel: >-
-  E' stato uno dei primi appassionati di questo sport, è stato anche uno dei
-  primi appassionati di questo sport in Italia a costruirsi il campo "personale"
-  all'interno della propria abitazione. Oltre al campo per il relax casalingo ha
-  fatto costruire successivamente altri tre all'interno del "Totti Sporting
-  Club". Oltre ad aver partecipato a diversi tornei solidali ultimamente è
-  spesso protagonista di simpatici siparietti ed aneddoti sempre a tema Padel.
+image_alt: ''
+twitter: ''
 ---
 Calciatore romano nato nel 1976 ha passato la sua vita a Roma giocando 25 stagioni con la squadra della capitale, vincendo un mondiale nel 2006. Considerato l'ottavo Re di Roma è l'idolo di diverse generazioni di giovani atleti, ha terminato la sua carriera da professionista nel 2017 con un totale di 250 reti in Serie A attestandosi come il giocatore ad aver segnato più gol con la stessa squadra nel nostro campionato.

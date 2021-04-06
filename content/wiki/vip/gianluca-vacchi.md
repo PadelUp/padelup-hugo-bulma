@@ -1,22 +1,9 @@
 ---
+subsection: showman
 id: gianluca-vacchi
-parent: /wiki/vip/showman/
-permalink: /wiki/vip/showman/gianluca-vacchi/
-images:
+images: 
     - /images/wiki/vip/gianluca-vacchi.webp
 title: Gianluca Vacchi
-job: showman
-nome: Gianluca Vacchi
-professione: showman
-fonte: ''
-twitter: ''
-image_alt: ''
-instagram: ''
-youtube: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/U8X46xNlnRs" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 padel: >-
   Appassionato a questo sport ha ovviamente un campo personale, dove si allena
   regolarmente. Inoltre è amico di diversi giocatori del WPT come Ale Galan e
@@ -25,5 +12,14 @@ padel: >-
   professionistico. Per lui il padel sta diventando sempre più di un semplice
   hobby, anche con video ironici su TikTok o storie Instagram il padel è sempre
   più presente nelle sue varie comunicazioni.
+fonte: ''
+video: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/U8X46xNlnRs" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+instagram: ''
+image_alt: ''
+twitter: ''
 ---
 Gianluca Vacchi è un personaggio italiano celebre sui social media, imprenditore e DJ. È diventato famoso grazie al suo account Instagram che conta quasi 20 milioni di follower e per la sua vita agli eccessi. Vacchi è entrato nell'azienda di famiglia a 25 anni, la IMA Group, che progetta e produce macchine che lavorano imballaggi alimentari, farmaceutici, per caffè e tè, della quale mantiene ancora una quota di proprietà.

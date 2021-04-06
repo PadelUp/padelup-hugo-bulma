@@ -1,16 +1,24 @@
 ---
+subsection: calciatore
 id: carles-puyol
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/carles-puyol/
-images:
+images: 
     - /images/wiki/vip/carles-puyol.webp
 title: Carles Puyol
-job: calciatore
-nome: Carles Puyol
-professione: calciatore
+padel: >-
+  Gioca a padel da moltissini anni, spesso assiste dal vivo tornei del WPT. In
+  rete circola dall'estate del 2019 l'immagine di un suo sfortunatissimo
+  episodio riguardante la rottura del vetro del campo da padel, lo stesso
+  accadde ad Agustin Gomez Silingo in un Pro Padel Tour del
+  2012.YWjvxaaVHfwNonostante lo sfortunato incidente continua a giocare con sano
+  agonismo e passione per lo sport che lo hanno sempre contraddistinto, prprio
+  in merito all'accaduto infatti ha affermto che un giorno imparerà a dosarsi
+  anche nel campo da padel.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/aqACLNDQDhA" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/B00lUCfHbr1/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,22 +118,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Carles Puyol
   (@carles5puyol)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/aqACLNDQDhA" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-padel: >-
-  Gioca a padel da moltissini anni, spesso assiste dal vivo tornei del WPT. In
-  rete circola dall'estate del 2019 l'immagine di un suo sfortunatissimo
-  episodio riguardante la rottura del vetro del campo da padel, lo stesso
-  accadde ad Agustin Gomez Silingo in un Pro Padel Tour del 2012.<iframe
-  width="560" height="315" src="https://www.youtube.com/embed/YWjvxaaVHfw"
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen></iframe>Nonostante lo sfortunato incidente continua a
-  giocare con sano agonismo e passione per lo sport che lo hanno sempre
-  contraddistinto, prprio in merito all'accaduto infatti ha affermto che un
-  giorno imparerà a dosarsi anche nel campo da padel.
+image_alt: ''
+twitter: ''
 ---
-È un ex-calciatore professionista spagnolo  che ha giocato tutta la sua carriera per il Barcellona. Giocava principalmente come difensore centrale, ma poteva anche giocare in entrambe le posizioni di terzino, favoreggiando la corsia di destra. Elogiato per la sua leadership e le sue qualità difensive, è ampiamente considerato come uno dei migliori capitani e difensori della storia del calcio. È stato il capitano del Barcellona dall'agosto 2004 fino al suo ritiro nel 2014, e ha giocato 593 partite ufficiali  per il club blaugrana. Ha vinto 18 titoli, compresi sei trofei della Liga e tre Champions League. Ha collezionato 100 presenze nella nazionale spagnola e ha fatto parte delle squadre che hanno vinto la massima competizione internazionale europea nel 2008 e la Coppa del Mondo 2010. Nella semifinale della Coppa del Mondo 2010, ha anche segnato il gol vittoria della partita contro la Germania.
+È un ex-calciatore professionista spagnolo che ha giocato tutta la sua carriera per il Barcellona. Giocava principalmente come difensore centrale, ma poteva anche giocare in entrambe le posizioni di terzino, favoreggiando la corsia di destra. Elogiato per la sua leadership e le sue qualità difensive, è ampiamente considerato come uno dei migliori capitani e difensori della storia del calcio. È stato il capitano del Barcellona dall'agosto 2004 fino al suo ritiro nel 2014, e ha giocato 593 partite ufficiali per il club blaugrana. Ha vinto 18 titoli, compresi sei trofei della Liga e tre Champions League. Ha collezionato 100 presenze nella nazionale spagnola e ha fatto parte delle squadre che hanno vinto la massima competizione internazionale europea nel 2008 e la Coppa del Mondo 2010. Nella semifinale della Coppa del Mondo 2010, ha anche segnato il gol vittoria della partita contro la Germania.

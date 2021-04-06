@@ -7605,13 +7605,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
         .hero.is-danger.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #fa0a62 0%, #f14668 71%, #f7595f 100%); } }
   .hero.is-small .hero-body {
-    padding: 2rem; }
+    padding: 2rem 0; }
   @media screen and (min-width: 769px), print {
     .hero.is-medium .hero-body {
-      padding: 9rem 2rem; } }
+      padding: 9rem 0; } }
   @media screen and (min-width: 769px), print {
     .hero.is-large .hero-body {
-      padding: 18rem 2rem; } }
+      padding: 18rem 0; } }
   .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body {
     align-items: center;
     display: flex; }
@@ -7658,46 +7658,34 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero-body {
   flex-grow: 1;
   flex-shrink: 0;
-  padding: 3rem 2rem; }
+  padding: 3rem 0; }
 
 .section {
-  padding: 2rem 2rem; }
+  padding: 2rem 0; }
   @media screen and (min-width: 1024px) {
     .section.is-medium {
-      padding: 9rem 2rem; }
+      padding: 9rem 0; }
     .section.is-large {
-      padding: 18rem 2rem; } }
+      padding: 18rem 0; } }
 .footer {
   background-color: #fafafa;
-  padding: 3rem 2rem 6rem; }
+  padding: 2rem 0 6rem; }
 
 .content figure {
   margin: 1rem 0 !important; }
-  .content figure img {
-    box-shadow: unset; }
 
 .navbar {
   top: 0;
   transition: top 0.3s;
   box-shadow: 0 0px 28px rgba(0, 0, 0, 0.07); }
 
-.button {
-  border: none;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02); }
-  .button:active {
-    box-shadow: unset; }
+.navbar-menu {
+  box-shadow: unset; }
 
-figure img {
-  border-radius: 0.5rem;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02); }
-  figure img:active {
-    box-shadow: unset; }
+img {
+  border-radius: 0.5rem; }
+  img .no-radius {
+    border-radius: unset; }
 
-figure .no-radius img {
-  border-radius: unset !important; }
-
-.pagination-link {
-  border: none;
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02); }
-  .pagination-link:active {
-    box-shadow: unset; }
+footer {
+  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.07); }

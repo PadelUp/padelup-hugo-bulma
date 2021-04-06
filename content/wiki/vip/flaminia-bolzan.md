@@ -1,13 +1,13 @@
 ---
-subsection: giornalista
-id: eleonora-daniele
+subsection: altro
+id: flaminia-bolzan
 images: 
-    - /images/wiki/vip/eleonora-daniele.webp
-title: Eleonora Daniele
+    - /images/wiki/vip/flaminia-bolzan.webp
+title: Flaminia Bolzan
 padel: >-
   Appassionata di questo sport ha preso parte a diversi tornei benefici, come il
   Gilette Padel Vip del 2019 dove ne è anche risultata vincitrice insieme alla
-  compagna Flaminia Bolzan
+  compagna Eleonora Daniele
 fonte: ''
 video: >-
   <iframe width="560" height="315"
@@ -18,4 +18,4 @@ instagram: ''
 image_alt: ''
 twitter: ''
 ---
-È un'ex attrice e attualmente conduttrice televisiva italiana. Attualmente conduce il programma mattutino Unomattina su Rai Uno.
+Dottoressa, scrittrice e criminologa italiana

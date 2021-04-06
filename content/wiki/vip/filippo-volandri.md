@@ -1,16 +1,15 @@
 ---
+subsection: tennista
 id: filippo-volandri
-parent: /wiki/vip/tennista/
-permalink: /wiki/vip/tennista/filippo-volandri/
-images:
+images: 
     - /images/wiki/vip/filippo-volandri.webp
 title: Filippo Volandri
-job: tennista
-nome: Filippo Volandri
-professione: tennista
+padel: >-
+  Dopo aver lasciato la racchetta da tennis è passato a quella da padel. Come i
+  suoi colleghi avvicinatisi a questo sport, gioca spesso per divertimento
+  insieme ad altri ex-professionisti, amici e personaggi famosi.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: ''
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/BX3PMr0gWgB/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,10 +109,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da filippo Volandri
   (@pippovolandri)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: ''
-padel: >-
-  Dopo aver lasciato la racchetta da tennis è passato a quella da padel. Come i
-  suoi colleghi avvicinatisi a questo sport, gioca spesso per divertimento
-  insieme ad altri ex-professionisti, amici e personaggi famosi.
+image_alt: ''
+twitter: ''
 ---
 È un ex tennista professionista italiano di sesso maschile. È un giocatore destro che ha raggiunto l'apice della carriera in singolare al n. 25 del mondo nel luglio 2007 ed è diventato professionista nel 1997. Volandri ha vinto il secondo titolo della sua carriera nel settembre 2006, battendo Nicolás Lapentti nella finale degli Internazionali di Sicilia a Palermo.

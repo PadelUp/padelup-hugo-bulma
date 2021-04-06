@@ -1,16 +1,20 @@
 ---
+subsection: calciatore
 id: vincent-candela
-parent: /wiki/vip/calciatore/
-permalink: /wiki/vip/calciatore/vincent-candela/
-images:
+images: 
     - /images/wiki/vip/vincent-candela.webp
 title: Vincent Candela
-job: calciatore
-nome: Vincent Candela
-professione: calciatore
+padel: >-
+  appassionato di lunga data a questo sport ha partecipato a diverse iniziative
+  solidali, condivide spesso sui social le sue partite con amici del calibro di
+  Totti e De Rossi, sempre più frequenti sono infatti i loro post insieme,
+  mentre condividono il campo da padel.
 fonte: ''
-twitter: ''
-image_alt: ''
+video: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/PCnYVGzsVnY" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 instagram: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/p/CJ0rGLYDScf/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -110,15 +114,7 @@ instagram: >-
   text-decoration:none;" target="_blank">Un post condiviso da Vincent Candela
   (@vincentcandela)</a></p></div></blockquote> <script async
   src="//www.instagram.com/embed.js"></script>
-youtube: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/PCnYVGzsVnY" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-padel: >-
-  appassionato di lunga data a questo sport ha partecipato a diverse iniziative
-  solidali, condivide spesso sui social le sue partite con amici del calibro di
-  Totti e De Rossi, sempre più frequenti sono infatti i loro post insieme,
-  mentre condividono il campo da padel.
+image_alt: ''
+twitter: ''
 ---
 È un ex calciatore professionista francese. Con la nazionale francese, Candela ha vinto la Coppa del Mondo FIFA 1998 e UEFA Euro 2000.
