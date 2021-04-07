@@ -1,9 +1,9 @@
 <p class="title is-4 mt-4">Naviga</p>
 <div class="buttons">
     {{ with .NextInSection }}
-    <a class="button" href="{{ .Permalink }}">&#60; {{.Title}}</a>
+    <a class="button multi" href="{{ .Permalink }}">&#60; {{.Title}}</a>
     {{ end }}
     {{ with .PrevInSection }}
-    <a class="button" href="{{ .Permalink }}">{{.Title}} &#62;</a>
+    <a class="button multi" href="{{ .Permalink }}">{{.Title}} &#62;</a>
     {{ end }}
 </div>

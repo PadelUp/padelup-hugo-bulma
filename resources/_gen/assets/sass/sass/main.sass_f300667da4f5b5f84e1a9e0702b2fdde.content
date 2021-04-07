@@ -7692,3 +7692,7 @@ img {
 
 footer {
   box-shadow: 0 0px 28px rgba(0, 0, 0, 0.07); }
+
+.multi {
+  white-space: normal;
+  height: auto; }
