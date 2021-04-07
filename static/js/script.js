@@ -36,16 +36,16 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-// if('serviceWorker' in navigator) {
-//   navigator.serviceWorker
-//       .register('/serviceworker.js', { scope: '/' })
-//       .then(function(registration) {
-//           console.log('Service Worker Registered');
-//       });
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+      .register('/serviceworker.js', { scope: '/' })
+      .then(function(registration) {
+          console.log('Service Worker Registered');
+      });
 
-//   navigator.serviceWorker
-//       .ready
-//       .then(function(registration) {
-//           console.log('Service Worker Ready');
-//       });
-// }
+  navigator.serviceWorker
+      .ready
+      .then(function(registration) {
+          console.log('Service Worker Ready');
+      });
+}
