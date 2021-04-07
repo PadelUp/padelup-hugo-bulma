@@ -34,7 +34,7 @@
     {{ if .Params.Peso }}
     <tr>
     <td class="has-text-weight-bold">Peso:</td>
-    <td>{{ humanize .Params.Peso }}gr</td>
+    <td>{{ .Params.Peso }}gr</td>
     </tr>
     {{ end }}
     {{ if .Params.Livello }}
