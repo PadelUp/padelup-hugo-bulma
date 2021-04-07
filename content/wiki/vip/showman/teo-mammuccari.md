@@ -2,11 +2,11 @@
 subsection: >-
     showman
 filename: >-
-    teo-mammuccari
+    teo-mammucari
 images:
-    - /images/wiki/vip/teo-mammuccari.webp
+    - /images/wiki/vip/teo-mammucari.webp
 title: >-
-    Teo Mammuccari
+    Teo Mammucari
 padel: >-
     Appassionato al padel da diversi anniha preso parte a diverse iniziative solidali insieme ad altri colleghi e vip
 video: >-

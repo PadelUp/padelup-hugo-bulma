@@ -3,7 +3,6 @@
     <h2>{{ .Title }} e il Padel</h2>
     <p>{{ .Params.padel }}</p>
 {{ end }}
-
 {{ if .Params.video }}
     {{ .Params.video | safeHTML }}
 {{ end }}
@@ -14,8 +13,8 @@
     {{ .Params.twitter | safeHTML }}
 {{ end }}
 {{ if .Params.image_alt }}
-<img src="{{ .Params.image_alt }}" alt="{{ .Title}} e il Padel"></p>
+    <img src="{{ .Params.image_alt }}" alt="{{ .Title}} e il Padel"></p>
 {{ end }}
 {{ if .Params.fonte }}
-<p><a href="{{.Params.fonte}}">Fonte</a></p>
+    <p><a href="{{.Params.fonte}}">Fonte</a></p>
 {{ end }}
