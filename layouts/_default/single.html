@@ -30,6 +30,9 @@
                     {{ partial "vip.html" . }}
                 {{ else }}
                     {{ .Content }}
+                    {{ if .Params.staff }}
+                        {{ partial "staff.html" . }}
+                    {{ end }}
                 {{ end }}
                 {{ if (ne .Section "") }}
                     {{ partial "prev-next.html" . }}

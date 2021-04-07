@@ -1,0 +1,50 @@
+- name: Giovanni Maria Santucci
+  position: Editore
+  bio: Laurea in Scienze Politiche e Master in Sport Management @LUISS Guido Carli, laureando magistrale in Marketing. Appassionato di Padel e digital marketing specialist.
+  avatar: /images/staff/saint.webp
+  index: 1
+  social:
+    - {name: "instagram", icon: "fab fa-instagram", link: "https://instagram.com/therealsaiint"}
+    - {name: "facebook", icon: "fab fa-facebook", link: "https://www.facebook.com/giovanni.santucci.52"}
+    - {name: "twitter", icon: "fab fa-twitter", link: "https://twitter.com/GioMSantucci"}
+    - {name: "linkedin", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/giovanni-maria-santucci-30b844197"}
+
+- name: Simone Precicchiani
+  position: Sviluppatore & Graphic Designer
+  bio: Laurea in Business & Management @LUISS Guido Carli, laureando in Corporate Finance. Appassionato di programmazione e creatore di contenuti digitali.
+  avatar: /images/staff/simi.webp
+  index: 2
+  social:
+    - {name: "twitter", icon: "fab fa-twitter", link: "https://twitter.com/simprecicchiani"}
+    - {name: "linkedin", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/simprecicchiani"}
+    - {name: "github", icon: "fab fa-github", link: "https://github.com/simprecicchiani"}
+
+- name: Gianluca Belli
+  position: Social Media & Community Manager
+  staff: true
+  bio: Laureato in Economia e Gestione Aziendale presso l’Università degli Studi di Roma Tre. Laureando in Economia e Management. Appassionato di sport e social network.
+  avatar: /images/staff/belluno.webp
+  index: 1
+  social:
+    - {name: "instagram", icon: "fab fa-instagram", link: "https://www.instagram.com/bell.uno/"}
+    - {name: "facebook", icon: "fab fa-facebook", link: "https://www.facebook.com/gianluca.belli3"}
+    - {name: "twitter", icon: "fab fa-twitter", link: "https://twitter.com/GianlucaBelli8"}
+
+- name: Giacomo Cimino
+  position: Istruttore
+  bio: Dirigente FIT 1º grado, Istruttore di Padel 1º grado. Campione serie A2 di Padel 2017.
+  avatar: /images/staff/jack.webp
+  index: 3
+  social:
+    - {name: "instagram", icon: "fab fa-instagram", link: "https://instagram.com/___jaackk___"}
+    - {name: "facebook", icon: "fab fa-facebook", link: "https://www.facebook.com/giacomo.cimino.12"}
+    - {name: "twitter", icon: "fab fa-twitter", link: "https://twitter.com/giacomocim"}
+
+- name: Luca Lorenzini
+  position: Giocatore
+  bio: Laureato in Economia e giocatore Serie C Italiana di Padel.
+  avatar: /images/staff/luca.webp
+  index: 4
+  social:
+    - {name: "instagram", icon: "fab fa-instagram", link: "https://instagram.com/luca.lorenzini94/"}
+    - {name: "facebook", icon: "fab fa-facebook", link: "https://www.facebook.com/luca.c.lorenzini"}

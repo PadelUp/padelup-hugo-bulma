@@ -1,16 +1,9 @@
-<nav class="level mt-4">
-    <div class="level-left">
-        <div class="level-item">
-            {{ with .NextInSection }}
-            <a class="button" href="{{ .Permalink }}"><span class="icon"><i class="fas fa-chevron-left"></i></span><span>{{.Title}}</span></a>
-            {{ end }}
-        </div>
-    </div>
-    <div class="level-right">
-        <div class="level-item">
-            {{ with .PrevInSection }}
-            <a class="button" href="{{ .Permalink }}"><span>{{.Title}}</span><span class="icon"><i class="fas fa-chevron-right"></i></span></a>
-            {{ end }}
-        </div>
-    </div>
-</nav>
+<p class="title is-4 mt-4">Naviga</p>
+<div class="buttons">
+    {{ with .NextInSection }}
+    <a class="button" href="{{ .Permalink }}">&#60; {{.Title}}</a>
+    {{ end }}
+    {{ with .PrevInSection }}
+    <a class="button" href="{{ .Permalink }}">{{.Title}} &#62;</a>
+    {{ end }}
+</div>

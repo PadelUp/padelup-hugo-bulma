@@ -1,9 +1,9 @@
 ---
 subsection: giornalista
-id: gimmi-ghione
+id: jimmy-ghione
 images: 
-    - /images/wiki/vip/gimmi-ghione.webp
-title: Gimmi Ghione
+    - /images/wiki/vip/jimmy-ghione.webp
+title: Jimmy Ghione
 padel: >-
   Appassionato di padel, gioca spesso con amici e prende parte ad iniziative
   solidali come il Gilette Padel Vip del 2019. Apprezza l'agonismo e il

@@ -1,0 +1,18 @@
+<div class="columns is-multiline is-mobile is-vcentered">
+    {{ range .Site.Data.staff }}
+        <div class="column is-4">
+            <figure class="image is-square">
+                <img class="is-rounded" style="object-fit: cover;" src="{{.avatar}}" alt="{{.name}}">
+            </figure>
+        </div>
+        <div class="column is-8">
+            <h2 class="mb-1"><span class="title is-4">{{ .name }}</span><span class="subtitle is-6"> - {{.position}}</span></h2>
+            <p class="mb-1">{{.bio}}</p>
+            <div class="buttons">
+                {{ range .social }}
+                <a class="button" href="{{.link}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+</div>
