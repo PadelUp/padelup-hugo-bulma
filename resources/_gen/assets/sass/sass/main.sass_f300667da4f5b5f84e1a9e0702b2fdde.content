@@ -7685,6 +7685,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .navbar-dropdown {
   border: unset; }
 
+.navbar-burger span {
+  height: 2px; }
+
 img {
   border-radius: 0.5rem; }
   img .no-radius {

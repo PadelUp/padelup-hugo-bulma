@@ -21,9 +21,11 @@
                     {{ .Description }}
                 </p>
                 {{ end }}
+                {{ if .Params.images }}
                 <figure class="image is-4by3">
-                    <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" (cond (.IsDescendant (.GetPage "/wiki/vip")) "contain" "cover")}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ .Title }}">
+                    <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" (cond (.IsDescendant (.GetPage "/wiki/vip")) "contain" "cover")}};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="{{ $.Title }}">
                 </figure>
+                {{ end }}
                 {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
                     {{ partial "racchetta.html" . }}
                 {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}

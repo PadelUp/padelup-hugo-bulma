@@ -5,6 +5,7 @@ images:
 menu:
   main:
     identifier: "mission"
+    weight: 4
 ---
 
 ## Vision

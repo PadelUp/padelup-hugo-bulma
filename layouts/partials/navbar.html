@@ -13,26 +13,27 @@
       </a>
     </div>
 
-      <div class="navbar-end is-uppercase has-text-weight-medium">
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-            <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}">
-              <a class="navbar-link  is-arrowless" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-              <div class="navbar-dropdown is-right">
-                {{ range .Children }}
-                <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{.Name}}</a>
-                {{ end }}
-              </div>
+    <div class="navbar-end is-uppercase has-text-weight-medium">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}">
+            <a class="navbar-link  is-arrowless" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+            <div class="navbar-dropdown is-right">
+              {{ range .Children }}
+              <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{.Name}}</a>
+              {{ end }}
             </div>
-            {{ else }}
-            <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-            {{ end }}
-            {{ end }}
           </div>
+          {{ else }}
+          <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>
 </nav>
+

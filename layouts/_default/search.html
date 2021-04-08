@@ -1,0 +1,61 @@
+{{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="hero is-small">
+  <div class="container is-widescreen px-5">
+    <div class="hero-body has-text-centered">
+      <h1 class="title is-2">{{ .Title }}</h1>
+      <p class="subtitle">{{ .Description }}</p>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container is-widescreen px-5">
+    <nav class="level">
+      <div class="level-item">
+        <div class="field has-addons">
+          <p class="control">
+            <form action="{{ .Permalink }}">
+            <input id="search-query" name="q" class="input" type="text" placeholder="Cerca tra i contenuti">
+          </form>
+          </p>
+          <p class="control">
+            <button class="button">
+              Cerca
+            </button>
+          </p>
+        </div>
+    </nav>
+    <div id="search-results" class="columns is-multiline"></div>
+  </div>
+</section>
+
+<template id="search-result-template">
+  <div class="search_summary column is-half-tablet">
+    <div class="columns is-mobile">
+    <div class="column is-one-third">
+      <figure class="image is-square">
+        <img class="search_image" style="object-fit: cover;" src="" alt="">
+    </figure>
+    </div>
+    <div class="column is-two-thirds">
+      <a class="search_link search_title title is-5" href=""></a>
+      <p><em class="search_snippet"></em></p>
+      <small>
+        <table>
+          <tr class="search_iftags"><td><strong>Tags</strong></td><td class="search_tags"></td></tr>
+          <tr class="search_ifcategories"><td><strong>Categories</strong></td><td class="search_categories"></td></tr>
+        </table>
+      </small></div>
+    </div>
+  </div>
+</template>
+{{ end }}
+
+{{ define "footer" }}
+  <script src={{ "js/libs/fuse.js/3.2.1/fuse.min.js" | absURL }}></script>
+  <script src={{ "js/libs/mark.js/9.0.0/mark.min.js" | absURL }}></script>
+  {{ $search_js_md5 := (readFile "static/js/search.js" | md5) }}
+  <script src={{ printf "%s?%s" ("js/search.js" | absURL) $search_js_md5 }}></script>
+  {{ partial "footer.html" . }}
+{{ end }}

@@ -6,4 +6,5 @@ description: Ultime News
 menu:
   main:
     identifier: "blog"
+    weight: 1
 ---

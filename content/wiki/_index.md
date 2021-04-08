@@ -5,4 +5,5 @@ section: true
 menu:
   main:
     identifier: "wiki"
+    weight: 2
 ---

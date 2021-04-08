@@ -1,8 +1,9 @@
 ---
 title: Staff
-images:
-    - /images/staff/staff.webp
-description: Our staff
+description: Le persone dietro a questa realtà
 staff: true
-menu: main
+menu:
+  main:
+    identifier: "staff"
+    weight: 3
 ---
