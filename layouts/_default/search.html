@@ -53,9 +53,9 @@
 {{ end }}
 
 {{ define "footer" }}
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.2.1"></script>
-  <script src={{ "js/libs/mark.js/9.0.0/mark.min.js" | absURL }}></script>
-  {{ $search_js_md5 := (readFile "static/js/search.js" | md5) }}
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous">
+  </script>  {{ $search_js_md5 := (readFile "static/js/search.js" | md5) }}
   <script src={{ printf "%s?%s" ("js/search.js" | absURL) $search_js_md5 }}></script>
   {{ partial "footer.html" . }}
 {{ end }}
