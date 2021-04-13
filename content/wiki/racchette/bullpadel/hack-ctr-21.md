@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: hack-ctr-21
-images:
-    - /images/wiki/racchette/bullpadel-hack-ctr-21.webp
+image: /images/wiki/racchette/bullpadel-hack-ctr-21.webp
 title: Bullpadel Hack Ctr 21
 model: Hack Ctr 21
 anno: 2021

@@ -2,8 +2,7 @@
 id: dropshot
 parent: /wiki/racchette/
 permalink: /wiki/racchette/dropshot/
-images:
-    - /images/wiki/brands/dropshot.webp
+image: /images/wiki/brands/dropshot.webp
 title: Dropshot
 brand: dropshot
 marca: dropshot

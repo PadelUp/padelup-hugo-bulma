@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: diva
-images:
-    - /images/wiki/racchette/vibor-a-diva.webp
+image: /images/wiki/racchette/vibor-a-diva.webp
 title: Vibor-A Diva
 model: Diva
 anno: 2019

@@ -2,8 +2,7 @@
 id: wilson
 parent: /wiki/racchette/
 permalink: /wiki/racchette/wilson/
-images:
-    - /images/wiki/brands/wilson.webp
+image: /images/wiki/brands/wilson.webp
 title: Wilson
 brand: wilson
 marca: wilson

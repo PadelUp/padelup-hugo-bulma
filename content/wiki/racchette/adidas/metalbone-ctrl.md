@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: metalbone-ctrl
-images:
-    - /images/wiki/racchette/adidas-metalbone-ctrl.webp
+image: /images/wiki/racchette/adidas-metalbone-ctrl.webp
 title: Adidas Metalbone Ctrl
 model: Metalbone Ctrl
 anno: 2021

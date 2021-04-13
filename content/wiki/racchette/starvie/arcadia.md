@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: arcadia
-images:
-    - /images/wiki/racchette/starvie-arcadia.webp
+image: /images/wiki/racchette/starvie-arcadia.webp
 title: Starvie Arcadia
 model: Arcadia
 anno: 2021

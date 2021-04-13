@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     vicente-del-bosque
-images:
-    - /images/wiki/vip/vicente-del-bosque.webp
+image: /images/wiki/vip/vicente-del-bosque.webp
 title: >-
     Vicente Del Bosque
 padel: >-

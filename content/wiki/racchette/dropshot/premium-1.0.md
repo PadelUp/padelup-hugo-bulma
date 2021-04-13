@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: premium-1.0
-images:
-    - /images/wiki/racchette/dropshot-premium-1.0.webp
+image: /images/wiki/racchette/dropshot-premium-1.0.webp
 title: Dropshot Premium 1.0
 model: Premium 1.0
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     vincent-candela
-images:
-    - /images/wiki/vip/vincent-candela.webp
+image: /images/wiki/vip/vincent-candela.webp
 title: >-
     Vincent Candela
 padel: >-

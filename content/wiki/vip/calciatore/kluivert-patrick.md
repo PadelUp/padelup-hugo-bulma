@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     kluivert-patrick
-images:
-    - /images/wiki/vip/kluivert-patrick.webp
+image: /images/wiki/vip/kluivert-patrick.webp
 title: >-
     Kluivert Patrick
 padel: >-

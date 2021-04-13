@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     paul-pogba
-images:
-    - /images/wiki/vip/paul-pogba.webp
+image: /images/wiki/vip/paul-pogba.webp
 title: >-
     Paul Pogba
 padel: >-

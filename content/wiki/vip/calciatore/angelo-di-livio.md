@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     angelo-di-livio
-images:
-    - /images/wiki/vip/angelo-di-livio.webp
+image: /images/wiki/vip/angelo-di-livio.webp
 title: >-
     Angelo Di Livio
 padel: >-

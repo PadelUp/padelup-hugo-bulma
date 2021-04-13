@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     rafael-nadal
-images:
-    - /images/wiki/vip/rafael-nadal.webp
+image: /images/wiki/vip/rafael-nadal.webp
 title: >-
     Rafael Nadal
 padel: >-

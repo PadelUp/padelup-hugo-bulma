@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup-survivor
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup-survivor.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup-survivor.webp
 title: Nox Ml10 Pro Cup Survivor
 model: Ml10 Pro Cup Survivor
 anno: 2021

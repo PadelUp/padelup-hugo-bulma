@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: x-celerator
-images:
-    - /images/wiki/racchette/dropshot-x-celerator.webp
+image: /images/wiki/racchette/dropshot-x-celerator.webp
 title: Dropshot X-Celerator
 model: X-Celerator
 anno: 2021

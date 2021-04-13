@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     andrea-pirlo
-images:
-    - /images/wiki/vip/andrea-pirlo.webp
+image: /images/wiki/vip/andrea-pirlo.webp
 title: >-
     Andrea Pirlo
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     nicola-amoruso
-images:
-    - /images/wiki/vip/nicola-amoruso.webp
+image: /images/wiki/vip/nicola-amoruso.webp
 title: >-
     Nicola Amoruso
 padel: >-

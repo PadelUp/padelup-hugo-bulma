@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     daniele-conti
-images:
-    - /images/wiki/vip/daniele-conti.webp
+image: /images/wiki/vip/daniele-conti.webp
 title: >-
     Daniele Conti
 padel: >-

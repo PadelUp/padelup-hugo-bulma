@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-shotgun-luxury-series
-images:
-    - /images/wiki/racchette/nox-ml10-shotgun-luxury-series.webp
+image: /images/wiki/racchette/nox-ml10-shotgun-luxury-series.webp
 title: Nox Ml10 Shotgun Luxury Series
 model: Ml10 Shotgun Luxury Series
 anno: 2021

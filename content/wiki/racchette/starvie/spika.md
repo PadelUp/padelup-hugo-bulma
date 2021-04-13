@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: spika
-images:
-    - /images/wiki/racchette/starvie-spika.webp
+image: /images/wiki/racchette/starvie-spika.webp
 title: Starvie Spika
 model: Spika
 anno: 2021

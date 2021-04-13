@@ -1,8 +1,7 @@
 ---
 title: Wilson
 date: '2021-04-10'
-images:
-    - /images/wiki/brands/wilson.webp
+image: /images/wiki/brands/wilson.webp
 categorie: news
 author: saint
 description: >-

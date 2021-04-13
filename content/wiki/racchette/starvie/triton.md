@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: triton
-images:
-    - /images/wiki/racchette/starvie-triton.webp
+image: /images/wiki/racchette/starvie-triton.webp
 title: Starvie Triton
 model: Triton
 anno: 2021

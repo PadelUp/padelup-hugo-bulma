@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     matilde-brandi
-images:
-    - /images/wiki/vip/matilde-brandi.webp
+image: /images/wiki/vip/matilde-brandi.webp
 title: >-
     Matilde Brandi
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     john-terry
-images:
-    - /images/wiki/vip/john-terry.webp
+image: /images/wiki/vip/john-terry.webp
 title: >-
     John Terry
 padel: >-

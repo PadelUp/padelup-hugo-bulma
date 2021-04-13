@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: drone-casual-series
-images:
-    - /images/wiki/racchette/nox-drone-casual-series.webp
+image: /images/wiki/racchette/nox-drone-casual-series.webp
 title: Nox Drone Casual Series
 model: Drone Casual Series
 anno: 2021

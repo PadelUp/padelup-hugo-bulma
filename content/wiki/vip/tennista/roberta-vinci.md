@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     roberta-vinci
-images:
-    - /images/wiki/vip/roberta-vinci.webp
+image: /images/wiki/vip/roberta-vinci.webp
 title: >-
     Roberta Vinci
 padel: >-

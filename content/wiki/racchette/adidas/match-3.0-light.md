@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: match-3.0-light
-images:
-    - /images/wiki/racchette/adidas-match-3.0-light.webp
+image: /images/wiki/racchette/adidas-match-3.0-light.webp
 title: Adidas Match 3.0 Light
 model: Match 3.0 Light
 anno: 2021

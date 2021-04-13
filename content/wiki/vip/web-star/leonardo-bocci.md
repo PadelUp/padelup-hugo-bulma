@@ -3,8 +3,7 @@ subsection: >-
     web-star
 filename: >-
     leonardo-bocci
-images:
-    - /images/wiki/vip/leonardo-bocci.webp
+image: /images/wiki/vip/leonardo-bocci.webp
 title: >-
     Leonardo Bocci
 padel: >-

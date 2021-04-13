@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: delta-elite
-images:
-    - /images/wiki/racchette/head-delta-elite.webp
+image: /images/wiki/racchette/head-delta-elite.webp
 title: Head Delta Elite
 model: Delta Elite
 anno: 2020

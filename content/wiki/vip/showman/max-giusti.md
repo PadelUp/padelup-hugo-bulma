@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     max-giusti
-images:
-    - /images/wiki/vip/max-giusti.webp
+image: /images/wiki/vip/max-giusti.webp
 title: >-
     Max Giusti
 padel: >-

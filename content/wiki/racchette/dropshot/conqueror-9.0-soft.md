@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: conqueror-9.0-soft
-images:
-    - /images/wiki/racchette/dropshot-conqueror-9.0-soft.webp
+image: /images/wiki/racchette/dropshot-conqueror-9.0-soft.webp
 title: Dropshot Conqueror 9.0 Soft
 model: Conqueror 9.0 Soft
 anno: 2021

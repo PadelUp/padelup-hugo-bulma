@@ -5,8 +5,7 @@ description: Il brand Cupra, sempre più sponsor del Padel internazionale,
   che, insieme al brand Wilson, doterà il campione Fernando Belasteguin di una
   racchetta unica, che userà in alcuni tornei del WPT nella stagione 2021
 date: 2021-02-24T15:00:00.000Z
-images:
-    - /images/posts/partnership-cupra-wilson-01.webp
+image: /images/posts/partnership-cupra-wilson-01.webp
 categorie:
   - news
 author: saint

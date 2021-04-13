@@ -2,8 +2,7 @@
 title: "Il Campione di Serie A Gianmarco Toccini e la sua Racchetta da Padel: Orven Vulcano"
 description: Una pala veramente speciale, quasi unica nel suo genere, che permette la personalizzazione del peso in base alle esigenze del giocatore.
 date: 2020-09-30 08:00:33
-images:
-    - /images/posts/orven-vulcano-01.webp
+image: /images/posts/orven-vulcano-01.webp
 categorie: recensioni
 author: saint
 video: https://www.youtube.com/embed/keJPpDmpenE

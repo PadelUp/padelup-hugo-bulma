@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: tour-ultralight
-images:
-    - /images/wiki/racchette/prince-tour-ultralight.webp
+image: /images/wiki/racchette/prince-tour-ultralight.webp
 title: Prince Tour Ultralight
 model: Tour Ultralight
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     flavio-cipolla
-images:
-    - /images/wiki/vip/flavio-cipolla.webp
+image: /images/wiki/vip/flavio-cipolla.webp
 title: >-
     Flavio Cipolla
 padel: >-

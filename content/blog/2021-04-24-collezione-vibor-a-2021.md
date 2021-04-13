@@ -1,8 +1,7 @@
 ---
 title: Vibor-A
 date: '2021-04-24'
-images:
-    - /images/wiki/brands/vibor-a.webp
+image: /images/wiki/brands/vibor-a.webp
 categorie: news
 author: saint
 description: >-

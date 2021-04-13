@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: hydra
-images:
-    - /images/wiki/racchette/vibor-a-hydra.webp
+image: /images/wiki/racchette/vibor-a-hydra.webp
 title: Vibor-A Hydra
 model: Hydra
 anno: 2020

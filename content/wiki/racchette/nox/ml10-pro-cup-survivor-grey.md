@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup-survivor-grey
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup-survivor-grey.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup-survivor-grey.webp
 title: Nox Ml10 Pro Cup Survivor Grey
 model: Ml10 Pro Cup Survivor Grey
 anno: 2021

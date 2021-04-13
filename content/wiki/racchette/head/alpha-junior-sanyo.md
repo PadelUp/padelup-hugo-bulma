@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: alpha-junior-sanyo
-images:
-    - /images/wiki/racchette/head-alpha-junior-sanyo.webp
+image: /images/wiki/racchette/head-alpha-junior-sanyo.webp
 title: Head Alpha Junior Sanyo
 model: Alpha Junior Sanyo
 anno: 2021

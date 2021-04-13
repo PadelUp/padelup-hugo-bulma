@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: harrier
-images:
-    - /images/wiki/racchette/prince-harrier.webp
+image: /images/wiki/racchette/prince-harrier.webp
 title: Prince Harrier
 model: Harrier
 anno: 2021

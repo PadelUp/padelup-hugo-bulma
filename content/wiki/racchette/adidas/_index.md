@@ -2,8 +2,7 @@
 id: adidas
 parent: /wiki/racchette/
 permalink: /wiki/racchette/adidas/
-images:
-    - /images/wiki/brands/adidas.webp
+image: /images/wiki/brands/adidas.webp
 title: Adidas
 brand: adidas
 marca: adidas

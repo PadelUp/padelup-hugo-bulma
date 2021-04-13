@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-3.0
-images:
-    - /images/wiki/racchette/adidas-adipower-3.0.webp
+image: /images/wiki/racchette/adidas-adipower-3.0.webp
 title: Adidas Adipower 3.0
 model: Adipower 3.0
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     regista
 filename: >-
     fausto-brizzi
-images:
-    - /images/wiki/vip/fausto-brizzi.webp
+image: /images/wiki/vip/fausto-brizzi.webp
 title: >-
     Fausto Brizzi
 padel: >-

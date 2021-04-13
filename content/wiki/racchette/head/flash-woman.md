@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: flash-woman
-images:
-    - /images/wiki/racchette/head-flash-woman.webp
+image: /images/wiki/racchette/head-flash-woman.webp
 title: Head Flash Woman
 model: Flash Woman
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     rosario-fiorello
-images:
-    - /images/wiki/vip/rosario-fiorello.webp
+image: /images/wiki/vip/rosario-fiorello.webp
 title: >-
     Rosario Fiorello
 padel: >-

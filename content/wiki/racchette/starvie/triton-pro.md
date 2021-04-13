@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: triton-pro
-images:
-    - /images/wiki/racchette/starvie-triton-pro.webp
+image: /images/wiki/racchette/starvie-triton-pro.webp
 title: Starvie Triton Pro
 model: Triton Pro
 anno: 2021

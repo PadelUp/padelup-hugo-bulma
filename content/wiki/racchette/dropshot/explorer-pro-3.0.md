@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: explorer-pro-3.0
-images:
-    - /images/wiki/racchette/dropshot-explorer-pro-3.0.webp
+image: /images/wiki/racchette/dropshot-explorer-pro-3.0.webp
 title: Dropshot Explorer Pro 3.0
 model: Explorer Pro 3.0
 anno: 2021

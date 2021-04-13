@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     cristian-daniel-ledesma
-images:
-    - /images/wiki/vip/cristian-daniel-ledesma.webp
+image: /images/wiki/vip/cristian-daniel-ledesma.webp
 title: >-
     Cristian Daniel Ledesma
 padel: >-

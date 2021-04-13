@@ -1,7 +1,6 @@
 ---
 date: '2021-02-19'
-images:
-    - /images/wiki/brands/adidas.webp
+image: /images/wiki/brands/adidas.webp
 categorie: news
 author: saint
 description: >-

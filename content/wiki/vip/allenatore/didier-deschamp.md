@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     didier-deschamp
-images:
-    - /images/wiki/vip/didier-deschamp.webp
+image: /images/wiki/vip/didier-deschamp.webp
 title: >-
     Didier Deschamp
 padel: >-

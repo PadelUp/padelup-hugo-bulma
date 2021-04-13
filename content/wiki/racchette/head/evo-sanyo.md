@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: evo-sanyo
-images:
-    - /images/wiki/racchette/head-evo-sanyo.webp
+image: /images/wiki/racchette/head-evo-sanyo.webp
 title: Head Evo Sanyo
 model: Evo Sanyo
 anno: 2021

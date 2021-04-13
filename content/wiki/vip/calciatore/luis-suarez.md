@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     luis-suarez
-images:
-    - /images/wiki/vip/luis-suarez.webp
+image: /images/wiki/vip/luis-suarez.webp
 title: >-
     Luis Suarez
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: raptor
-images:
-    - /images/wiki/racchette/starvie-raptor.webp
+image: /images/wiki/racchette/starvie-raptor.webp
 title: Starvie Raptor
 model: Raptor
 anno: 2021

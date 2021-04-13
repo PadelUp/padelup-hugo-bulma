@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: counter-viper-2021
-images:
-    - /images/wiki/racchette/babolat-counter-viper-2021.webp
+image: /images/wiki/racchette/babolat-counter-viper-2021.webp
 title: Babolat Counter Viper 2021
 model: Counter Viper 2021
 anno: 2021

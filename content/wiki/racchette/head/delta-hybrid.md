@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: delta-hybrid
-images:
-    - /images/wiki/racchette/head-delta-hybrid.webp
+image: /images/wiki/racchette/head-delta-hybrid.webp
 title: Head Delta Hybrid
 model: Delta Hybrid
 anno: 2020

@@ -1,8 +1,7 @@
 ---
 title: Uno sguardo alle Racchette Starvie 2021
 date: '2021-04-03'
-images:
-    - /images/wiki/brands/starvie.webp
+image: /images/wiki/brands/starvie.webp
 categorie: news
 author: saint
 description: >-

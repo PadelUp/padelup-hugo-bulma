@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     andres-iniesta
-images:
-    - /images/wiki/vip/andres-iniesta.webp
+image: /images/wiki/vip/andres-iniesta.webp
 title: >-
     Andres Iniesta
 padel: >-

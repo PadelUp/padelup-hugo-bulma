@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: rx20-light
-images:
-    - /images/wiki/racchette/adidas-rx20-light.webp
+image: /images/wiki/racchette/adidas-rx20-light.webp
 title: Adidas Rx20 Light
 model: Rx20 Light
 anno: 2021

@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup-black-edition
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup-black-edition.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup-black-edition.webp
 title: Nox Ml10 Pro Cup Black Edition
 model: Ml10 Pro Cup Black Edition
 anno: 2021

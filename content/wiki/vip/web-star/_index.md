@@ -3,8 +3,7 @@ subsection: >-
     web-star
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/web-star.webp
+image: /images/wiki/jobs/web-star.webp
 title: >-
     Web Star
 description: >-

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     radja-nainggolan
-images:
-    - /images/wiki/vip/radja-nainggolan.webp
+image: /images/wiki/vip/radja-nainggolan.webp
 title: >-
     Radja Nainggolan
 padel: >-

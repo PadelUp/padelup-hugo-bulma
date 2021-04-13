@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     lucas-arnold
-images:
-    - /images/wiki/vip/lucas-arnold.webp
+image: /images/wiki/vip/lucas-arnold.webp
 title: >-
     Lucas Arnold
 padel: >-

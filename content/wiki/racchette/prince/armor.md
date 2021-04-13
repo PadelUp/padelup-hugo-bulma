@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: armor
-images:
-    - /images/wiki/racchette/prince-armor.webp
+image: /images/wiki/racchette/prince-armor.webp
 title: Prince Armor
 model: Armor
 anno: 2021

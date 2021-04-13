@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: heritage-2.0
-images:
-    - /images/wiki/racchette/dropshot-heritage-2.0.webp
+image: /images/wiki/racchette/dropshot-heritage-2.0.webp
 title: Dropshot Heritage 2.0
 model: Heritage 2.0
 anno: 2021

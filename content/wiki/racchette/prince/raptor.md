@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: raptor
-images:
-    - /images/wiki/racchette/prince-raptor.webp
+image: /images/wiki/racchette/prince-raptor.webp
 title: Prince Raptor
 model: Raptor
 anno: 2021

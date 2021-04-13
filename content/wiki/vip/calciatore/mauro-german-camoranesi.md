@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     mauro-german-camoranesi
-images:
-    - /images/wiki/vip/mauro-german-camoranesi.webp
+image: /images/wiki/vip/mauro-german-camoranesi.webp
 title: >-
     Mauro German Camoranesi
 padel: >-

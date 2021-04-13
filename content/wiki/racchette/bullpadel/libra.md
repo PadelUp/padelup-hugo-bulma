@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: libra
-images:
-    - /images/wiki/racchette/bullpadel-libra.webp
+image: /images/wiki/racchette/bullpadel-libra.webp
 title: Bullpadel Libra
 model: Libra
 anno: 2021

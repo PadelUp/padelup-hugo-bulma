@@ -2,8 +2,7 @@
 title: "Recensione NOX ML10 Pro Cup"
 description: Prova sul campo della racchetta di Miguel Lamperti, uno dei migliori del World Padel Tour. La pala da padel si dimostra interessante per le sue caratteristiche che verranno approfondite nel video. 
 date: 2020-07-18 20:11:56
-images:
-    - /images/posts/nox-ml10-01.webp
+image: /images/posts/nox-ml10-01.webp
 categorie: recensioni
 author: luca
 video: https://www.youtube.com/embed/Ymc7_ZA_9po

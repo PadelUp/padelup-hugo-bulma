@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: rocket
-images:
-    - /images/wiki/racchette/prince-rocket.webp
+image: /images/wiki/racchette/prince-rocket.webp
 title: Prince Rocket
 model: Rocket
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     massimo-ambrosini
-images:
-    - /images/wiki/vip/massimo-ambrosini.webp
+image: /images/wiki/vip/massimo-ambrosini.webp
 title: >-
     Massimo Ambrosini
 padel: >-

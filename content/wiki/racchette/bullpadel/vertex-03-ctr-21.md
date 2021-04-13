@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: vertex-03-ctr-21
-images:
-    - /images/wiki/racchette/bullpadel-vertex-03-ctr-21.webp
+image: /images/wiki/racchette/bullpadel-vertex-03-ctr-21.webp
 title: Bullpadel Vertex 03 Ctr 21
 model: Vertex 03 Ctr 21
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     altro
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/altro.webp
+image: /images/wiki/jobs/altro.webp
 title: >-
     Altro
 description: >-

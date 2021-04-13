@@ -3,8 +3,7 @@ subsection: >-
     altro
 filename: >-
     giovanni-malagò
-images:
-    - /images/wiki/vip/giovanni-malagò.webp
+image: /images/wiki/vip/giovanni-malagò.webp
 title: >-
     Giovanni Malagò
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: hack-03-jr
-images:
-    - /images/wiki/racchette/bullpadel-hack-03-jr.webp
+image: /images/wiki/racchette/bullpadel-hack-03-jr.webp
 title: Bullpadel Hack 03 Jr
 model: Hack 03 Jr
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     guillermo-canas
-images:
-    - /images/wiki/vip/guillermo-canas.webp
+image: /images/wiki/vip/guillermo-canas.webp
 title: >-
     Guillermo Canas
 padel: >-

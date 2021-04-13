@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     gerald-piqué
-images:
-    - /images/wiki/vip/gerald-piqué.webp
+image: /images/wiki/vip/gerald-piqué.webp
 title: >-
     Gerald Piqué
 padel: >-

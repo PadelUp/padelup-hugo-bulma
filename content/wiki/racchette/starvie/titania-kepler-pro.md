@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: titania-kepler-pro
-images:
-    - /images/wiki/racchette/starvie-titania-kepler-pro.webp
+image: /images/wiki/racchette/starvie-titania-kepler-pro.webp
 title: Starvie Titania Kepler Pro
 model: Titania Kepler Pro
 anno: 2021

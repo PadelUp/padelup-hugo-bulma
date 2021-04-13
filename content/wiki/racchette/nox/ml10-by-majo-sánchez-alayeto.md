@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-by-majo-sánchez-alayeto
-images:
-    - /images/wiki/racchette/nox-ml10-by-majo-sánchez-alayeto.webp
+image: /images/wiki/racchette/nox-ml10-by-majo-sánchez-alayeto.webp
 title: Nox Ml10 By Majo Sánchez Alayeto
 model: Ml10 By Majo Sánchez Alayeto
 anno: 2021

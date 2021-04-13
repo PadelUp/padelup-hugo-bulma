@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     miralem-pjanic
-images:
-    - /images/wiki/vip/miralem-pjanic.webp
+image: /images/wiki/vip/miralem-pjanic.webp
 title: >-
     Miralem Pjanic
 padel: >-

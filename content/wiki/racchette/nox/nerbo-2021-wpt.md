@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: nerbo-2021-wpt
-images:
-    - /images/wiki/racchette/nox-nerbo-2021-wpt.webp
+image: /images/wiki/racchette/nox-nerbo-2021-wpt.webp
 title: Nox Nerbo 2021 Wpt
 model: Nerbo 2021 Wpt
 anno: 2021

@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: graphene-zephyr-pro
-images:
-    - /images/wiki/racchette/head-graphene-zephyr-pro.webp
+image: /images/wiki/racchette/head-graphene-zephyr-pro.webp
 title: Head Graphene Zephyr Pro
 model: Graphene Zephyr Pro
 anno: 2021

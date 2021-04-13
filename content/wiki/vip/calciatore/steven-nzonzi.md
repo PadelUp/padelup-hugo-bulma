@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     steven-nzonzi
-images:
-    - /images/wiki/vip/steven-nzonzi.webp
+image: /images/wiki/vip/steven-nzonzi.webp
 title: >-
     Steven Nzonzi
 fonte: >-

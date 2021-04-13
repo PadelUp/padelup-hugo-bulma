@@ -2,8 +2,7 @@
 title: "Orven Maui: il maestro Gianmarco Toccini introduce la nuova collezione"
 description: Riparte la stagione con nuove video recensioni di racchette da padel, questa volta in collaborazione con Orven Sport.
 date: 2020-09-07 19:02:34
-images:
-    - /images/posts/orven-maui-02.webp
+image: /images/posts/orven-maui-02.webp
 categorie: recensioni
 author: saint
 video: https://www.youtube.com/embed/3Dmb41veqsU

@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-junior
-images:
-    - /images/wiki/racchette/adidas-adipower-junior.webp
+image: /images/wiki/racchette/adidas-adipower-junior.webp
 title: Adidas Adipower Junior
 model: Adipower Junior
 anno: 2021

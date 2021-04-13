@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     juan-carlos-ferrero
-images:
-    - /images/wiki/vip/juan-carlos-ferrero.webp
+image: /images/wiki/vip/juan-carlos-ferrero.webp
 title: >-
     Juan Carlos Ferrero
 padel: >-

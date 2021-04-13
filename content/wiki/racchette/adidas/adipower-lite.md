@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-lite
-images:
-    - /images/wiki/racchette/adidas-adipower-lite.webp
+image: /images/wiki/racchette/adidas-adipower-lite.webp
 title: Adidas Adipower Lite
 model: Adipower Lite
 anno: 2021

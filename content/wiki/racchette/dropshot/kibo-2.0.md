@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: kibo-2.0
-images:
-    - /images/wiki/racchette/dropshot-kibo-2.0.webp
+image: /images/wiki/racchette/dropshot-kibo-2.0.webp
 title: Dropshot Kibo 2.0
 model: Kibo 2.0
 anno: 2021

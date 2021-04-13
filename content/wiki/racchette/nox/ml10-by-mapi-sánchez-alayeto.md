@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-by-mapi-sánchez-alayeto
-images:
-    - /images/wiki/racchette/nox-ml10-by-mapi-sánchez-alayeto.webp
+image: /images/wiki/racchette/nox-ml10-by-mapi-sánchez-alayeto.webp
 title: Nox Ml10 By Mapi Sánchez Alayeto
 model: Ml10 By Mapi Sánchez Alayeto
 anno: 2021

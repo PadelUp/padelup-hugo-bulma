@@ -3,8 +3,7 @@ subsection: >-
     attore
 filename: >-
     neri-marcorè
-images:
-    - /images/wiki/vip/neri-marcorè.webp
+image: /images/wiki/vip/neri-marcorè.webp
 title: >-
     Neri Marcorè
 padel: >-

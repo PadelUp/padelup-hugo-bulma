@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: technical-viper-2021
-images:
-    - /images/wiki/racchette/babolat-technical-viper-2021.webp
+image: /images/wiki/racchette/babolat-technical-viper-2021.webp
 title: Babolat Technical Viper 2021
 model: Technical Viper 2021
 anno: 2021

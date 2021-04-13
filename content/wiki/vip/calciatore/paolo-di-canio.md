@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     paolo-di-canio
-images:
-    - /images/wiki/vip/paolo-di-canio.webp
+image: /images/wiki/vip/paolo-di-canio.webp
 title: >-
     Paolo Di Canio
 padel: >-

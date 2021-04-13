@@ -2,8 +2,7 @@
 id: bullpadel
 parent: /wiki/racchette/
 permalink: /wiki/racchette/bullpadel/
-images:
-    - /images/wiki/brands/bullpadel.webp
+image: /images/wiki/brands/bullpadel.webp
 title: Bullpadel
 brand: bullpadel
 marca: bullpadel

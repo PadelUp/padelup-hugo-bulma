@@ -2,8 +2,7 @@
 title: "La Storia del Mejor Padel del Mundo: L'Epoca Contemporanea"
 description: L'ufficializzazione del circuito internazionale e la consacrazione a sport professionistico.
 date: 2020-07-01 13:15:37
-images:
-    - /images/posts/historia-worldpadeltour.webp
+image: /images/posts/historia-worldpadeltour.webp
 categorie: approfondimenti
 author: saint
 redirect_from: /2020/07/01/storia-contemporanea/

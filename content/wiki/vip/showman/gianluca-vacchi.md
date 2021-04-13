@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     gianluca-vacchi
-images:
-    - /images/wiki/vip/gianluca-vacchi.webp
+image: /images/wiki/vip/gianluca-vacchi.webp
 title: >-
     Gianluca Vacchi
 padel: >-

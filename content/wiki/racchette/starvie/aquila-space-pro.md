@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: aquila-space-pro
-images:
-    - /images/wiki/racchette/starvie-aquila-space-pro.webp
+image: /images/wiki/racchette/starvie-aquila-space-pro.webp
 title: Starvie Aquila Space Pro
 model: Aquila Space Pro
 anno: 2021

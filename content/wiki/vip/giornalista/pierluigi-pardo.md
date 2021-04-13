@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     pierluigi-pardo
-images:
-    - /images/wiki/vip/pierluigi-pardo.webp
+image: /images/wiki/vip/pierluigi-pardo.webp
 title: >-
     Pierluigi Pardo
 padel: >-

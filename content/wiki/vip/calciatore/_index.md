@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/calciatore.webp
+image: /images/wiki/jobs/calciatore.webp
 title: >-
     Calciatori
 description: >-

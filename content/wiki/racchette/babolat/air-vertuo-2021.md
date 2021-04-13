@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: air-vertuo-2021
-images:
-    - /images/wiki/racchette/babolat-air-vertuo-2021.webp
+image: /images/wiki/racchette/babolat-air-vertuo-2021.webp
 title: Babolat Air Vertuo 2021
 model: Air Vertuo 2021
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     jimmy-ghione
-images:
-    - /images/wiki/vip/jimmy-ghione.webp
+image: /images/wiki/vip/jimmy-ghione.webp
 title: >-
     Jimmy Ghione
 padel: >-

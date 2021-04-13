@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     filippo-bisciglia
-images:
-    - /images/wiki/vip/filippo-bisciglia.webp
+image: /images/wiki/vip/filippo-bisciglia.webp
 title: >-
     Filippo Bisciglia
 padel: >-

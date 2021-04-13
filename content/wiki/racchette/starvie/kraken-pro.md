@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: kraken-pro
-images:
-    - /images/wiki/racchette/starvie-kraken-pro.webp
+image: /images/wiki/racchette/starvie-kraken-pro.webp
 title: Starvie Kraken Pro
 model: Kraken Pro
 anno: 2021

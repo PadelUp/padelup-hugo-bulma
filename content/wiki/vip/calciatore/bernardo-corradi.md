@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     bernardo-corradi
-images:
-    - /images/wiki/vip/bernardo-corradi.webp
+image: /images/wiki/vip/bernardo-corradi.webp
 title: >-
     Bernardo Corradi
 padel: >-

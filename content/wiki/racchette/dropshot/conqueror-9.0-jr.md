@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: conqueror-9.0-jr
-images:
-    - /images/wiki/racchette/dropshot-conqueror-9.0-jr.webp
+image: /images/wiki/racchette/dropshot-conqueror-9.0-jr.webp
 title: Dropshot Conqueror 9.0 Jr
 model: Conqueror 9.0 Jr
 anno: 2021

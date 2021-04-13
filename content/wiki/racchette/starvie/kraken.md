@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: kraken
-images:
-    - /images/wiki/racchette/starvie-kraken.webp
+image: /images/wiki/racchette/starvie-kraken.webp
 title: Starvie Kraken
 model: Kraken
 anno: 2021

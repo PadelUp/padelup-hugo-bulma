@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: air-viper-2021
-images:
-    - /images/wiki/racchette/babolat-air-viper-2021.webp
+image: /images/wiki/racchette/babolat-air-viper-2021.webp
 title: Babolat Air Viper 2021
 model: Air Viper 2021
 anno: 2021

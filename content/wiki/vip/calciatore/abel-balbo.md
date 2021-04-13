@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     abel-balbo
-images:
-    - /images/wiki/vip/abel-balbo.webp
+image: /images/wiki/vip/abel-balbo.webp
 title: >-
     Abel Balbo
 padel: >-

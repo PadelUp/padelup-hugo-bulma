@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: bela-pro
-images:
-    - /images/wiki/racchette/wilson-bela-pro.webp
+image: /images/wiki/racchette/wilson-bela-pro.webp
 title: Wilson Bela Pro
 model: Bela Pro
 anno: 2021

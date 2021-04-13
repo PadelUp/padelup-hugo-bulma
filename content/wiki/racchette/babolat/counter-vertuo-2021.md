@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: counter-vertuo-2021
-images:
-    - /images/wiki/racchette/babolat-counter-vertuo-2021.webp
+image: /images/wiki/racchette/babolat-counter-vertuo-2021.webp
 title: Babolat Counter Vertuo 2021
 model: Counter Vertuo 2021
 anno: 2021

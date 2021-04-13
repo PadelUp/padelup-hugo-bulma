@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: piton-8.0
-images:
-    - /images/wiki/racchette/black-crown-piton-8.0.webp
+image: /images/wiki/racchette/black-crown-piton-8.0.webp
 title: Black Crown Piton 8.0
 model: Piton 8.0
 anno: 2021

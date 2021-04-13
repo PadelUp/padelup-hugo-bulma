@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     míchel-salgado
-images:
-    - /images/wiki/vip/míchel-salgado.webp
+image: /images/wiki/vip/míchel-salgado.webp
 title: >-
     Míchel Salgado
 padel: >-

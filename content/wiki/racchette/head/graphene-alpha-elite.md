@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: graphene-alpha-elite
-images:
-    - /images/wiki/racchette/head-graphene-alpha-elite.webp
+image: /images/wiki/racchette/head-graphene-alpha-elite.webp
 title: Head Graphene Alpha Elite
 model: Graphene Alpha Elite
 anno: 2021

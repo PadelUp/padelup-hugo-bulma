@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     thomas-johansson
-images:
-    - /images/wiki/vip/thomas-johansson.webp
+image: /images/wiki/vip/thomas-johansson.webp
 title: >-
     Thomas Johansson
 padel: >-

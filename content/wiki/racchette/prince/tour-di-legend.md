@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: tour-di-legend
-images:
-    - /images/wiki/racchette/prince-tour-di-legend.webp
+image: /images/wiki/racchette/prince-tour-di-legend.webp
 title: Prince Tour Di Legend
 model: Tour Di Legend
 anno: 2021

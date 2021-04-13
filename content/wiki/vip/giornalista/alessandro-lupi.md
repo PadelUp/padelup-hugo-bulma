@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     alessandro-lupi
-images:
-    - /images/wiki/vip/alessandro-lupi.webp
+image: /images/wiki/vip/alessandro-lupi.webp
 title: >-
     Alessandro Lupi
 padel: >-

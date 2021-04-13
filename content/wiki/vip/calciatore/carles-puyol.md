@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     carles-puyol
-images:
-    - /images/wiki/vip/carles-puyol.webp
+image: /images/wiki/vip/carles-puyol.webp
 title: >-
     Carles Puyol
 padel: >-

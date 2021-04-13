@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     paolo-bonolis
-images:
-    - /images/wiki/vip/paolo-bonolis.webp
+image: /images/wiki/vip/paolo-bonolis.webp
 title: >-
     Paolo Bonolis
 padel: >-

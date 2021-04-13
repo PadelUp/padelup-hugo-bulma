@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: bela-team
-images:
-    - /images/wiki/racchette/wilson-bela-team.webp
+image: /images/wiki/racchette/wilson-bela-team.webp
 title: Wilson Bela Team
 model: Bela Team
 anno: 2021

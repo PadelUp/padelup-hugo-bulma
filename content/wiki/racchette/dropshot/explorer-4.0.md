@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: explorer-4.0
-images:
-    - /images/wiki/racchette/dropshot-explorer-4.0.webp
+image: /images/wiki/racchette/dropshot-explorer-4.0.webp
 title: Dropshot Explorer 4.0
 model: Explorer 4.0
 anno: 2021

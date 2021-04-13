@@ -3,8 +3,7 @@ subsection: >-
     cestista
 filename: >-
     davide-bonora
-images:
-    - /images/wiki/vip/davide-bonora.webp
+image: /images/wiki/vip/davide-bonora.webp
 title: >-
     Davide Bonora
 padel: >-

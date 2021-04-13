@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     daniele-adani
-images:
-    - /images/wiki/vip/daniele-adani.webp
+image: /images/wiki/vip/daniele-adani.webp
 title: >-
     Daniele Adani
 padel: >-

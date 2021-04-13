@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     cristina-fantoni
-images:
-    - /images/wiki/vip/cristina-fantoni.webp
+image: /images/wiki/vip/cristina-fantoni.webp
 title: >-
     Cristina Fantoni
 padel: >-

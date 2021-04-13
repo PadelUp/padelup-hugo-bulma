@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: yarara-edition
-images:
-    - /images/wiki/racchette/vibor-a-yarara-edition.webp
+image: /images/wiki/racchette/vibor-a-yarara-edition.webp
 title: Vibor-A Yarara Edition
 model: Yarara Edition
 anno: 2019

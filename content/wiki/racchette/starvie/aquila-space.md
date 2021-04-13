@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: aquila-space
-images:
-    - /images/wiki/racchette/starvie-aquila-space.webp
+image: /images/wiki/racchette/starvie-aquila-space.webp
 title: Starvie Aquila Space
 model: Aquila Space
 anno: 2021

@@ -2,8 +2,7 @@
 title: "Il Ritorno dei Campioni del World Padel Tour"
 description: Dopo mesi di stop forzato dal COVID-19 la massima competizione di paddle torna ad emozionare gli appasionati. Nel fine settimana si è concluso il "Madrid Open" che ha visto nel tabellone principale una coppia femminile italiana composta da Chiara Pappacena e Giulia Sussarello
 date: 2020-07-05 19:08:48
-images:
-    - /images/posts/wpt-madrid-2020-01.webp
+image: /images/posts/wpt-madrid-2020-01.webp
 categorie: news
 author: saint
 redirect_from: /2020/07/05/ritorno-campioni-wpt/

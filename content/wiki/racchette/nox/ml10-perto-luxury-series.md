@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-perto-luxury-series
-images:
-    - /images/wiki/racchette/nox-ml10-perto-luxury-series.webp
+image: /images/wiki/racchette/nox-ml10-perto-luxury-series.webp
 title: Nox Ml10 Perto Luxury Series
 model: Ml10 Perto Luxury Series
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     giuseppe-bergomi
-images:
-    - /images/wiki/vip/giuseppe-bergomi.webp
+image: /images/wiki/vip/giuseppe-bergomi.webp
 title: >-
     Giuseppe Bergomi
 padel: >-

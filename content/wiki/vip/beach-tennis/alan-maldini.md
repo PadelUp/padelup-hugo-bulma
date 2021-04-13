@@ -3,8 +3,7 @@ subsection: >-
     beach-tennis
 filename: >-
     alan-maldini
-images:
-    - /images/wiki/vip/alan-maldini.webp
+image: /images/wiki/vip/alan-maldini.webp
 title: >-
     Alan Maldini
 padel: >-

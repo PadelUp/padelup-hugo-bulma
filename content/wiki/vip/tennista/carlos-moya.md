@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     carlos-moya
-images:
-    - /images/wiki/vip/carlos-moya.webp
+image: /images/wiki/vip/carlos-moya.webp
 title: >-
     Carlos Moya
 padel: >-

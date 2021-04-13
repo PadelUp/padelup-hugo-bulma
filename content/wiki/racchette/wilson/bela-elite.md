@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: bela-elite
-images:
-    - /images/wiki/racchette/wilson-bela-elite.webp
+image: /images/wiki/racchette/wilson-bela-elite.webp
 title: Wilson Bela Elite
 model: Bela Elite
 anno: 2021

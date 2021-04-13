@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: silhouette-6-lady-casual-series
-images:
-    - /images/wiki/racchette/nox-silhouette-6-lady-casual-series.webp
+image: /images/wiki/racchette/nox-silhouette-6-lady-casual-series.webp
 title: Nox Silhouette 6 Lady Casual Series
 model: Silhouette 6 Lady Casual Series
 anno: 2021

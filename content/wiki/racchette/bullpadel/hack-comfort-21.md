@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: hack-comfort-21
-images:
-    - /images/wiki/racchette/bullpadel-hack-comfort-21.webp
+image: /images/wiki/racchette/bullpadel-hack-comfort-21.webp
 title: Bullpadel Hack Comfort 21
 model: Hack Comfort 21
 anno: 2021

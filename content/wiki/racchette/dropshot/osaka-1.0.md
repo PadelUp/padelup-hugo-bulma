@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: osaka-1.0
-images:
-    - /images/wiki/racchette/dropshot-osaka-1.0.webp
+image: /images/wiki/racchette/dropshot-osaka-1.0.webp
 title: Dropshot Osaka 1.0
 model: Osaka 1.0
 anno: 2021

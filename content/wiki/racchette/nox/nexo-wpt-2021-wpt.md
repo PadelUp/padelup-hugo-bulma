@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: nexo-wpt-2021-wpt
-images:
-    - /images/wiki/racchette/nox-nexo-wpt-2021-wpt.webp
+image: /images/wiki/racchette/nox-nexo-wpt-2021-wpt.webp
 title: Nox Nexo Wpt 2021 Wpt
 model: Nexo Wpt 2021 Wpt
 anno: 2021

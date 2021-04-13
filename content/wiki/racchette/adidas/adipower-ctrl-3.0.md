@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-ctrl-3.0
-images:
-    - /images/wiki/racchette/adidas-adipower-ctrl-3.0.webp
+image: /images/wiki/racchette/adidas-adipower-ctrl-3.0.webp
 title: Adidas Adipower Ctrl 3.0
 model: Adipower Ctrl 3.0
 anno: 2021

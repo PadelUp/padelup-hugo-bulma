@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: taipan
-images:
-    - /images/wiki/racchette/dropshot-taipan.webp
+image: /images/wiki/racchette/dropshot-taipan.webp
 title: Dropshot Taipan
 model: Taipan
 anno: 2021

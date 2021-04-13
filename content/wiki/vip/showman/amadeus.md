@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     amadeus
-images:
-    - /images/wiki/vip/amadeus.webp
+image: /images/wiki/vip/amadeus.webp
 title: >-
     Amadeus
 padel: >-

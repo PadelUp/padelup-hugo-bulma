@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     gianluca-giannichedda
-images:
-    - /images/wiki/vip/gianluca-giannichedda.webp
+image: /images/wiki/vip/gianluca-giannichedda.webp
 title: >-
     Gianluca Giannichedda
 padel: >-

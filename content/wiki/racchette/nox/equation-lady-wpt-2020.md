@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: equation-lady-wpt-2020
-images:
-    - /images/wiki/racchette/nox-equation-lady-wpt-2020.webp
+image: /images/wiki/racchette/nox-equation-lady-wpt-2020.webp
 title: Nox Equation Lady Wpt 2020
 model: Equation Lady Wpt 2020
 anno: 2020

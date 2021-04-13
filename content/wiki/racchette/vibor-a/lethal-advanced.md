@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: lethal-advanced
-images:
-    - /images/wiki/racchette/vibor-a-lethal-advanced.webp
+image: /images/wiki/racchette/vibor-a-lethal-advanced.webp
 title: Vibor-A Lethal Advanced
 model: Lethal Advanced
 anno: 2020

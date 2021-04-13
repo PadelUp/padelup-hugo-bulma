@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: falcon
-images:
-    - /images/wiki/racchette/prince-falcon.webp
+image: /images/wiki/racchette/prince-falcon.webp
 title: Prince Falcon
 model: Falcon
 anno: 2021

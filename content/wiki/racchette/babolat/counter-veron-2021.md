@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: counter-veron-2021
-images:
-    - /images/wiki/racchette/babolat-counter-veron-2021.webp
+image: /images/wiki/racchette/babolat-counter-veron-2021.webp
 title: Babolat Counter Veron 2021
 model: Counter Veron 2021
 anno: 2021

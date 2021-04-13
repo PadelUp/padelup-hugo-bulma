@@ -3,8 +3,7 @@ subsection: >-
     principe
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/principe.webp
+image: /images/wiki/jobs/principe.webp
 title: >-
     Principi
 description: >-

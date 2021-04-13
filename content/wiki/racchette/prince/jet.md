@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: jet
-images:
-    - /images/wiki/racchette/prince-jet.webp
+image: /images/wiki/racchette/prince-jet.webp
 title: Prince Jet
 model: Jet
 anno: 2021

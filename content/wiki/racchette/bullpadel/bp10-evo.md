@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: bp10-evo
-images:
-    - /images/wiki/racchette/bullpadel-bp10-evo.webp
+image: /images/wiki/racchette/bullpadel-bp10-evo.webp
 title: Bullpadel Bp10 Evo
 model: Bp10 Evo
 anno: 2021

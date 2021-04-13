@@ -3,8 +3,7 @@ subsection: >-
     cantante
 filename: >-
     max-gazzè
-images:
-    - /images/wiki/vip/max-gazzè.webp
+image: /images/wiki/vip/max-gazzè.webp
 title: >-
     Max Gazzè
 padel: >-

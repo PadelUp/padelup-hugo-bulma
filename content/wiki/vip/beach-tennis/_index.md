@@ -3,8 +3,7 @@ subsection: >-
     beach-tennis
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/beach-tennis.webp
+image: /images/wiki/jobs/beach-tennis.webp
 title: >-
     Beach Tennis
 description: >-

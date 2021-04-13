@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     jo-wilfred-tsonga
-images:
-    - /images/wiki/vip/jo-wilfred-tsonga.webp
+image: /images/wiki/vip/jo-wilfred-tsonga.webp
 title: >-
     Jo-Wilfred Tsonga
 padel: >-

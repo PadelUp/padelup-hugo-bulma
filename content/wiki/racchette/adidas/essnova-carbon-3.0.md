@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: essnova-carbon-3.0
-images:
-    - /images/wiki/racchette/adidas-essnova-carbon-3.0.webp
+image: /images/wiki/racchette/adidas-essnova-carbon-3.0.webp
 title: Adidas Essnova Carbon 3.0
 model: Essnova Carbon 3.0
 anno: 2021

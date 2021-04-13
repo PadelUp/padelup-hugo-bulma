@@ -1,100 +1,50 @@
-// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&dn=gpl-3.0.txt GPL-v3-or-Later
-// How many characters to include on either side of match keyword
-const summaryInclude=60;
-
-// Options for fuse.js
-let fuseOptions = {
-  shouldSort: true,
-  includeMatches: true,
-  tokenize: true,
-  matchAllTokens: true,
-  threshold: 0.0,
-  location: 0,
-  distance: 100,
-  maxPatternLength: 64,
-  minMatchCharLength: 3,
-  keys: [
-    {name:"title",weight:0.8},
-    {name:"tags",weight:0.5},
-    {name:"categories",weight:0.5},
-    {name:"contents",weight:0.4}
-  ]
-};
-
-function getUrlParameter(name) {
-  name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-  let regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-  let results = regex.exec(location.search);
-  return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+function displayResults (results, store) {
+  const searchResults = document.getElementById('results')
+  if (results.length) {
+    let resultList = ''
+    // Iterate and build result list elements
+    for (const n in results) {
+      const item = store[results[n].ref]
+      resultList += '<div class="column is-half-tablet"><div class="columns is-mobile"><div class="column is-one-third"><figure class="image is-square"><img class="search_image" style="object-fit: cover;" src="' + item.image + '" alt=""></figure></div><div class="column is-two-thirds"><a class="search_link search_title title is-5" href="' + item.url + '">' + item.title + '</a><p>' + item.content.substring(0, 150) + '…</p></div></div></div>'
+    }
+    searchResults.innerHTML = resultList
+  } else {
+    searchResults.innerHTML = 'Nessun risultato'
+  }
 }
 
-let searchQuery = getUrlParameter('q');
+// Get the query parameter(s)
+const params = new URLSearchParams(window.location.search)
+const query = params.get('query')
 
-if(searchQuery){
-  document.getElementById("search-query").value = searchQuery;
-  executeSearch(searchQuery);
-} else {
-  document.getElementById('search-results').innerHTML = "<p class=\"no-results\"></p>";
+// Perform a search if there is a query
+if (query) {
+  // Retain the search input in the form when displaying results
+  document.getElementById('search-input').setAttribute('value', query)
+
+  const idx = lunr(function () {
+    this.ref('id')
+    this.field('title', {
+      boost: 15
+    })
+    this.field('tags')
+    this.field('content', {
+      boost: 10
+    })
+
+    for (const key in window.store) {
+      this.add({
+        id: key,
+        title: window.store[key].title,
+        tags: window.store[key].category,
+        content: window.store[key].content
+      })
+    }
+  })
+
+  // Perform the search
+  const results = idx.search(query)
+  // Update the list with results
+  displayResults(results, window.store)
 }
 
-function executeSearch(searchQuery) {
-  // Look for "index.json" in the same directory where this script is called.
-  fetch("index.json").
-  then(function (response) {
-    return response.json()
-  }).
-  then(function (data) {
-    let fuse = new Fuse(data, fuseOptions);
-    let result = fuse.search(searchQuery);
-    if (result.length > 0) {
-      populateResults(result);
-    } else {
-      document.getElementById('search-results').innerHTML = "<p class=\"no-results\">No matches found</p>";
-    }
-  });
-}
-
-function populateResults(result){
-  result.forEach( function (value, key) {
-    let contents= value.item.contents;
-    let snippet = "";
-    let snippetHighlights=[];
-    snippetHighlights.push(searchQuery);
-    if(snippet.length<1){
-      snippet += contents.substring(0,summaryInclude*2);
-    }
-    snippet += "…";
-
-    // Lifted from https://stackoverflow.com/posts/3700369/revisions
-    var elem = document.createElement('textarea');
-    elem.innerHTML = snippet;
-    var decoded = elem.value;
-
-    // Pull template from hugo template definition
-    let frag = document.getElementById('search-result-template').content.cloneNode(true);
-    // Replace values
-    frag.querySelector(".search_summary").setAttribute("id", "summary-" + key);
-    frag.querySelector(".search_link").setAttribute("href", value.item.permalink);
-    frag.querySelector(".search_title").textContent = value.item.title;
-    frag.querySelector(".search_image").setAttribute("src", value.item.image);
-    frag.querySelector(".search_snippet").textContent = decoded;
-    let tags = value.item.tags;
-    if (tags) {
-      frag.querySelector(".search_tags").textContent = tags;
-    } else {
-      frag.querySelector(".search_iftags").remove();
-    }
-    let categories = value.item.categories;
-    if (categories) {
-      frag.querySelector(".search_categories").textContent = categories;
-    } else {
-      frag.querySelector(".search_ifcategories").remove();
-    }
-    snippetHighlights.forEach( function (snipvalue, snipkey) {
-      let markjs = new Mark(frag);
-      markjs.mark(snipvalue);
-    });
-    document.getElementById("search-results").appendChild(frag);
-  });
-}
-// @license-end

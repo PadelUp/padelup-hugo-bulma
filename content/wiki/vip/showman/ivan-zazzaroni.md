@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     ivan-zazzaroni
-images:
-    - /images/wiki/vip/ivan-zazzaroni.webp
+image: /images/wiki/vip/ivan-zazzaroni.webp
 title: >-
     Ivan Zazzaroni
 padel: >-

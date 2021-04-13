@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     andrea-cossu
-images:
-    - /images/wiki/vip/andrea-cossu.webp
+image: /images/wiki/vip/andrea-cossu.webp
 title: >-
     Andrea Cossu
 padel: >-

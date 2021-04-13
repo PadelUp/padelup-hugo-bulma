@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/allenatore.webp
+image: /images/wiki/jobs/allenatore.webp
 title: >-
     Allenatori
 description: >-

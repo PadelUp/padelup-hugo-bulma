@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     gabriel-batistuta
-images:
-    - /images/wiki/vip/gabriel-batistuta.webp
+image: /images/wiki/vip/gabriel-batistuta.webp
 title: >-
     Gabriel Batistuta
 padel: >-

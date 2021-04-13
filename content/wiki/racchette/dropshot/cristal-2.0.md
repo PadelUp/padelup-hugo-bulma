@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: cristal-2.0
-images:
-    - /images/wiki/racchette/dropshot-cristal-2.0.webp
+image: /images/wiki/racchette/dropshot-cristal-2.0.webp
 title: Dropshot Cristal 2.0
 model: Cristal 2.0
 anno: 2021

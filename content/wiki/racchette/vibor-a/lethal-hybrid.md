@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: lethal-hybrid
-images:
-    - /images/wiki/racchette/vibor-a-lethal-hybrid.webp
+image: /images/wiki/racchette/vibor-a-lethal-hybrid.webp
 title: Vibor-A Lethal Hybrid
 model: Lethal Hybrid
 anno: 2020

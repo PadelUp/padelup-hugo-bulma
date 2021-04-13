@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: vesta
-images:
-    - /images/wiki/racchette/starvie-vesta.webp
+image: /images/wiki/racchette/starvie-vesta.webp
 title: Starvie Vesta
 model: Vesta
 anno: 2021

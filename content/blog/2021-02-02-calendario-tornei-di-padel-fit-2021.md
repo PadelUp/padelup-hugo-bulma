@@ -4,8 +4,7 @@ description: Online il calendario dei tornei di Padel 2021, riportati gli
   appuntamenti per i primi due mesi di questa nuova stagione all'insegna del
   Covid-19
 date: 2021-02-02T16:39:25.062Z
-images:
-    - /images/posts/calendario-2021-01.webp
+image: /images/posts/calendario-2021-01.webp
 categorie:
   - news
 author: saint

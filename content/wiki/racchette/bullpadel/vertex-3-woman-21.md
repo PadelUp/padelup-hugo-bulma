@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: vertex-3-woman-21
-images:
-    - /images/wiki/racchette/bullpadel-vertex-3-woman-21.webp
+image: /images/wiki/racchette/bullpadel-vertex-3-woman-21.webp
 title: Bullpadel Vertex 3 Woman 21
 model: Vertex 3 Woman 21
 anno: 2021

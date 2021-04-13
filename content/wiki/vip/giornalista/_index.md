@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/giornalista.webp
+image: /images/wiki/jobs/giornalista.webp
 title: >-
     Giornalisti
 description: >-

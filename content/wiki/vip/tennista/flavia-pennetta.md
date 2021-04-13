@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     flavia-pennetta
-images:
-    - /images/wiki/vip/flavia-pennetta.webp
+image: /images/wiki/vip/flavia-pennetta.webp
 title: >-
     Flavia Pennetta
 padel: >-

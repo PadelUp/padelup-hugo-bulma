@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/showgirl.webp
+image: /images/wiki/jobs/showgirl.webp
 title: >-
     Showgirls
 description: >-

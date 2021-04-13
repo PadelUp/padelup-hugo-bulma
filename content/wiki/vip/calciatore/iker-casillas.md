@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     iker-casillas
-images:
-    - /images/wiki/vip/iker-casillas.webp
+image: /images/wiki/vip/iker-casillas.webp
 title: >-
     Iker Casillas
 padel: >-

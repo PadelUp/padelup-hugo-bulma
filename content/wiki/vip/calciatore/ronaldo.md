@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     ronaldo
-images:
-    - /images/wiki/vip/ronaldo.webp
+image: /images/wiki/vip/ronaldo.webp
 title: >-
     Ronaldo
 padel: >-

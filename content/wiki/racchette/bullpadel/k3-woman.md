@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: k3-woman
-images:
-    - /images/wiki/racchette/bullpadel-k3-woman.webp
+image: /images/wiki/racchette/bullpadel-k3-woman.webp
 title: Bullpadel K3 Woman
 model: K3 Woman
 anno: 2021

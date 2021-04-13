@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     roberto-mancini
-images:
-    - /images/wiki/vip/roberto-mancini.webp
+image: /images/wiki/vip/roberto-mancini.webp
 title: >-
     Roberto Mancini
 padel: >-

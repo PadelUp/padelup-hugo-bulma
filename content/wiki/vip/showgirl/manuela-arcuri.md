@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     manuela-arcuri
-images:
-    - /images/wiki/vip/manuela-arcuri.webp
+image: /images/wiki/vip/manuela-arcuri.webp
 title: >-
     Manuela Arcuri
 padel: >-

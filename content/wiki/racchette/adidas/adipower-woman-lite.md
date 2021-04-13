@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-woman-lite
-images:
-    - /images/wiki/racchette/adidas-adipower-woman-lite.webp
+image: /images/wiki/racchette/adidas-adipower-woman-lite.webp
 title: Adidas Adipower Woman Lite
 model: Adipower Woman Lite
 anno: 2021

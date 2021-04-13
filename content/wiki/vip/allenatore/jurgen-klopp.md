@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     jurgen-klopp
-images:
-    - /images/wiki/vip/jurgen-klopp.webp
+image: /images/wiki/vip/jurgen-klopp.webp
 title: >-
     Jurgen Klopp
 padel: >-

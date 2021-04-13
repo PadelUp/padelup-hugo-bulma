@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     david-ferrer
-images:
-    - /images/wiki/vip/david-ferrer.webp
+image: /images/wiki/vip/david-ferrer.webp
 title: >-
     David Ferrer
 padel: >-

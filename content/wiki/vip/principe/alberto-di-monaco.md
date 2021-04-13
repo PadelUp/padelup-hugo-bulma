@@ -3,8 +3,7 @@ subsection: >-
     principe
 filename: >-
     alberto-di-monaco
-images:
-    - /images/wiki/vip/alberto-di-monaco.webp
+image: /images/wiki/vip/alberto-di-monaco.webp
 title: >-
     Alberto Di Monaco
 padel: >-

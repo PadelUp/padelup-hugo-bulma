@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     antonio-cassano
-images:
-    - /images/wiki/vip/antonio-cassano.webp
+image: /images/wiki/vip/antonio-cassano.webp
 title: >-
     Antonio Cassano
 padel: >-

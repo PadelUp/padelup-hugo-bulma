@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: basalto-osiris
-images:
-    - /images/wiki/racchette/starvie-basalto-osiris.webp
+image: /images/wiki/racchette/starvie-basalto-osiris.webp
 title: Starvie Basalto Osiris
 model: Basalto Osiris
 anno: 2021

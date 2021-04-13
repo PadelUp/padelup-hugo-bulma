@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-bahia-luxury-series
-images:
-    - /images/wiki/racchette/nox-ml10-bahia-luxury-series.webp
+image: /images/wiki/racchette/nox-ml10-bahia-luxury-series.webp
 title: Nox Ml10 Bahia Luxury Series
 model: Ml10 Bahia Luxury Series
 anno: 2021

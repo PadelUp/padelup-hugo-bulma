@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: princess-ultralight
-images:
-    - /images/wiki/racchette/prince-princess-ultralight.webp
+image: /images/wiki/racchette/prince-princess-ultralight.webp
 title: Prince Princess Ultralight
 model: Princess Ultralight
 anno: 2021

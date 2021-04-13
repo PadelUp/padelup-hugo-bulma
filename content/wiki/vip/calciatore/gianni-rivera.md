@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     gianni-rivera
-images:
-    - /images/wiki/vip/gianni-rivera.webp
+image: /images/wiki/vip/gianni-rivera.webp
 title: >-
     Gianni Rivera
 padel: >-

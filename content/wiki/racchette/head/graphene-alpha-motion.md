@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: graphene-alpha-motion
-images:
-    - /images/wiki/racchette/head-graphene-alpha-motion.webp
+image: /images/wiki/racchette/head-graphene-alpha-motion.webp
 title: Head Graphene Alpha Motion
 model: Graphene Alpha Motion
 anno: 2021

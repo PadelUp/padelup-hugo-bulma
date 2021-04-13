@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     jonas-björkman
-images:
-    - /images/wiki/vip/jonas-björkman.webp
+image: /images/wiki/vip/jonas-björkman.webp
 title: >-
     Jonas Björkman
 padel: >-

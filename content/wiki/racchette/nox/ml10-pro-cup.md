@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup.webp
 title: Nox Ml10 Pro Cup
 model: Ml10 Pro Cup
 anno: 2021

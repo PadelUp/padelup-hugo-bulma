@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: metheora
-images:
-    - /images/wiki/racchette/starvie-metheora.webp
+image: /images/wiki/racchette/starvie-metheora.webp
 title: Starvie Metheora
 model: Metheora
 anno: 2021

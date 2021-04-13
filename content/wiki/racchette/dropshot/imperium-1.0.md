@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: imperium-1.0
-images:
-    - /images/wiki/racchette/dropshot-imperium-1.0.webp
+image: /images/wiki/racchette/dropshot-imperium-1.0.webp
 title: Dropshot Imperium 1.0
 model: Imperium 1.0
 anno: 2021

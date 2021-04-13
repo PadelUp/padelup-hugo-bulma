@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     bruno-giordano
-images:
-    - /images/wiki/vip/bruno-giordano.webp
+image: /images/wiki/vip/bruno-giordano.webp
 title: >-
     Bruno Giordano
 padel: >-

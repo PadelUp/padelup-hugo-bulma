@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     stefano-meloccaro
-images:
-    - /images/wiki/vip/stefano-meloccaro.webp
+image: /images/wiki/vip/stefano-meloccaro.webp
 title: >-
     Stefano Meloccaro
 padel: >-

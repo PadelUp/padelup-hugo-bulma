@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     sinisa-mihajlovic
-images:
-    - /images/wiki/vip/sinisa-mihajlovic.webp
+image: /images/wiki/vip/sinisa-mihajlovic.webp
 title: >-
     Sinisa Mihajlovic
 padel: >-

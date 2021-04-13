@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     luca-marchegiani
-images:
-    - /images/wiki/vip/luca-marchegiani.webp
+image: /images/wiki/vip/luca-marchegiani.webp
 title: >-
     Luca Marchegiani
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: power-1.0
-images:
-    - /images/wiki/racchette/dropshot-power-1.0.webp
+image: /images/wiki/racchette/dropshot-power-1.0.webp
 title: Dropshot Power 1.0
 model: Power 1.0
 anno: 2021

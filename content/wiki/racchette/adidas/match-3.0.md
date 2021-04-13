@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: match-3.0
-images:
-    - /images/wiki/racchette/adidas-match-3.0.webp
+image: /images/wiki/racchette/adidas-match-3.0.webp
 title: Adidas Match 3.0
 model: Match 3.0
 anno: 2021

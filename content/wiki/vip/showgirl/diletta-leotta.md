@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     diletta-leotta
-images:
-    - /images/wiki/vip/diletta-leotta.webp
+image: /images/wiki/vip/diletta-leotta.webp
 title: >-
     Diletta Leotta
 padel: >-

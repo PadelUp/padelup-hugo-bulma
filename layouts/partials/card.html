@@ -1,9 +1,8 @@
 {{$type := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}
 {{$title := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection .Title .Params.Model) .Title }}
-
 <figure class="image is-4by3">
     <a href="{{.RelPermalink}}">
-    <img style="object-fit: {{ $type }};" src="{{- with .Params.images -}}{{ index . 0 | absURL }}{{- end -}}" alt="">
+    <img style="object-fit: {{ $type }};" src="{{ .Params.image | absURL }}" alt="{{ $title }}">
     </a>
 </figure>
 <div class="my-5">

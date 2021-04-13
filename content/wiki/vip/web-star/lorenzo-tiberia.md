@@ -3,8 +3,7 @@ subsection: >-
     web-star
 filename: >-
     lorenzo-tiberia
-images:
-    - /images/wiki/vip/lorenzo-tiberia.webp
+image: /images/wiki/vip/lorenzo-tiberia.webp
 title: >-
     Lorenzo Tiberia
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: icarus
-images:
-    - /images/wiki/racchette/starvie-icarus.webp
+image: /images/wiki/racchette/starvie-icarus.webp
 title: Starvie Icarus
 model: Icarus
 anno: 2021

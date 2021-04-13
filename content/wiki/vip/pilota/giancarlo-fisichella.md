@@ -3,8 +3,7 @@ subsection: >-
     pilota
 filename: >-
     giancarlo-fisichella
-images:
-    - /images/wiki/vip/giancarlo-fisichella.webp
+image: /images/wiki/vip/giancarlo-fisichella.webp
 title: >-
     Giancarlo Fisichella
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     cristian-brocchi
-images:
-    - /images/wiki/vip/cristian-brocchi.webp
+image: /images/wiki/vip/cristian-brocchi.webp
 title: >-
     Cristian Brocchi
 padel: >-

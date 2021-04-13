@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: piton-limited
-images:
-    - /images/wiki/racchette/black-crown-piton-limited.webp
+image: /images/wiki/racchette/black-crown-piton-limited.webp
 title: Black Crown Piton Limited
 model: Piton Limited
 anno: 2021

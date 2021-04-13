@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: attraction-wpt-2020
-images:
-    - /images/wiki/racchette/nox-attraction-wpt-2020.webp
+image: /images/wiki/racchette/nox-attraction-wpt-2020.webp
 title: Nox Attraction Wpt 2020
 model: Attraction Wpt 2020
 anno: 2020

@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: essence
-images:
-    - /images/wiki/racchette/dropshot-essence.webp
+image: /images/wiki/racchette/dropshot-essence.webp
 title: Dropshot Essence
 model: Essence
 anno: 2021

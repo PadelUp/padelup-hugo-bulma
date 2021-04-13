@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     antonio-cabrini
-images:
-    - /images/wiki/vip/antonio-cabrini.webp
+image: /images/wiki/vip/antonio-cabrini.webp
 title: >-
     Antonio Cabrini
 padel: >-

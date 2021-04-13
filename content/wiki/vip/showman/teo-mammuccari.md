@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     teo-mammucari
-images:
-    - /images/wiki/vip/teo-mammucari.webp
+image: /images/wiki/vip/teo-mammucari.webp
 title: >-
     Teo Mammucari
 padel: >-

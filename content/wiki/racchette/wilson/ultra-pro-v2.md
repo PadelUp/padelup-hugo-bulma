@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: ultra-pro-v2
-images:
-    - /images/wiki/racchette/wilson-ultra-pro-v2.webp
+image: /images/wiki/racchette/wilson-ultra-pro-v2.webp
 title: Wilson Ultra Pro V2
 model: Ultra Pro V2
 anno: 2021

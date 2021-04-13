@@ -3,8 +3,7 @@ subsection: >-
     attore
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/attore.webp
+image: /images/wiki/jobs/attore.webp
 title: >-
     Attori
 description: >-

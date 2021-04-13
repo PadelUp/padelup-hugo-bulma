@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: tempo-2021-wpt
-images:
-    - /images/wiki/racchette/nox-tempo-2021-wpt.webp
+image: /images/wiki/racchette/nox-tempo-2021-wpt.webp
 title: Nox Tempo 2021 Wpt
 model: Tempo 2021 Wpt
 anno: 2021

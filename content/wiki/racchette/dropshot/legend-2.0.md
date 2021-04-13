@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: legend-2.0
-images:
-    - /images/wiki/racchette/dropshot-legend-2.0.webp
+image: /images/wiki/racchette/dropshot-legend-2.0.webp
 title: Dropshot Legend 2.0
 model: Legend 2.0
 anno: 2021

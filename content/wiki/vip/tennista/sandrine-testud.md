@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     sandrine-testud
-images:
-    - /images/wiki/vip/sandrine-testud.webp
+image: /images/wiki/vip/sandrine-testud.webp
 title: >-
     Sandrine Testud
 padel: >-

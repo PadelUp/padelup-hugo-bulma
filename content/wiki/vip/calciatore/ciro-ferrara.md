@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     ciro-ferrara
-images:
-    - /images/wiki/vip/ciro-ferrara.webp
+image: /images/wiki/vip/ciro-ferrara.webp
 title: >-
     Ciro Ferrara
 padel: >-

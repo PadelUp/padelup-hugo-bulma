@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     pamela-camassa
-images:
-    - /images/wiki/vip/pamela-camassa.webp
+image: /images/wiki/vip/pamela-camassa.webp
 title: >-
     Pamela Camassa
 padel: >-

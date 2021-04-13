@@ -3,8 +3,7 @@ subsection: >-
     politico
 filename: >-
     jose-maria-aznar
-images:
-    - /images/wiki/vip/jose-maria-aznar.webp
+image: /images/wiki/vip/jose-maria-aznar.webp
 title: >-
     Jose Maria Aznar
 padel: >-

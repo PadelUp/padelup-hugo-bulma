@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     luca-barbarossa
-images:
-    - /images/wiki/vip/luca-barbarossa.webp
+image: /images/wiki/vip/luca-barbarossa.webp
 title: >-
     Luca Barbarossa
 padel: >-

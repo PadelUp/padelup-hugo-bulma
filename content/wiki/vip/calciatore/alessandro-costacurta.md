@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     alessandro-costacurta
-images:
-    - /images/wiki/vip/alessandro-costacurta.webp
+image: /images/wiki/vip/alessandro-costacurta.webp
 title: >-
     Alessandro Costacurta
 padel: >-

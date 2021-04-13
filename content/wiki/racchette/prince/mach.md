@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: mach
-images:
-    - /images/wiki/racchette/prince-mach.webp
+image: /images/wiki/racchette/prince-mach.webp
 title: Prince Mach
 model: Mach
 anno: 2021

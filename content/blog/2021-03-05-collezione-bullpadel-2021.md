@@ -1,8 +1,7 @@
 ---
 title: Racchette da Padel Bullpadel per il 2021
 date: '2021-03-05'
-images:
-    - /images/wiki/brands/bullpadel.webp
+image: /images/wiki/brands/bullpadel.webp
 categorie: news
 author: saint
 description: >-

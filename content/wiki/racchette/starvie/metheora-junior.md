@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: metheora-junior
-images:
-    - /images/wiki/racchette/starvie-metheora-junior.webp
+image: /images/wiki/racchette/starvie-metheora-junior.webp
 title: Starvie Metheora Junior
 model: Metheora Junior
 anno: 2021

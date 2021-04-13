@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     bobo-vieri
-images:
-    - /images/wiki/vip/bobo-vieri.webp
+image: /images/wiki/vip/bobo-vieri.webp
 title: >-
     Bobo Vieri
 padel: >-

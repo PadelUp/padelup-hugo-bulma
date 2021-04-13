@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: graphene-zephyr-ul
-images:
-    - /images/wiki/racchette/head-graphene-zephyr-ul.webp
+image: /images/wiki/racchette/head-graphene-zephyr-ul.webp
 title: Head Graphene Zephyr Ul
 model: Graphene Zephyr Ul
 anno: 2021

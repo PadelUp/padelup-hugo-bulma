@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: flash
-images:
-    - /images/wiki/racchette/head-flash.webp
+image: /images/wiki/racchette/head-flash.webp
 title: Head Flash
 model: Flash
 anno: 2021

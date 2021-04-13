@@ -1,7 +1,6 @@
 ---
 title: Mission
-images:
-    - /images/mission/about.webp
+image: /images/mission/about.webp
 menu:
   main:
     identifier: "mission"

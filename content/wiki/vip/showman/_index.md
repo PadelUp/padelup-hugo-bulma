@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/showman.webp
+image: /images/wiki/jobs/showman.webp
 title: >-
     Showmen
 description: >-

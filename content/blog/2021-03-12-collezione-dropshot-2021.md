@@ -1,8 +1,7 @@
 ---
 title: Dropshot Padel Racchette per il 2021
 date: '2021-03-12'
-images:
-    - /images/wiki/brands/dropshot.webp
+image: /images/wiki/brands/dropshot.webp
 categorie: news
 author: saint
 description: >-

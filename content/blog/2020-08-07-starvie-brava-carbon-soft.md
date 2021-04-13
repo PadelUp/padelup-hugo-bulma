@@ -2,8 +2,7 @@
 title: "Starvie Brava Carbon Soft sotto ispezione"
 description: Test di gioco della racchetta da padel Starvie Brava Carbon Soft, modello dell’ultima collezione del brand spagnolo, che da anni investe in questo sport e con le sue ampie collezioni sponsorizza e supporta giocatori di alto livello in tutto il panorama mondiale.
 date: 2020-08-07 10:25:37
-images:
-    - /images/posts/starvie-bravia-01.webp
+image: /images/posts/starvie-bravia-01.webp
 categorie: recensioni
 author: jack
 video: https://www.youtube.com/embed/X2uiysu8BiU

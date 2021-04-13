@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: black-mamba-black-series-1k
-images:
-    - /images/wiki/racchette/vibor-a-black-mamba-black-series-1k.webp
+image: /images/wiki/racchette/vibor-a-black-mamba-black-series-1k.webp
 title: Vibor-A Black Mamba Black Series 1K
 model: Black Mamba Black Series 1K
 anno: 2020

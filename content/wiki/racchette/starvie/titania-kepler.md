@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: titania-kepler
-images:
-    - /images/wiki/racchette/starvie-titania-kepler.webp
+image: /images/wiki/racchette/starvie-titania-kepler.webp
 title: Starvie Titania Kepler
 model: Titania Kepler
 anno: 2021

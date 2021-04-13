@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: grizzly
-images:
-    - /images/wiki/racchette/black-crown-grizzly.webp
+image: /images/wiki/racchette/black-crown-grizzly.webp
 title: Black Crown Grizzly
 model: Grizzly
 anno: 2021

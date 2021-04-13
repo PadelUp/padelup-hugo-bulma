@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: allegra
-images:
-    - /images/wiki/racchette/dropshot-allegra.webp
+image: /images/wiki/racchette/dropshot-allegra.webp
 title: Dropshot Allegra
 model: Allegra
 anno: 2021

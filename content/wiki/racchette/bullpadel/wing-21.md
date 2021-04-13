@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: wing-21
-images:
-    - /images/wiki/racchette/bullpadel-wing-21.webp
+image: /images/wiki/racchette/bullpadel-wing-21.webp
 title: Bullpadel Wing 21
 model: Wing 21
 anno: 2021

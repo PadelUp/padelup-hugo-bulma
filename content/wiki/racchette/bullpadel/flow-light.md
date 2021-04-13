@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: flow-light
-images:
-    - /images/wiki/racchette/bullpadel-flow-light.webp
+image: /images/wiki/racchette/bullpadel-flow-light.webp
 title: Bullpadel Flow Light
 model: Flow Light
 anno: 2021

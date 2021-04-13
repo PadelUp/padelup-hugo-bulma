@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: premier-v2
-images:
-    - /images/wiki/racchette/prince-premier-v2.webp
+image: /images/wiki/racchette/prince-premier-v2.webp
 title: Prince Premier V2
 model: Premier V2
 anno: 2021

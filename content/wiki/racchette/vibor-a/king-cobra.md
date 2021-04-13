@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: king-cobra
-images:
-    - /images/wiki/racchette/vibor-a-king-cobra.webp
+image: /images/wiki/racchette/vibor-a-king-cobra.webp
 title: Vibor-A King Cobra
 model: King Cobra
 anno: 2019

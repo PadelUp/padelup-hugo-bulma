@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     raul
-images:
-    - /images/wiki/vip/raul.webp
+image: /images/wiki/vip/raul.webp
 title: >-
     Raul
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     marco-tardelli
-images:
-    - /images/wiki/vip/marco-tardelli.webp
+image: /images/wiki/vip/marco-tardelli.webp
 title: >-
     Marco Tardelli
 padel: >-

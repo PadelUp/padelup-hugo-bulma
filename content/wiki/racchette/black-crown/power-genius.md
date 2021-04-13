@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: power-genius
-images:
-    - /images/wiki/racchette/black-crown-power-genius.webp
+image: /images/wiki/racchette/black-crown-power-genius.webp
 title: Black Crown Power Genius
 model: Power Genius
 anno: 2021

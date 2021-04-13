@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: shake
-images:
-    - /images/wiki/racchette/bullpadel-shake.webp
+image: /images/wiki/racchette/bullpadel-shake.webp
 title: Bullpadel Shake
 model: Shake
 anno: 2021

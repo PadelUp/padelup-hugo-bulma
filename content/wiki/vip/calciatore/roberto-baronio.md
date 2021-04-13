@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     roberto-baronio
-images:
-    - /images/wiki/vip/roberto-baronio.webp
+image: /images/wiki/vip/roberto-baronio.webp
 title: >-
     Roberto Baronio
 padel: >-

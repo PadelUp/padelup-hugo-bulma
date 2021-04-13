@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: king-cobra-black-1k
-images:
-    - /images/wiki/racchette/vibor-a-king-cobra-black-1k.webp
+image: /images/wiki/racchette/vibor-a-king-cobra-black-1k.webp
 title: Vibor-A King Cobra Black 1K
 model: King Cobra Black 1K
 anno: 2020

@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: yarara-edition-black-series-1k
-images:
-    - /images/wiki/racchette/vibor-a-yarara-edition-black-series-1k.webp
+image: /images/wiki/racchette/vibor-a-yarara-edition-black-series-1k.webp
 title: Vibor-A Yarara Edition Black Series 1K
 model: Yarara Edition Black Series 1K
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     rugbista
 filename: >-
     max-evans
-images:
-    - /images/wiki/vip/max-evans.webp
+image: /images/wiki/vip/max-evans.webp
 title: >-
     Max Evans
 padel: >-

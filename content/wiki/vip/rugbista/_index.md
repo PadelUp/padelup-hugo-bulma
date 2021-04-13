@@ -3,8 +3,7 @@ subsection: >-
     rugbista
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/rugbista.webp
+image: /images/wiki/jobs/rugbista.webp
 title: >-
     Rugbisti
 description: >-

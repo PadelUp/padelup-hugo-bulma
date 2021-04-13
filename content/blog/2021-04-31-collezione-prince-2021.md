@@ -1,8 +1,7 @@
 ---
 title: Prince
 date: '2021-04-31'
-images:
-    - /images/wiki/brands/prince.webp
+image: /images/wiki/brands/prince.webp
 categorie: news
 author: saint
 description: >-

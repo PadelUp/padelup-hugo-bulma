@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     zlatan-ibrahimovic
-images:
-    - /images/wiki/vip/zlatan-ibrahimovic.webp
+image: /images/wiki/vip/zlatan-ibrahimovic.webp
 title: >-
     Zlatan Ibrahimovic
 padel: >-

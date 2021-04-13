@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: delta-motion
-images:
-    - /images/wiki/racchette/head-delta-motion.webp
+image: /images/wiki/racchette/head-delta-motion.webp
 title: Head Delta Motion
 model: Delta Motion
 anno: 2020

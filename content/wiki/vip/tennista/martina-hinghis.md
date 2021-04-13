@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     martina-hinghis
-images:
-    - /images/wiki/vip/martina-hinghis.webp
+image: /images/wiki/vip/martina-hinghis.webp
 title: >-
     Martina Hinghis
 padel: >-

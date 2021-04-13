@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     tomas-berdych
-images:
-    - /images/wiki/vip/tomas-berdych.webp
+image: /images/wiki/vip/tomas-berdych.webp
 title: >-
     Tomas Berdych
 padel: >-

@@ -2,8 +2,7 @@
 id: prince
 parent: /wiki/racchette/
 permalink: /wiki/racchette/prince/
-images:
-    - /images/wiki/brands/prince.webp
+image: /images/wiki/brands/prince.webp
 title: Prince
 brand: prince
 marca: prince

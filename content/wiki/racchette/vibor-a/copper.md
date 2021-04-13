@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: copper
-images:
-    - /images/wiki/racchette/vibor-a-copper.webp
+image: /images/wiki/racchette/vibor-a-copper.webp
 title: Vibor-A Copper
 model: Copper
 anno: 2019

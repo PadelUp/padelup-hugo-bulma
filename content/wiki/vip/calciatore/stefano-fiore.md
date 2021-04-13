@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     stefano-fiore
-images:
-    - /images/wiki/vip/stefano-fiore.webp
+image: /images/wiki/vip/stefano-fiore.webp
 title: >-
     Stefano Fiore
 padel: >-

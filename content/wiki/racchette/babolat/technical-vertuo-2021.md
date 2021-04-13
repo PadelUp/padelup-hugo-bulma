@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: technical-vertuo-2021
-images:
-    - /images/wiki/racchette/babolat-technical-vertuo-2021.webp
+image: /images/wiki/racchette/babolat-technical-vertuo-2021.webp
 title: Babolat Technical Vertuo 2021
 model: Technical Vertuo 2021
 anno: 2021

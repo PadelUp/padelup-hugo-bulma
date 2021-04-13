@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     francesco-totti
-images:
-    - /images/wiki/vip/francesco-totti.webp
+image: /images/wiki/vip/francesco-totti.webp
 title: >-
     Francesco Totti
 padel: >-

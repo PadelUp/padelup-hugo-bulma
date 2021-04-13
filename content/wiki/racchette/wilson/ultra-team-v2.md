@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: ultra-team-v2
-images:
-    - /images/wiki/racchette/wilson-ultra-team-v2.webp
+image: /images/wiki/racchette/wilson-ultra-team-v2.webp
 title: Wilson Ultra Team V2
 model: Ultra Team V2
 anno: 2021

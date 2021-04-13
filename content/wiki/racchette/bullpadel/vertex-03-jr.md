@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: vertex-03-jr
-images:
-    - /images/wiki/racchette/bullpadel-vertex-03-jr.webp
+image: /images/wiki/racchette/bullpadel-vertex-03-jr.webp
 title: Bullpadel Vertex 03 Jr
 model: Vertex 03 Jr
 anno: 2021

@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: delta-1.0
-images:
-    - /images/wiki/racchette/dropshot-delta-1.0.webp
+image: /images/wiki/racchette/dropshot-delta-1.0.webp
 title: Dropshot Delta 1.0
 model: Delta 1.0
 anno: 2021

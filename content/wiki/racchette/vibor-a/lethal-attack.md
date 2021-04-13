@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: lethal-attack
-images:
-    - /images/wiki/racchette/vibor-a-lethal-attack.webp
+image: /images/wiki/racchette/vibor-a-lethal-attack.webp
 title: Vibor-A Lethal Attack
 model: Lethal Attack
 anno: 2020

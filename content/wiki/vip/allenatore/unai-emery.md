@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     unai-emery
-images:
-    - /images/wiki/vip/unai-emery.webp
+image: /images/wiki/vip/unai-emery.webp
 title: >-
     Unai Emery
 padel: >-

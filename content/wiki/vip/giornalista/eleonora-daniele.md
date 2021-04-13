@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     eleonora-daniele
-images:
-    - /images/wiki/vip/eleonora-daniele.webp
+image: /images/wiki/vip/eleonora-daniele.webp
 title: >-
     Eleonora Daniele
 padel: >-

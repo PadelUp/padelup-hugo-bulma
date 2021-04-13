@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: metalbone
-images:
-    - /images/wiki/racchette/adidas-metalbone.webp
+image: /images/wiki/racchette/adidas-metalbone.webp
 title: Adidas Metalbone
 model: Metalbone
 anno: 2021

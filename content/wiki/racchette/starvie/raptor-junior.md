@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: raptor-junior
-images:
-    - /images/wiki/racchette/starvie-raptor-junior.webp
+image: /images/wiki/racchette/starvie-raptor-junior.webp
 title: Starvie Raptor Junior
 model: Raptor Junior
 anno: 2021

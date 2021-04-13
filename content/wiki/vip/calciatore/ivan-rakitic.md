@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     ivan-rakitic
-images:
-    - /images/wiki/vip/ivan-rakitic.webp
+image: /images/wiki/vip/ivan-rakitic.webp
 title: >-
     Ivan Rakitic
 padel: >-

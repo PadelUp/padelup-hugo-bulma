@@ -2,8 +2,7 @@
 title: "Recensione Drop Shot Explorer Pro 1.0"
 description: Video analisi racchetta da padel in situazioni di gioco, attacco e difesa, rapporto/qualità prezzo e considerazioni finali
 date: 2020-06-26 10:21:34
-images:
-    - /images/posts/dropshot-explorer-01.webp
+image: /images/posts/dropshot-explorer-01.webp
 categorie: recensioni
 author: jack
 video: https://www.youtube.com/embed/KQvyiDTGVdY

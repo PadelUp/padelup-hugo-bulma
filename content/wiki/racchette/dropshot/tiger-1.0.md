@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: tiger-1.0
-images:
-    - /images/wiki/racchette/dropshot-tiger-1.0.webp
+image: /images/wiki/racchette/dropshot-tiger-1.0.webp
 title: Dropshot Tiger 1.0
 model: Tiger 1.0
 anno: 2021

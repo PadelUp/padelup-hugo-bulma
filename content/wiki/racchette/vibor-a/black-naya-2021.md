@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: black-naya-2021
-images:
-    - /images/wiki/racchette/vibor-a-black-naya-2021.webp
+image: /images/wiki/racchette/vibor-a-black-naya-2021.webp
 title: Vibor-A Black Naya 2021
 model: Black Naya 2021
 anno: 2021

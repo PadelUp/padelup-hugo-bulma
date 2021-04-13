@@ -2,8 +2,7 @@
 title: Alla Scoperta del Campo da Padel
 description: Uno sport innovativo per indole che prevende uno spazio di gioco altrettanto originale. Uno sguardo al regolamento e le peculiaritá offerte da questo magnifico gioco.
 date: 2020-10-07T16:39:25.062Z
-images:
-    - /images/posts/campo-da-padel-01.webp
+image: /images/posts/campo-da-padel-01.webp
 categorie:
   - approfondimenti
 author: simi

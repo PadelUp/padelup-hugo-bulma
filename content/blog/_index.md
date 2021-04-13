@@ -1,7 +1,6 @@
 ---
 title: Blog
-images:
-    - "blog.webp"
+image: "blog.webp"
 description: Ultime News
 menu:
   main:

@@ -3,8 +3,7 @@ subsection: >-
     cestista
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/cestista.webp
+image: /images/wiki/jobs/cestista.webp
 title: >-
     Cestisti
 description: >-

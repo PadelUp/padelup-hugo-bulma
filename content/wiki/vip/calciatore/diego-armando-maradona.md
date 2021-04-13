@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     diego-armando-maradona
-images:
-    - /images/wiki/vip/diego-armando-maradona.webp
+image: /images/wiki/vip/diego-armando-maradona.webp
 title: >-
     Diego Armando Maradona
 padel: >-

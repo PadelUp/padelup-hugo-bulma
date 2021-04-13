@@ -3,8 +3,7 @@ subsection: >-
     showgirl
 filename: >-
     nathalie-caldonazzo
-images:
-    - /images/wiki/vip/nathalie-caldonazzo.webp
+image: /images/wiki/vip/nathalie-caldonazzo.webp
 title: >-
     Nathalie Caldonazzo
 padel: >-

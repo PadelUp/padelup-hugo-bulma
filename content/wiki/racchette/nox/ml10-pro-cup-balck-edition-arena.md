@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup-balck-edition-arena
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup-balck-edition-arena.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup-balck-edition-arena.webp
 title: Nox Ml10 Pro Cup Balck Edition Arena
 model: Ml10 Pro Cup Balck Edition Arena
 anno: 2021

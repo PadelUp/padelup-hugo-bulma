@@ -1,8 +1,7 @@
 ---
 subsection: babolat
 filename: technical-veron-2021
-images:
-    - /images/wiki/racchette/babolat-technical-veron-2021.webp
+image: /images/wiki/racchette/babolat-technical-veron-2021.webp
 title: Babolat Technical Veron 2021
 model: Technical Veron 2021
 anno: 2021

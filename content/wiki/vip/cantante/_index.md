@@ -3,8 +3,7 @@ subsection: >-
     cantante
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/cantante.webp
+image: /images/wiki/jobs/cantante.webp
 title: >-
     Cantanti
 description: >-

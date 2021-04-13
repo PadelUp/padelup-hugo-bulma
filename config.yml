@@ -3,6 +3,10 @@ languageCode: "it"
 title: "Padel Up"
 logo: "/images/logo/padelup.svg"
 
+social:
+  facebook: "padelup.it"
+  facebook_admin: "105017614585389"
+
 googleAnalytics: G-DH355JDJPH
 
 # Open Graph
@@ -14,3 +18,4 @@ params:
 
 summaryLength: 10
 paginate: 6
+

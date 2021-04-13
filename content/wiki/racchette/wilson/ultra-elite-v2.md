@@ -1,8 +1,7 @@
 ---
 subsection: wilson
 filename: ultra-elite-v2
-images:
-    - /images/wiki/racchette/wilson-ultra-elite-v2.webp
+image: /images/wiki/racchette/wilson-ultra-elite-v2.webp
 title: Wilson Ultra Elite V2
 model: Ultra Elite V2
 anno: 2021

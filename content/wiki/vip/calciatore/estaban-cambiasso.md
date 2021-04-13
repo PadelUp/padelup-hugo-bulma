@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     estaban-cambiasso
-images:
-    - /images/wiki/vip/estaban-cambiasso.webp
+image: /images/wiki/vip/estaban-cambiasso.webp
 title: >-
     Estaban Cambiasso
 padel: >-

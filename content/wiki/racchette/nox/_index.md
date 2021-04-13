@@ -2,8 +2,7 @@
 id: nox
 parent: /wiki/racchette/
 permalink: /wiki/racchette/nox/
-images:
-    - /images/wiki/brands/nox.webp
+image: /images/wiki/brands/nox.webp
 title: Nox
 brand: nox
 marca: nox

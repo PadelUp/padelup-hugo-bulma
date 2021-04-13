@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: at10-genius-arena-luxury-series
-images:
-    - /images/wiki/racchette/nox-at10-genius-arena-luxury-series.webp
+image: /images/wiki/racchette/nox-at10-genius-arena-luxury-series.webp
 title: Nox At10 Genius Arena Luxury Series
 model: At10 Genius Arena Luxury Series
 anno: 2021

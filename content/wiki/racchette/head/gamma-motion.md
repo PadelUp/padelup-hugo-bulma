@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: gamma-motion
-images:
-    - /images/wiki/racchette/head-gamma-motion.webp
+image: /images/wiki/racchette/head-gamma-motion.webp
 title: Head Gamma Motion
 model: Gamma Motion
 anno: 2021

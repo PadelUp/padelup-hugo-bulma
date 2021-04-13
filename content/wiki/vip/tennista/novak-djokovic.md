@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     novak-djokovic
-images:
-    - /images/wiki/vip/novak-djokovic.webp
+image: /images/wiki/vip/novak-djokovic.webp
 title: >-
     Novak Djokovic
 padel: >-

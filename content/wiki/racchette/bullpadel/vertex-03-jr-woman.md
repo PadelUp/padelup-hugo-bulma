@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: vertex-03-jr-woman
-images:
-    - /images/wiki/racchette/bullpadel-vertex-03-jr-woman.webp
+image: /images/wiki/racchette/bullpadel-vertex-03-jr-woman.webp
 title: Bullpadel Vertex 03 Jr Woman
 model: Vertex 03 Jr Woman
 anno: 2021

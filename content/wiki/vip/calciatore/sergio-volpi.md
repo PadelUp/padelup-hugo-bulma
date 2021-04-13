@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     sergio-volpi
-images:
-    - /images/wiki/vip/sergio-volpi.webp
+image: /images/wiki/vip/sergio-volpi.webp
 title: >-
     Sergio Volpi
 padel: >-

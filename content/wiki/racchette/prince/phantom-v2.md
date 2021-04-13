@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: phantom-v2
-images:
-    - /images/wiki/racchette/prince-phantom-v2.webp
+image: /images/wiki/racchette/prince-phantom-v2.webp
 title: Prince Phantom V2
 model: Phantom V2
 anno: 2021

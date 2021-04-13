@@ -2,8 +2,7 @@
 title: "Il World Padel Tour Arriverà in Italia?"
 description: Dopo la ripresa ufficiale, rimane incerta la possibilità di ospitare una tappa del torneo di paddle nella nostra nazione.
 date: 2020-07-06 12:32:16
-images:
-    - /images/posts/wpt-cagliari-01.webp
+image: /images/posts/wpt-cagliari-01.webp
 categorie: news
 author: jack
 redirect_from: /2020/07/06/wpt-arriva-in-italia/

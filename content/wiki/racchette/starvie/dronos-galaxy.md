@@ -1,8 +1,7 @@
 ---
 subsection: starvie
 filename: dronos-galaxy
-images:
-    - /images/wiki/racchette/starvie-dronos-galaxy.webp
+image: /images/wiki/racchette/starvie-dronos-galaxy.webp
 title: Starvie Dronos Galaxy
 model: Dronos Galaxy
 anno: 2021

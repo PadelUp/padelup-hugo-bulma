@@ -3,8 +3,7 @@ subsection: >-
     cestista
 filename: >-
     hugo-sconochini
-images:
-    - /images/wiki/vip/hugo-sconochini.webp
+image: /images/wiki/vip/hugo-sconochini.webp
 title: >-
     Hugo Sconochini
 padel: >-

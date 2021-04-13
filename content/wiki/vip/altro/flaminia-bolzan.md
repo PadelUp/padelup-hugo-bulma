@@ -3,8 +3,7 @@ subsection: >-
     altro
 filename: >-
     flaminia-bolzan
-images:
-    - /images/wiki/vip/flaminia-bolzan.webp
+image: /images/wiki/vip/flaminia-bolzan.webp
 title: >-
     Flaminia Bolzan
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     sara-errani
-images:
-    - /images/wiki/vip/sara-errani.webp
+image: /images/wiki/vip/sara-errani.webp
 title: >-
     Sara Errani
 padel: >-

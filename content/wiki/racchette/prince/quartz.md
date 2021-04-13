@@ -1,8 +1,7 @@
 ---
 subsection: prince
 filename: quartz
-images:
-    - /images/wiki/racchette/prince-quartz.webp
+image: /images/wiki/racchette/prince-quartz.webp
 title: Prince Quartz
 model: Quartz
 anno: 2021

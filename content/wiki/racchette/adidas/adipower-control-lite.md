@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: adipower-control-lite
-images:
-    - /images/wiki/racchette/adidas-adipower-control-lite.webp
+image: /images/wiki/racchette/adidas-adipower-control-lite.webp
 title: Adidas Adipower Control Lite
 model: Adipower Control Lite
 anno: 2021

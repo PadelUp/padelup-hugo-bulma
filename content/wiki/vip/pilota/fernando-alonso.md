@@ -3,8 +3,7 @@ subsection: >-
     pilota
 filename: >-
     fernando-alonso
-images:
-    - /images/wiki/vip/fernando-alonso.webp
+image: /images/wiki/vip/fernando-alonso.webp
 title: >-
     Fernando Alonso
 padel: >-

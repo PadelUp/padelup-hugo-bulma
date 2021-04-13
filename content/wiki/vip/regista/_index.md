@@ -3,8 +3,7 @@ subsection: >-
     regista
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/regista.webp
+image: /images/wiki/jobs/regista.webp
 title: >-
     Registi
 description: >-

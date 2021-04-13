@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: graphene-alpha-pro
-images:
-    - /images/wiki/racchette/head-graphene-alpha-pro.webp
+image: /images/wiki/racchette/head-graphene-alpha-pro.webp
 title: Head Graphene Alpha Pro
 model: Graphene Alpha Pro
 anno: 2021

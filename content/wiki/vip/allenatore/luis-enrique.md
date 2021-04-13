@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     luis-enrique
-images:
-    - /images/wiki/vip/luis-enrique.webp
+image: /images/wiki/vip/luis-enrique.webp
 title: >-
     Luis Enrique
 padel: >-

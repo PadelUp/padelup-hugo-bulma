@@ -3,8 +3,7 @@ subsection: >-
     politico
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/politico.webp
+image: /images/wiki/jobs/politico.webp
 title: >-
     Politici
 description: >-

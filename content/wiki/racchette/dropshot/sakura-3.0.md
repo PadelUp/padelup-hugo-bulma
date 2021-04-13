@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: sakura-3.0
-images:
-    - /images/wiki/racchette/dropshot-sakura-3.0.webp
+image: /images/wiki/racchette/dropshot-sakura-3.0.webp
 title: Dropshot Sakura 3.0
 model: Sakura 3.0
 anno: 2021

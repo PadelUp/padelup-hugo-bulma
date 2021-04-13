@@ -3,8 +3,7 @@ subsection: >-
     pilota
 filename: >-
     charles-leclerc
-images:
-    - /images/wiki/vip/charles-leclerc.webp
+image: /images/wiki/vip/charles-leclerc.webp
 title: >-
     Charles Leclerc
 padel: >-

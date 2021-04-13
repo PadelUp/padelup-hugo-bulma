@@ -3,8 +3,7 @@ subsection: >-
     giornalista
 filename: >-
     dario-marcolin
-images:
-    - /images/wiki/vip/dario-marcolin.webp
+image: /images/wiki/vip/dario-marcolin.webp
 title: >-
     Dario Marcolin
 padel: >-

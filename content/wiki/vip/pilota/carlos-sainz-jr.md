@@ -3,8 +3,7 @@ subsection: >-
     pilota
 filename: >-
     carlos-sainz-jr
-images:
-    - /images/wiki/vip/carlos-sainz-jr.webp
+image: /images/wiki/vip/carlos-sainz-jr.webp
 title: >-
     Carlos Sainz Jr
 padel: >-

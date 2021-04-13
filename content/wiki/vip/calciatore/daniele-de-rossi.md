@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     daniele-de-rossi
-images:
-    - /images/wiki/vip/daniele-de-rossi.webp
+image: /images/wiki/vip/daniele-de-rossi.webp
 title: >-
     Daniele De Rossi
 padel: >-

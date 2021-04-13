@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     sergi-brugera
-images:
-    - /images/wiki/vip/sergi-brugera.webp
+image: /images/wiki/vip/sergi-brugera.webp
 title: >-
     Sergi Brugera
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: genius
-images:
-    - /images/wiki/racchette/black-crown-genius.webp
+image: /images/wiki/racchette/black-crown-genius.webp
 title: Black Crown Genius
 model: Genius
 anno: 2021

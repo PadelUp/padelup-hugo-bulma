@@ -3,8 +3,7 @@ subsection: >-
     showman
 filename: >-
     rodolfo-zerbi
-images:
-    - /images/wiki/vip/rodolfo-zerbi.webp
+image: /images/wiki/vip/rodolfo-zerbi.webp
 title: >-
     Rodolfo Zerbi
 padel: >-

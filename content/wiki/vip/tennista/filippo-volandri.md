@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     filippo-volandri
-images:
-    - /images/wiki/vip/filippo-volandri.webp
+image: /images/wiki/vip/filippo-volandri.webp
 title: >-
     Filippo Volandri
 padel: >-

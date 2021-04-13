@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     johan-cruijff
-images:
-    - /images/wiki/vip/johan-cruijff.webp
+image: /images/wiki/vip/johan-cruijff.webp
 title: >-
     Johan Cruijff
 padel: >-

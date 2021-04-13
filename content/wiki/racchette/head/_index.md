@@ -2,8 +2,7 @@
 id: head
 parent: /wiki/racchette/
 permalink: /wiki/racchette/head/
-images:
-    - /images/wiki/brands/head.webp
+image: /images/wiki/brands/head.webp
 title: Head
 brand: head
 marca: head

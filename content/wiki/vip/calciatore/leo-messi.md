@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     leo-messi
-images:
-    - /images/wiki/vip/leo-messi.webp
+image: /images/wiki/vip/leo-messi.webp
 title: >-
     Leo Messi
 padel: >-

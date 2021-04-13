@@ -3,8 +3,7 @@ subsection: >-
     atleta
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/atleta.webp
+image: /images/wiki/jobs/atleta.webp
 title: >-
     Atleti
 description: >-

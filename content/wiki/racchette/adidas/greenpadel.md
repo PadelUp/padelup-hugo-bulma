@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: greenpadel
-images:
-    - /images/wiki/racchette/adidas-greenpadel.webp
+image: /images/wiki/racchette/adidas-greenpadel.webp
 title: Adidas Greenpadel
 model: Greenpadel
 anno: 2021

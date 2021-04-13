@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: yukon-pro
-images:
-    - /images/wiki/racchette/dropshot-yukon-pro.webp
+image: /images/wiki/racchette/dropshot-yukon-pro.webp
 title: Dropshot Yukon Pro
 model: Yukon Pro
 anno: 2021

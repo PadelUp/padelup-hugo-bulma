@@ -1,8 +1,7 @@
 ---
 subsection: black-crown
 filename: grizzly-control
-images:
-    - /images/wiki/racchette/black-crown-grizzly-control.webp
+image: /images/wiki/racchette/black-crown-grizzly-control.webp
 title: Black Crown Grizzly Control
 model: Grizzly Control
 anno: 2020

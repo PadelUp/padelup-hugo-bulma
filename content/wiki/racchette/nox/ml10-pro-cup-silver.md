@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: ml10-pro-cup-silver
-images:
-    - /images/wiki/racchette/nox-ml10-pro-cup-silver.webp
+image: /images/wiki/racchette/nox-ml10-pro-cup-silver.webp
 title: Nox Ml10 Pro Cup Silver
 model: Ml10 Pro Cup Silver
 anno: 2021

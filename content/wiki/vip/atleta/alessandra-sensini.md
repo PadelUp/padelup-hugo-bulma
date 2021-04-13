@@ -3,8 +3,7 @@ subsection: >-
     atleta
 filename: >-
     alessandra-sensini
-images:
-    - /images/wiki/vip/alessandra-sensini.webp
+image: /images/wiki/vip/alessandra-sensini.webp
 title: >-
     Alessandra Sensini
 padel: >-

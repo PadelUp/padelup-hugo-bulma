@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     serena-wiliams
-images:
-    - /images/wiki/vip/serena-wiliams.webp
+image: /images/wiki/vip/serena-wiliams.webp
 title: >-
     Serena Wiliams
 padel: >-

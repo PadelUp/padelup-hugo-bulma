@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     robin-hasse
-images:
-    - /images/wiki/vip/robin-hasse.webp
+image: /images/wiki/vip/robin-hasse.webp
 title: >-
     Robin Hasse
 padel: >-

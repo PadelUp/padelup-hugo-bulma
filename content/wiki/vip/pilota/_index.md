@@ -3,8 +3,7 @@ subsection: >-
     pilota
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/pilota.webp
+image: /images/wiki/jobs/pilota.webp
 title: >-
     Piloti
 description: >-

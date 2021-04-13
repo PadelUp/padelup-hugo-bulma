@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     maria-sharapova
-images:
-    - /images/wiki/vip/maria-sharapova.webp
+image: /images/wiki/vip/maria-sharapova.webp
 title: >-
     Maria Sharapova
 padel: >-

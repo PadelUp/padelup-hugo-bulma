@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: titanium-carbon-3k
-images:
-    - /images/wiki/racchette/nox-titanium-carbon-3k.webp
+image: /images/wiki/racchette/nox-titanium-carbon-3k.webp
 title: Nox Titanium Carbon 3K
 model: Titanium Carbon 3K
 anno: 2021

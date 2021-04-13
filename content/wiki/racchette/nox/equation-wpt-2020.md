@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: equation-wpt-2020
-images:
-    - /images/wiki/racchette/nox-equation-wpt-2020.webp
+image: /images/wiki/racchette/nox-equation-wpt-2020.webp
 title: Nox Equation Wpt 2020
 model: Equation Wpt 2020
 anno: 2020

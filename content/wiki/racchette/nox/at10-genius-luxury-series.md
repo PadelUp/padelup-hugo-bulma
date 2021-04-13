@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: at10-genius-luxury-series
-images:
-    - /images/wiki/racchette/nox-at10-genius-luxury-series.webp
+image: /images/wiki/racchette/nox-at10-genius-luxury-series.webp
 title: Nox At10 Genius Luxury Series
 model: At10 Genius Luxury Series
 anno: 2021

@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     rolando-maran
-images:
-    - /images/wiki/vip/rolando-maran.webp
+image: /images/wiki/vip/rolando-maran.webp
 title: >-
     Rolando Maran
 padel: >-

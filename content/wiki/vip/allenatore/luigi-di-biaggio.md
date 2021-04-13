@@ -3,8 +3,7 @@ subsection: >-
     allenatore
 filename: >-
     luigi-di-biaggio
-images:
-    - /images/wiki/vip/luigi-di-biaggio.webp
+image: /images/wiki/vip/luigi-di-biaggio.webp
 title: >-
     Luigi Di Biaggio
 padel: >-

@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: gamma-pro
-images:
-    - /images/wiki/racchette/head-gamma-pro.webp
+image: /images/wiki/racchette/head-gamma-pro.webp
 title: Head Gamma Pro
 model: Gamma Pro
 anno: 2021

@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: x-one-c.6-casual-series
-images:
-    - /images/wiki/racchette/nox-x-one-c.6-casual-series.webp
+image: /images/wiki/racchette/nox-x-one-c.6-casual-series.webp
 title: Nox X-One C.6 Casual Series
 model: X-One C.6 Casual Series
 anno: 2021

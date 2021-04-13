@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     angelo-peruzzi
-images:
-    - /images/wiki/vip/angelo-peruzzi.webp
+image: /images/wiki/vip/angelo-peruzzi.webp
 title: >-
     Angelo Peruzzi
 padel: >-

@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     francesca-schiavone
-images:
-    - /images/wiki/vip/francesca-schiavone.webp
+image: /images/wiki/vip/francesca-schiavone.webp
 title: >-
     Francesca Schiavone
 padel: >-

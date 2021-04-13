@@ -3,8 +3,7 @@ subsection: >-
     tennista
 filename: >-
     _index
-images:
-    - /images/wiki/jobs/tennista.webp
+image: /images/wiki/jobs/tennista.webp
 title: >-
     Tennisti
 description: >-

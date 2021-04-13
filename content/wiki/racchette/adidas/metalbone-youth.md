@@ -1,8 +1,7 @@
 ---
 subsection: adidas
 filename: metalbone-youth
-images:
-    - /images/wiki/racchette/adidas-metalbone-youth.webp
+image: /images/wiki/racchette/adidas-metalbone-youth.webp
 title: Adidas Metalbone Youth
 model: Metalbone Youth
 anno: 2021

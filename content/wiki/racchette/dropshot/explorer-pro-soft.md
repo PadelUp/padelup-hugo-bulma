@@ -1,8 +1,7 @@
 ---
 subsection: dropshot
 filename: explorer-pro-soft
-images:
-    - /images/wiki/racchette/dropshot-explorer-pro-soft.webp
+image: /images/wiki/racchette/dropshot-explorer-pro-soft.webp
 title: Dropshot Explorer Pro Soft
 model: Explorer Pro Soft
 anno: 2021

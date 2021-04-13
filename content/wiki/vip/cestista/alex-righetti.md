@@ -3,8 +3,7 @@ subsection: >-
     cestista
 filename: >-
     alex-righetti
-images:
-    - /images/wiki/vip/alex-righetti.webp
+image: /images/wiki/vip/alex-righetti.webp
 title: >-
     Alex Righetti
 padel: >-

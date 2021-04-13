@@ -3,8 +3,7 @@ subsection: >-
     calciatore
 filename: >-
     demetrio-albertini
-images:
-    - /images/wiki/vip/demetrio-albertini.webp
+image: /images/wiki/vip/demetrio-albertini.webp
 title: >-
     Demetrio Albertini
 padel: >-

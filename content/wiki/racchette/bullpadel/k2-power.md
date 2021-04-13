@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: k2-power
-images:
-    - /images/wiki/racchette/bullpadel-k2-power.webp
+image: /images/wiki/racchette/bullpadel-k2-power.webp
 title: Bullpadel K2 Power
 model: K2 Power
 anno: 2021

@@ -1,8 +1,7 @@
 ---
 subsection: bullpadel
 filename: flow
-images:
-    - /images/wiki/racchette/bullpadel-flow.webp
+image: /images/wiki/racchette/bullpadel-flow.webp
 title: Bullpadel Flow
 model: Flow
 anno: 2021

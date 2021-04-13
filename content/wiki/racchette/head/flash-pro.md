@@ -1,8 +1,7 @@
 ---
 subsection: head
 filename: flash-pro
-images:
-    - /images/wiki/racchette/head-flash-pro.webp
+image: /images/wiki/racchette/head-flash-pro.webp
 title: Head Flash Pro
 model: Flash Pro
 anno: 2021

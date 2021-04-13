@@ -1,8 +1,7 @@
 ---
 subsection: nox
 filename: emotion-wpt-2020
-images:
-    - /images/wiki/racchette/nox-emotion-wpt-2020.webp
+image: /images/wiki/racchette/nox-emotion-wpt-2020.webp
 title: Nox Emotion Wpt 2020
 model: Emotion Wpt 2020
 anno: 2020

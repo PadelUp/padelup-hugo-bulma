@@ -1,8 +1,7 @@
 ---
 subsection: vibor-a
 filename: yarara-2021
-images:
-    - /images/wiki/racchette/vibor-a-yarara-2021.webp
+image: /images/wiki/racchette/vibor-a-yarara-2021.webp
 title: Vibor-A Yarara 2021
 model: Yarara 2021
 anno: 2021
