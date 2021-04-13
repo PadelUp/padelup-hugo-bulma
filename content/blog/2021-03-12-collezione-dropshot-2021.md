@@ -11,7 +11,7 @@ description: >-
 ---
 Uno dei brand più longevi del panorama sportivo internazionale vanta più di venti anni di esperienza nel settore, rinomata anche per essersi legata ad un’icona del Padel spagnolo come Juan Martin Diaz, dodici volte numero uno del mondo, da ormai più di dieci anni. 
 
-Il brand spagnolo persegue una visione di innovazione e, tra le più nuove, notiamo il carbonio Textreme più resistente e leggero del convenzionale, una distribuzione dei fori maggiormente aerodinamica e infine la tecnologia Curve: una termoplastica che ricopre la superficie della racchetta e che riduce urti e vibrazioni.
+Il brand spagnolo persegue una visione di innovazione e, tra le più nuove, notiamo il carbonio Txtreme più resistente e leggero del convenzionale, una distribuzione dei fori maggiormente aerodinamica e infine la tecnologia Curve: una termoplastica che ricopre la superficie della racchetta e che riduce urti e vibrazioni.
 
 Tra i modelli del nuovo anno abbiamo: 
 
