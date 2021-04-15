@@ -2,7 +2,7 @@
 title: "Dropshot Conqueror 8.0 ESP in onore della legenda Juan Martin Diaz e i suoi recenti successi sportivi"
 date: 2021-04-05
 image: /images/posts/dropshot-conqueror-8-edizione-speciale.webp
-categories: news
+categorie: news
 author: saint
 description: >-
   Dropshot presenta una versione della JMD, storica racchetta del campione Juan Martin Diaz, in onore della vittoria del campionato di Spagna, con la quale probabilmente vedremo il fenomeno spagnolo in campo durante questo World Padel Tour di Madrid.

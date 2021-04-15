@@ -1,5 +1,6 @@
 ---
 date: '2021-02-19'
+title: Collezione Racchette da Padel Adidas 2021
 image: /images/wiki/brands/adidas.webp
 categorie: news
 author: saint

@@ -5,12 +5,20 @@
             {{ partial "mini-card.html" . }}
         {{ end }}
     </div>
-    <div class="column is-one-third">
+    <div class="column is-one-third is-hidden-mobile">
         <p class="title is-4">Instagram</p>
         {{ partial "instagram.html" . }}
     </div>
     <div class="column is-one-third">
         <p class="title is-4">Contattaci</p>
-        {{ partial "contact_form.html" . }}
+        {{ partial "contact-form.html" . }}
     </div>
+</div>
+<div class="buttons is-centered are-medium">
+    {{ range .Site.Data.socials }}
+        <a class="button" href="{{.link}}" title="Padel Up su {{.name}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
+    {{ end }}
+</div>
+<div class="content has-text-centered">
+    <p>&copy; {{ now.Format "2006"}} <strong>{{ .Site.Title }}</strong></p>
 </div>

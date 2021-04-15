@@ -1,64 +1,71 @@
+{{ with .Content }}
 <h2>Descrizione</h2>
-
-{{ .Content }}
+{{.}}
+{{ end }}
 
 <h2>Caratteristiche</h2>
 
 <!-- Specs Table -->
-<table>
+<table class="table is-hoverable is-fullwidth">
 <tbody>
-    {{ if .Params.Anno }}
+    {{ with .Params.Anno }}
     <tr>
     <td class="has-text-weight-bold">Anno:</th>
-    <td>{{ .Params.Anno }}</th>
+    <td>{{ . }}</th>
     </tr>
     {{ end }}
-    {{ if .Params.Prezzo }}
+    {{ with .Params.gamma }}
+    <tr>
+    <td class="has-text-weight-bold">Gamma:</th>
+    <td>{{ humanize . }}</th>
+    </tr>
+    {{ end }}
+    {{ with .Params.Prezzo }}
     <tr>
     <td class="has-text-weight-bold">Prezzo:</td>
-    <td>{{ .Params.Prezzo }}€</td>
+    <td>{{ . }}€</td>
     </tr>
     {{ end }}
-    {{ if .Params.Forma }}
+    {{ with .Params.Forma }}
     <tr>
     <td class="has-text-weight-bold">Forma:</td>
-    <td>{{ humanize .Params.Forma }}</td>
+    <td>{{ humanize . }}</td>
     </tr>        
     {{ end }}
-    {{ if .Params.Bilanciamento }}
+    {{ with .Params.Bilanciamento }}
     <tr>
     <td class="has-text-weight-bold">Bilanciamento:</td>
-    <td>{{ humanize .Params.Bilanciamento }}</td>
+    <td>{{ humanize . }}</td>
     </tr>             
     {{ end }}
-    {{ if .Params.Peso }}
+    {{ with .Params.Peso }}
     <tr>
     <td class="has-text-weight-bold">Peso:</td>
-    <td>{{ .Params.Peso }}gr</td>
+    <td>{{ . }}gr</td>
     </tr>
     {{ end }}
-    {{ if .Params.Livello }}
+    {{ with .Params.Livello }}
     <tr>
     <td class="has-text-weight-bold">Livello di gioco consigliato:</td>
-    <td>{{ humanize .Params.Livello }}</td>
+    <td>{{ humanize . }}</td>
     </tr>  
     {{ end }}
-    {{ if .Params.Materiale }}
+    {{ with .Params.Materiale }}
     <tr>
     <td class="has-text-weight-bold">Materiale:</td>
-    <td>{{ humanize .Params.Materiale }}</td>
+    <td>{{ humanize . }}</td>
     </tr>       
     {{ end }}
-    {{ if .Params.Gomma }}
+    {{ with .Params.Gomma }}
     <tr>
     <td class="has-text-weight-bold">Gomma:</td>
-    <td>{{ humanize .Params.Gomma }}</td>
+    <td>{{ humanize . }}</td>
     </tr>
     {{ end }}
-    {{ if .Params.Superficie }}
+    {{ with .Params.Superficie }}
     <tr>
     <td class="has-text-weight-bold">Superficie del piatto:</td>
-    <td>{{ humanize .Params.Superficie }}</td>
+    <td>{{ humanize . }}</td>
     </tr>                
     {{ end }}
 

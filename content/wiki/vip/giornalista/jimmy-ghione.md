@@ -11,7 +11,7 @@ padel: >-
 fonte: >-
     https://www.corrieredellosport.it/
 video: >-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6VhWwLWaZzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    https://www.youtube.com/embed/6VhWwLWaZzk
 image_alt: >-
     https://cdn.corrieredellosport.it/images/2021/01/18/112508120-b4e03bf3-f279-4751-a40d-667fbfa366bd.jpg
 ---

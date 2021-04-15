@@ -5,25 +5,20 @@
     <div class="container is-widescreen px-5">
         <div class="columns is-variable is-5">
             <div class="column is-two-thirds content">
-                <nav class="level">
-                    <div class="level-left">
-                       <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
+                <section class="hero">
+                    <div class="hero-body py-0">
+                      <h1 class="title">{{ .Title }}</h1>
+                      {{ if .Description }}
+                      <p class="subtitle mb-3">{{ if .Date }}<time datetime="{{.Date}}">{{ .Date.Format "January 2, 2006" }}</time> - {{ end }}{{ .Description }}</p>
+                      {{ end }}
                     </div>
-                </nav>
-                <h1 class="title">
-                    {{ .Title }}
-                </h1>
-                {{ if .Date }}
-                <time datetime="{{.Date}}">{{ .Date.Format "January 2, 2006" }}</time>
-                {{ end }}
-                {{ if .Description }}
-                <p class="subtitle">
-                    {{ .Description }}
-                </p>
-                {{ end }}
+                    <div class="hero-foot">
+                        <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
+                    </div>
+                </section>
                 {{ if .Params.image }}
-                <figure class="image is-4by3">
-                    <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" (cond (.IsDescendant (.GetPage "/wiki/vip")) "contain" "cover")}};" src="{{ .Params.image | absURL }}" alt="{{ $.Title }}">
+                <figure class="image is-5by3 my-4">
+                    <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" "cover"}};" src="{{ .Params.image | absURL }}" alt="{{ $.Title }}">
                 </figure>
                 {{ end }}
                 {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}
@@ -60,7 +55,4 @@
         </div>
     </div>
 </section>
-{{ end }}
-{{ define "footer" }}
-    {{ partial "footer.html" . }}
 {{ end }}

@@ -26,5 +26,5 @@ Progetto che non sembra irrealizzabile se i grandi attori di questo scenario - C
 Non è certo che questo modello verrà messo in vendita, quello che sappiamo però è che le vendite della Wilson Bela Pro hanno superato di gran lunga le aspettative della casa, vendendo l’intera produzione di racchette in pochi mesi e lasciando diversi giocatori e fornitori in attesa di una nuova ristampa.
 
 <p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tTW_VB3YzIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/tTW_VB3YzIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>

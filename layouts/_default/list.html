@@ -1,22 +1,22 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="hero is-small">
-  <div class="container is-widescreen px-5">
+<section class="hero">
     <div class="hero-body has-text-centered">
+      <div class="container is-widescreen px-5">
       <h1 class="title is-2">{{ .Title }}</h1>
       <p class="subtitle">{{ .Description }}</p>
+      </div>
     </div>
-  </div>
+    <div class="hero-foot">
+      <div class="container is-widescreen px-5">
+        <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
+      </div>
+    </div>
 </section>
 
 <section class="section">
 <div class="container is-widescreen px-5">
-  <nav class="level">
-    <div class="level-left">
-      <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
-    </div>
-  </nav>
   <div class="columns is-multiline is-variable">
     <!-- if list page has no subsection, iterates over pages. otherwise iterates over subsections -->
     {{ $list := (cond (eq .Sections nil) (.Paginate .Pages) (.Paginate .Sections))}}
@@ -29,7 +29,4 @@
 </div>
 </section>
 {{ partial "pagination.html" . }}
-{{ end }}
-{{ define "footer" }}
-    {{ partial "footer.html" . }}
 {{ end }}

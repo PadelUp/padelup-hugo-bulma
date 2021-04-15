@@ -11,6 +11,6 @@ padel: >-
 fonte: >-
     worldpadeltour.com/
 video: >-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8SzzWdbXMms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    https://www.youtube.com/embed/8SzzWdbXMms
 ---
 Conosciuto come Alberto di Monaco, Alexandre Louis Pierre Grimaldi, è principe dal 2005 ed è appassionato di padel, infatti il World Padel Tour organizzava tappe del circuito nel principato coinvolgendo lo stesso principe nella pista di gioco

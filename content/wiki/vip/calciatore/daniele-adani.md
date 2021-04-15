@@ -11,7 +11,7 @@ padel: >-
 fonte: >-
     https://sport.sky.it/
 video: >-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/IoBfYh3xQrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    https://www.youtube.com/embed/IoBfYh3xQrQ
 twitter: >-
     <blockquote class="twitter-tweet"><p lang="it" dir="ltr">Pure Air Padel Challenge Trophy: È arrivato “Pure Air Padel Challenge Trophy”, il primo esclusivo torneo di “padel indoor” organizzato da Sky Sport e Dyson <a href="https://t.co/Hjbfowk3Wd">https://t.co/Hjbfowk3Wd</a> <a href="https://t.co/FEcjeM1bfq">pic.twitter.com/FEcjeM1bfq</a></p>&mdash; sportlive (@sportli26181512) <a href="https://twitter.com/sportli26181512/status/1311656897053814785?ref_src=twsrc%5Etfw">October 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---

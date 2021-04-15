@@ -1,20 +1,22 @@
 {{ .Content }}
-{{ if .Params.padel }}
-    <h2>{{ .Title }} e il Padel</h2>
-    <p>{{ .Params.padel }}</p>
+{{ with .Params.padel }}
+    <h2>{{ $.Title }} e il Padel</h2>
+    <p>{{ . }}</p>
 {{ end }}
-{{ if .Params.video }}
-    {{ .Params.video | safeHTML }}
+{{ with .Params.video }}
+<figure class="image is-16by9">
+    <iframe class="has-ratio" width="640" height="360" src="{{ . | safeHTML }}" frameborder="0" allowfullscreen></iframe>
+</figure>
 {{ end }}
-{{ if .Params.instagram }}
-    {{ .Params.instagram | safeHTML }}
+{{ with .Params.instagram }}
+    {{ . | safeHTML }}
 {{ end }}
-{{ if .Params.twitter }}
-    {{ .Params.twitter | safeHTML }}
+{{ with .Params.twitter }}
+    {{ . | safeHTML }}
 {{ end }}
-{{ if .Params.image_alt }}
-    <img src="{{ .Params.image_alt }}" alt="{{ .Title}} e il Padel"></p>
+{{ with .Params.image_alt }}
+    <img src="{{ . }}" alt="{{ $.Title}} e il Padel"></p>
 {{ end }}
-{{ if .Params.fonte }}
-    <p><a href="{{.Params.fonte}}">Fonte</a></p>
+{{ with .Params.fonte }}
+    <p><a href="{{ . }}">Fonte</a></p>
 {{ end }}

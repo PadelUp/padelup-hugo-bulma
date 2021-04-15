@@ -19,6 +19,8 @@ params:
 summaryLength: 10
 paginate: 6
 
+defaultContentLanguage: it
+
 markup:
   goldmark:
     renderer:

@@ -11,6 +11,6 @@ padel: >-
 fonte: >-
     https://www.corrieredellosport.it/
 video: >-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EvZYor7xZGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    https://www.youtube.com/embed/EvZYor7xZGI
 ---
 È un dirigente calcistico italiano, opinionista televisivo ed ex calciatore professionista. Durante la sua carriera di calciatore ha fatto più di 500 presenze in campionato e ha segnato più di cento gol come attaccante. Ha iniziato la sua carriera nella Serie A italiana, giocando per Lazio, Juventus, Napoli e Milan, prima di un breve periodo con il club scozzese Celtic. Successivamente ha trascorso sette anni nella Premier League inglese con Sheffield Wednesday, West Ham United e Charlton Athletic.

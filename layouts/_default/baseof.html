@@ -28,7 +28,10 @@
   
     <!-- Google Analytics v4 (gtag.js) -->
     {{ template "_internal/google_analytics.html" . }}
-  
+    
+    <!-- reCAPTCHA V2 -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
   </head>
 <body class="is-unselectable">
   {{ partial "navbar.html" . }}
@@ -39,8 +42,8 @@
   <footer class="footer">
     <div class="container is-widescreen px-5">
       {{ block "footer" . }}
+      {{ partial "footer" . }}
       {{ end }}
-      {{ partial "bottom.html" . }}
     </div>
   <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
   <script src="/js/script.js"></script>

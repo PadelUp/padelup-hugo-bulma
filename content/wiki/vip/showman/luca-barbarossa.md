@@ -11,6 +11,6 @@ padel: >-
 fonte: >-
     https://www.ilmessaggero.it/
 video: >-
-    <iframe src="//cdn.jwplayer.com/players/9ot9xyY2-xTUu4Kma.html" width="640" height="360" frameborder="0" scrolling="auto"></iframe>
+    //cdn.jwplayer.com/players/9ot9xyY2-xTUu4Kma.html
 ---
 È un cantautore italiano che ha pubblicato 12 album dal 1981, ed è noto per la sua partecipazione all'Eurovision Song Contest del 1988.
