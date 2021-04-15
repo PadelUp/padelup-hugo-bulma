@@ -5,9 +5,15 @@ date: 2020-06-26 10:21:34
 image: /images/posts/dropshot-explorer-01.webp
 categorie: recensioni
 author: jack
-video: https://www.youtube.com/embed/KQvyiDTGVdY
-redirect_from: /2020/06/26/drop-shot-explorer-pro-1/
+aliases:
+    - /2020/06/26/drop-shot-explorer-pro-1/
+    - /drop-shot-explorer-pro-1/
 ---
+
+## Video Recensione
+<figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/KQvyiDTGVdY" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ## Il brand e la sua storia
 

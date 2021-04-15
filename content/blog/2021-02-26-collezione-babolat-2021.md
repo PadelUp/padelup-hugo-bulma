@@ -8,7 +8,8 @@ description: >-
   Nuovi modelli dalle forme esuberanti per racchette votate al gioco
   offensivo. I tre modelli storici Babolat: Counter, Technical e Air in nuove
   versioni.
-redirect_from: /2021/02/26/collezione-babolat-2021/
+aliases:
+    - /2021/02/26/collezione-babolat-2021/
 ---
 Anche il brand Babolat, famoso nel mondo del tennis per essere da sempre sponsor della leggenda vivente spagnola **Rafa Nadal**, è approdata nel mercato del Padel ormai da diverse stagioni. In questo mercato sponsorizza l’altro giocatore attualmente numero 1 del mondo **Juan Lebron**. 
 

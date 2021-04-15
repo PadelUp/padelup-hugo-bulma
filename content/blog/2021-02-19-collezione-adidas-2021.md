@@ -7,7 +7,9 @@ description: >-
   Storico brand sportivo, apporta annualmente qualità ed innovazione al mondo
   del padel, modello unico di questa collezione è il “Greenpadel” in materiali
   100% sostenibili
-redirect_from: /2021/02/19/collezione-adidas-2021/
+aliases:
+    - /2021/02/19/collezione-adidas-2021/
+    - /news/collezione-adidas-2021/
 ---
 Dopo una stagione ricca di titoli per **Ale Galan**, giocatore di punta del brand, la collezione di racchette Adidas si presenta al mercato con una serie di modelli in linea, in tutto e per tutto, con i valori e la missione di una grande azienda, che tende ad offrire sempre il **prodotto di punta** del mercato.
 

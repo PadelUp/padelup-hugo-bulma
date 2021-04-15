@@ -7,7 +7,9 @@ author: saint
 description: >-
   Qualità ed accessibilità per uno dei marchi più apprezzati dai giocatori di
   tutte le categorie. Modelli storici come la serie ML ed innovazione come la
-  partnership con il World Padel Tour. 
+  partnership con il World Padel Tour.
+aliases:
+  - /news/collezione-nox-2021/
 ---
 
 Anche il prestigioso marchio spagnolo ha presentato qualche tempo fa la sua collezione per la nuova stagione. Il brand è legato da anni alla figura di Miguel Lamperti ma sponsorizza anche il giovane fenomeno Agustin Tapia e le Gemelle Atomiche nel professionismo femminile. 

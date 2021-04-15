@@ -6,7 +6,9 @@ image: /images/posts/campo-da-padel-01.webp
 categorie:
   - approfondimenti
 author: simi
-redirect_from: /2020/10/07/campo-da-padel/
+aliases:
+    - /2020/10/07/campo-da-padel/
+    - /approfondimenti/campo-da-padel/
 ---
 ## Dimensioni, struttura e materiali
 

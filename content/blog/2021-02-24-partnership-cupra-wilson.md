@@ -9,7 +9,9 @@ image: /images/posts/partnership-cupra-wilson-01.webp
 categorie:
   - news
 author: saint
-redirect_from: /2021/02/24/partnership-cupra-wilson/
+aliases:
+    - /2021/02/24/partnership-cupra-wilson/
+    - /news/partnership-cupra-wilson/
 ---
 Cupra, sub-brand spagnolo della marca SEAT, è al centro della sponsorizzazione sportiva nel mondo del Padel: è infatti main sponsor sia del World Padel Tour sia della International Padel Federation.
 Durante la conferenza online per il terzo anniversario del brand è stata annunciata, dal chief operation officer Antonino Labate, una nuova collaborazione: una racchetta in co-branding con il marchio Wilson, per l’esattezza una versione Cupra del modello Bela Pro, al centro della pala troviamo il logo della casa automobilistica invece di quello della produttrice, immancabile le firme Bela e i dettagli del modello originale.

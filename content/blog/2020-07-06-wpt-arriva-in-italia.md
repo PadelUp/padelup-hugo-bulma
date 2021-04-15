@@ -5,7 +5,9 @@ date: 2020-07-06 12:32:16
 image: /images/posts/wpt-cagliari-01.webp
 categorie: news
 author: jack
-redirect_from: /2020/07/06/wpt-arriva-in-italia/
+aliases:
+    - /2020/07/06/wpt-arriva-in-italia/
+    - /news/wpt-arriva-in-italia/
 ---
 
 A tenere con il fiato sospeso gli appassionati di padel italiani è l’incertezza dello svolgimento della prima tappa giocata fuori dalla penisola iberica del World Padel Tour, nell’era post emergenza coronavirus.

@@ -8,6 +8,8 @@ description: >-
   Altro brand che, dall'ingresso nel mondo del padel, punta sull’innovazione
   delle proprie collezioni. La nuova collezione vede racchette con formati esagonali ed
   incorporano il grafene nella struttura.
+aliases:
+  - /news/collezione-head-2021/
 ---
 Recentemente approdato nel mercato del Padel la marca Head continua ad offrire nuovi modelli di racchette, sia per i giocatori di livello esperto sia per giocatori di livello principiante/intermedio. i giocatori più forti sponsorizzati dalla marca sono **Sanyo Gutierrez** a livello maschile e **Ariana Sanchez** insieme a **Paula Josemaria** a livello femminile, che occupano la quarta posizione nel ranking maschile e la prima e la settima posizione nel ranking World Padel Tour femminile.
 

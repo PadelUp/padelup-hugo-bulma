@@ -5,7 +5,9 @@ date: 2020-07-01 13:15:37
 image: /images/posts/historia-worldpadeltour.webp
 categorie: approfondimenti
 author: saint
-redirect_from: /2020/07/01/storia-contemporanea/
+aliases:
+    - /2020/07/01/storia-contemporanea/
+    - /approfondimenti/storia-contemporanea/
 ---
 
 I giocatori più vincenti del **nuovo millennio** , conosciuti bene fino al giorno d'oggi, sono _Juan Martin Diaz_ e _Fernando Belasteguin_ che dominarono dal **2001 al 2015** , vincendo ben 170 tornei su 191 disputati.

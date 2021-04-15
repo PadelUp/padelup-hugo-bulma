@@ -6,7 +6,9 @@ image: /images/posts/calendario-wpt-2021-01.webp
 categorie:
   - news
 author: jack
-redirect_from: /2021/02/17/calendario-wpt-2021/
+aliases:
+    - /2021/02/17/calendario-wpt-2021/
+    - /news/calendario-wpt-2021/
 ---
 Riparte il miglior padel del mondo!
 

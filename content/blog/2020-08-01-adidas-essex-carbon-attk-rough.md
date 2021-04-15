@@ -5,9 +5,14 @@ date: 2020-08-01 10:12:37
 image: /images/posts/adidas-essex-attk-01.webp
 categorie: recensioni
 author: saint
-video: https://www.youtube.com/embed/bSNgktDnwSk
-redirect_from: /2020/08/01/adidas-essex-carbon-attk-rough/
+aliases:
+    - /2020/08/01/adidas-essex-carbon-attk-rough/
+    - /recensioni/adidas-essex-carbon-attk-rough/
 ---
+## Video Recensione
+<figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/bSNgktDnwSk" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 La racchetta Adidas Essex Carbon Attack, in vendita ad un prezzo di 155 euro su Amazon, fa parte dell’ultima collezione di racchette prodotta per l’anno 2020. Il brand è affermato da decenni nel mondo dell’abbigliamento e dell’attrezzatura sportiva, non è un caso che da qualche anno abbia iniziato a produrre attrezzatura, nello specifico racchette, per il mercato del Padel.
 

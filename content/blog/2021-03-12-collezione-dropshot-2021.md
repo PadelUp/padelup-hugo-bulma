@@ -8,6 +8,8 @@ description: >-
   Uno dei brand più storici del mondo del padel, rinnova la propria collezione
   annualmente, offrendo uno dei migliori rapporti qualità/prezzo per le proprie
   racchette.
+aliases:
+  - /news/collezione-dropshot-2021/
 ---
 Uno dei brand più longevi del panorama sportivo internazionale vanta più di venti anni di esperienza nel settore, rinomata anche per essersi legata ad un’icona del Padel spagnolo come Juan Martin Diaz, dodici volte numero uno del mondo, da ormai più di dieci anni. 
 

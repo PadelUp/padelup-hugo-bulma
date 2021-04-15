@@ -5,9 +5,14 @@ date: 2020-08-07 10:25:37
 image: /images/posts/starvie-bravia-01.webp
 categorie: recensioni
 author: jack
-video: https://www.youtube.com/embed/X2uiysu8BiU
-redirect_from: /2020/08/07/starvie-brava-carbon-soft/
+aliases:
+    - /2020/08/07/starvie-brava-carbon-soft/
+    - /recensioni/starvie-brava-carbon-soft/
 ---
+## Video Recensione
+<figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/X2uiysu8BiU" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 Nel video recensiamo la Starvie Brava Carbon Soft, modello appartenente alla collezione di quest’anno. Il marchio Starvie, che vanta una presenza storica tra i produttori di racchette della penisola iberica, rinnova ogni anno la propria produzione, dando cosi un’impulso al mercato e all’innovazione tecnologica nelle forniture di racchette. 
 

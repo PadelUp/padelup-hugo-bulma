@@ -5,9 +5,14 @@ date: 2020-09-07 19:02:34
 image: /images/posts/orven-maui-02.webp
 categorie: recensioni
 author: saint
-video: https://www.youtube.com/embed/3Dmb41veqsU
-redirect_from: /2020/09/07/orven-maui/
+aliases:
+    - /2020/09/07/orven-maui/
+    - /recensioni/orven-maui/
 ---
+## Video Recensione
+<figure class="image is-16by9">
+  <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/3Dmb41veqsU" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 Riprendiamo questa particolare stagione come ci eravamo lasciati, con nuove  recensioni di racchette!
 

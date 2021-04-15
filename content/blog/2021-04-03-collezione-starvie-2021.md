@@ -8,6 +8,8 @@ description: >-
   Qualità made in Spain per un brand che produce modelli di altà qualità per
   giocatori di attacco e di difesa. Potenza e manegevolezza per gli amati
   modelli Raptor e Warrior, rinnovati annualmente.
+aliases:
+  - /news/collezione-starvie-2021/
 ---
 
 Nuovo design e tecnologie all’avanguardia per questa collezione 2021 di uno dei brand più famosi del panorama internazionale. I modelli Starvie hanno una buona rigidità e sono spesso votati al gioco offensivo e di spinta della palla. A livello professionistico il brand è legato ai nomi di Mati Diaz, Franco Stupaczuk e Bea Gonzalez. 

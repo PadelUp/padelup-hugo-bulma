@@ -5,7 +5,9 @@ date: 2020-07-05 19:08:48
 image: /images/posts/wpt-madrid-2020-01.webp
 categorie: news
 author: saint
-redirect_from: /2020/07/05/ritorno-campioni-wpt/
+aliases:
+    - /2020/07/05/ritorno-campioni-wpt/
+    - /news/ritorno-campioni-wpt/
 ---
 
 Dopo l’**emergenza COVID-19**  il World Padel Tour è finalmente ripartito con il torneo _“Estrella Damn Open”_, svolto a **Madrid** dal 28 giugno al 5 luglio. Giocatori e personale si avvicinano alla pista principale con le **mascherine** che coprono i sorrisi ma non la voglia di tornare in campo.  
