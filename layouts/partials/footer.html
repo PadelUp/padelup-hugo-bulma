@@ -2,7 +2,7 @@
     <div class="column is-one-third is-hidden-mobile">
         <p class="title is-4">Ultimi Post</p>
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
-            {{ partial "mini-card.html" . }}
+            {{ partial "card-small.html" . }}
         {{ end }}
     </div>
     <div class="column is-one-third is-hidden-mobile">

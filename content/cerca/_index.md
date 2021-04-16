@@ -1,6 +1,6 @@
 ---
 title: Cerca
-description: Trova il miglior contenuto di Padel
+description: Trova il miglior contenuto su Padel Up
 sitemap:
   priority: 0.1
 menu:

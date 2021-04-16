@@ -1,34 +1,32 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="hero is-small">
+<section class="hero">
   <div class="container is-widescreen px-5">
     <div class="hero-body has-text-centered">
       <h1 class="title is-2">{{ .Title }}</h1>
       <p class="subtitle">{{ .Description }}</p>
+      <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+        <label hidden for="search-input">Cerca nel sito</label>
+          <div class="field has-addons">
+            <p class="control">
+             <input class="input" type="text" id="search-input" name="query" placeholder="Scrivi qui">
+            </p>
+            <p class="control">
+              <input class="button" type="submit" value="Cerca">
+            </p>
+          </div>
+      </form> 
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container is-widescreen px-5">
-    <nav class="level">
-      <div class="level-item">
-          <div class="field has-addons">
-            <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
-                <label hidden for="search-input">Search site</label>
-                <input class="control" type="text" id="search-input" name="query" placeholder="Scrivi per carcare"> <input class="control" type="submit" value="search">
-                </form>  
-          </div>    
-    </nav>
     <div id="results" class="columns is-multiline">
     </div>
   </div>
 </section>
-{{ end }}
-
-{{ define "footer" }}
 {{ partial "search-index.html" . }}
-{{ partial "footer.html" . }}
 {{ end }}
  

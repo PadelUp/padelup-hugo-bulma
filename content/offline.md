@@ -1,5 +1,5 @@
 ---
-title: "Oops, sei offiline."
-description: "Dovresti connerti ad una rete internet per navigare."
+title: "Oops, sei offiline"
+description: "Trova una rete internet per navigare"
 type: "offline"
 ---

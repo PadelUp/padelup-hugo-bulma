@@ -1,7 +1,7 @@
 ---
 title: Staff
-description: Le persone dietro a questa realtà
-staff: true
+description: Le persone dietro questa realtà
+type: "staff"
 menu:
   main:
     identifier: "staff"

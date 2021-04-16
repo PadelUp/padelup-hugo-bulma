@@ -13,3 +13,8 @@
     </div>
 </section>
 {{ end }}
+{{ define "footer" }}
+<div class="content has-text-centered">
+    <p>&copy; {{ now.Format "2006"}} <strong>{{ .Site.Title }}</strong></p>
+</div>
+{{ end }}

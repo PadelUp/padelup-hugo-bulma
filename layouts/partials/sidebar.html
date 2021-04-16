@@ -1,0 +1,14 @@
+<p class="title is-4">Leggi i Post</p>
+{{ range first 3 (shuffle (where site.RegularPages "Type" "blog")) }}
+    {{ partial "card-small.html" . }}
+{{ end }}
+<p class="title is-4">Esplora le Racchette</p>
+{{ $racchette := (.GetPage "/wiki/racchette") }}
+{{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
+    {{ partial "card-small.html" . }}
+{{ end }}
+<p class="title is-4">Scopri i VIP</p>
+{{ $vip := (.GetPage "/wiki/vip") }}
+{{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
+    {{ partial "card-small.html" . }}
+{{ end }}

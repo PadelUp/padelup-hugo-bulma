@@ -2,72 +2,68 @@
 <h2>Descrizione</h2>
 {{.}}
 {{ end }}
-
 <h2>Caratteristiche</h2>
-
-<!-- Specs Table -->
 <table class="table is-hoverable is-fullwidth">
-<tbody>
+    <tbody>
     {{ with .Params.Anno }}
-    <tr>
-    <td class="has-text-weight-bold">Anno:</th>
-    <td>{{ . }}</th>
-    </tr>
+        <tr>
+            <td class="has-text-weight-bold">Anno:</th>
+            <td>{{ . }}</th>
+        </tr>
     {{ end }}
     {{ with .Params.gamma }}
-    <tr>
-    <td class="has-text-weight-bold">Gamma:</th>
-    <td>{{ humanize . }}</th>
-    </tr>
+        <tr>
+            <td class="has-text-weight-bold">Gamma:</th>
+            <td>{{ humanize . }}</th>
+        </tr>
     {{ end }}
     {{ with .Params.Prezzo }}
-    <tr>
-    <td class="has-text-weight-bold">Prezzo:</td>
-    <td>{{ . }}€</td>
-    </tr>
+        <tr>
+            <td class="has-text-weight-bold">Prezzo:</td>
+            <td>{{ . }}€</td>
+        </tr>
     {{ end }}
     {{ with .Params.Forma }}
-    <tr>
-    <td class="has-text-weight-bold">Forma:</td>
-    <td>{{ humanize . }}</td>
-    </tr>        
+        <tr>
+            <td class="has-text-weight-bold">Forma:</td>
+            <td>{{ humanize . }}</td>
+        </tr>        
     {{ end }}
     {{ with .Params.Bilanciamento }}
-    <tr>
-    <td class="has-text-weight-bold">Bilanciamento:</td>
-    <td>{{ humanize . }}</td>
-    </tr>             
+        <tr>
+            <td class="has-text-weight-bold">Bilanciamento:</td>
+            <td>{{ humanize . }}</td>
+        </tr>             
     {{ end }}
     {{ with .Params.Peso }}
-    <tr>
-    <td class="has-text-weight-bold">Peso:</td>
-    <td>{{ . }}gr</td>
-    </tr>
+        <tr>
+            <td class="has-text-weight-bold">Peso:</td>
+            <td>{{ . }}gr</td>
+        </tr>
     {{ end }}
     {{ with .Params.Livello }}
-    <tr>
-    <td class="has-text-weight-bold">Livello di gioco consigliato:</td>
-    <td>{{ humanize . }}</td>
-    </tr>  
+        <tr>
+            <td class="has-text-weight-bold">Livello di gioco consigliato:</td>
+            <td>{{ humanize . }}</td>
+        </tr>  
     {{ end }}
     {{ with .Params.Materiale }}
-    <tr>
-    <td class="has-text-weight-bold">Materiale:</td>
-    <td>{{ humanize . }}</td>
-    </tr>       
+        <tr>
+            <td class="has-text-weight-bold">Materiale:</td>
+            <td>{{ humanize . }}</td>
+        </tr>       
     {{ end }}
     {{ with .Params.Gomma }}
-    <tr>
-    <td class="has-text-weight-bold">Gomma:</td>
-    <td>{{ humanize . }}</td>
-    </tr>
+        <tr>
+            <td class="has-text-weight-bold">Gomma:</td>
+            <td>{{ humanize . }}</td>
+        </tr>
     {{ end }}
     {{ with .Params.Superficie }}
-    <tr>
-    <td class="has-text-weight-bold">Superficie del piatto:</td>
-    <td>{{ humanize . }}</td>
-    </tr>                
+        <tr>
+            <td class="has-text-weight-bold">Superficie del piatto:</td>
+            <td>{{ humanize . }}</td>
+        </tr>                
     {{ end }}
-
-</tbody>
+    </tbody>
 </table>
