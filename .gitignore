@@ -15,3 +15,5 @@ racchette.csv
 vip.csv
 script.py
 .vscode/
+package-lock.json
+node_modules/

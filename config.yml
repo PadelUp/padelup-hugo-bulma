@@ -12,8 +12,7 @@ googleAnalytics: G-DH355JDJPH
 # Open Graph
 params:
   description: "Il padel a tutto un altro livello. Recensioni, guide, news e approfondimenti sul mondo del paddle."
-  images: 
-    - /images/logo/padelup.png
+  image: /images/logo/padelup.png
   title: "Padel Up"
 
 summaryLength: 10

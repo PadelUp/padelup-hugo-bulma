@@ -17,7 +17,7 @@
 
 <section class="section">
 <div class="container is-widescreen px-5">
-  <div class="columns is-multiline is-variable">
+  <div class="columns is-multiline">
     <!-- if list page has no subsection, iterates over pages. otherwise iterates over subsections -->
     {{ $list := (cond (eq .Sections nil) (.Paginate .Pages) (.Paginate .Sections))}}
     {{ range $list.Pages }}

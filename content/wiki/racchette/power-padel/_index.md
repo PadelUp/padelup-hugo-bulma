@@ -6,5 +6,5 @@ image: /images/wiki/brands/power-padel.webp
 title: Power Padel
 brand: power-padel
 marca: power-padel
-description: 
+description: Brand con molti anni di esperienza nel settore dell'attrezzatura da Padel
 ---

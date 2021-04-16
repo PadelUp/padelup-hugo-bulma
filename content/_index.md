@@ -1,4 +1,4 @@
 ---
 title: Home
-description: Il Padel a tutto un altro livello
+description: Il padel a tutto un altro livello. Recensioni, guide, news e approfondimenti sul mondo del padel.
 ---

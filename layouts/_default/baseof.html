@@ -19,6 +19,7 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/main.sass" | toCSS).Permalink }}'>
+    <link href="/css/bulma-carousel.min.css" rel="stylesheet">
 
     <!-- Favicons -->
     {{ partial "favicons.html" . }}
@@ -45,7 +46,7 @@
       {{ partial "footer" . }}
       {{ end }}
     </div>
-  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script src="/js/bulma-carousel.min.js"></script>
   <script src="/js/script.js"></script>
   </footer>
 </html>
