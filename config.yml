@@ -3,6 +3,7 @@ languageCode: "it"
 title: "Padel Up"
 logo: "/images/logo/padelup.svg"
 
+# social
 social:
   facebook: "padelup.it"
   facebook_admin: "105017614585389"
