@@ -5,7 +5,7 @@ function displayResults (results, store) {
     // Iterate and build result list elements
     for (const n in results) {
       const item = store[results[n].ref]
-      resultList += '<div class="column is-half-tablet"><div class="columns is-mobile"><div class="column is-one-third"><figure class="image is-square"><img class="search_image" style="object-fit: cover;" src="' + item.image + '" alt=""></figure></div><div class="column is-two-thirds"><a class="search_link search_title title is-5" href="' + item.url + '">' + item.title + '</a><p>' + item.content.substring(0, 150) + '…</p></div></div></div>'
+      resultList += '<div class="column is-half-tablet"><div class="columns is-mobile"><div class="column is-one-third"><figure class="image is-square"><a href="' + item.url + '"><img class="search_image" style="object-fit: cover;" src="' + item.image + '" alt=""></a></figure></div><div class="column is-two-thirds"><a class="search_link search_title title is-5" href="' + item.url + '">' + item.title + '</a><p>' + item.content.substring(0, 150) + '…</p></div></div></div>'
     }
     searchResults.innerHTML = resultList
   } else {
