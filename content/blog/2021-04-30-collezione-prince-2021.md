@@ -1,5 +1,5 @@
 ---
-title: Prince
+title: L'Offerta Prince Padel 2021
 date: '2021-04-30'
 image: /images/wiki/brands/prince.webp
 categorie: news

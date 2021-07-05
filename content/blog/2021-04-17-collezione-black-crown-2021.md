@@ -1,5 +1,5 @@
 ---
-title: Black-Crown
+title: Collezione Black Crown Padel 2021
 date: '2021-04-17'
 image: /images/wiki/brands/black-crown.webp
 categorie: news

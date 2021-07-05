@@ -1,5 +1,5 @@
 ---
-title: Vibor-A
+title: Le Nuove Racchette da Padel Vibor-A
 date: '2021-04-24'
 image: /images/wiki/brands/vibor-a.webp
 categorie: news
