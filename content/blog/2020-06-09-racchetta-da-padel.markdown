@@ -7,7 +7,7 @@ categorie:   guide
 author: saint
 aliases:
     - /2020/06/09/racchetta-da-padel/
-    - guide/racchetta-da-padel/
+    - /guide/racchetta-da-padel/
 ---
 
 ## Anatomia
