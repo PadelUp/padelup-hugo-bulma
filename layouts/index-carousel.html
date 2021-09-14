@@ -16,25 +16,31 @@
 <section class="section">
     <div class="container is-widescreen px-5 is-clipped">
         <p class="title is-4">Gli ultimi articoli</p>
-        {{ range first 3 (where site.RegularPages "Type" "blog") }}
+        <div id="home-slider-1">
+        {{ range first 6 (where site.RegularPages "Type" "blog") }}
             <div class="column is-full">
-            {{ partial "card-small.html" . }}
+            {{ partial "card.html" . }}
             </div>
         {{ end }}
+        </div>
         <p class="title is-4">Esplora le racchette</p>
+        <div id="home-slider-1">
         {{ $racchette := (.GetPage "/wiki/racchette") }}
-        {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
+        {{ range first 6 (shuffle $racchette.RegularPagesRecursive) }}
             <div class="column is-full">
-            {{ partial "card-small.html" . }}
+            {{ partial "card.html" . }}
             </div>
         {{ end }}
+        </div>
         <p class="title is-4">Scopri i VIP</p>
+        <div id="home-slider-1">
         {{ $vip := (.GetPage "/wiki/vip") }}
-        {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
+        {{ range first 6 (shuffle $vip.RegularPagesRecursive) }}
             <div class="column is-full">
-            {{ partial "card-small.html" . }}
+            {{ partial "card.html" . }}
             </div>
         {{ end }}
+        </div>
     </div>
   </section>
 {{ end }}
