@@ -1,6 +1,6 @@
 {{$fit := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}
 <div class="columns is-mobile is-variable is-2 is-vcentered">
-    <div class="column is-one-third">
+    <div class="column is-one-third-mobile is-half-tablet">
         <figure class="image is-square">
             <a href="{{.RelPermalink}}">
             <img style="object-fit: {{ $fit }};" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
@@ -8,7 +8,7 @@
         </figure>
     </div>
     <div class="column">
-        <p class="title is-6 mb-2"><a class="has-text-black" href="{{.RelPermalink}}">{{ .Title }}</a></p>
+        <p class="title is-5 mb-2"><a class="has-text-black" href="{{.RelPermalink}}">{{ .Title }}</a></p>
         <a href="{{.RelPermalink}}" class="button is-uppercase is-small">Entra &#62;</a>
     </div>
 </div>

@@ -19,7 +19,7 @@
       <div class="columns is-multiline">
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
           <div class="column is-one-third-tablet">
-            {{ partial "card-small.html" . }}
+            {{ partial "card-small-home.html" . }}
           </div>
         {{ end }}
       </div>
@@ -28,7 +28,7 @@
         {{ $racchette := (.GetPage "/wiki/racchette") }}
         {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
           <div class="column is-one-third-tablet">
-            {{ partial "card-small.html" . }}
+            {{ partial "card-small-home.html" . }}
           </div>
         {{ end }}
       </div>
@@ -37,7 +37,7 @@
         {{ $vip := (.GetPage "/wiki/vip") }}
         {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
           <div class="column is-one-third-tablet">
-            {{ partial "card-small.html" . }}
+            {{ partial "card-small-home.html" . }}
           </div>
         {{ end }}
       </div>
