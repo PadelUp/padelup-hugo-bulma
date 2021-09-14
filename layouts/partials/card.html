@@ -1,6 +1,6 @@
 {{$fit := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}
 {{$title := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection .Title .Params.Model) .Title }}
-<figure class="image is-5by3">
+<figure class="image is-4by3">
     <a href="{{.RelPermalink}}">
     <img style="object-fit: {{ $fit }};" src="{{ .Params.image | absURL }}" alt="{{ $title }}">
     </a>
