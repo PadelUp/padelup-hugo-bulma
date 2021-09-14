@@ -14,27 +14,32 @@
 </section>
 
 <section class="section">
-    <div class="container is-widescreen px-5 is-clipped">
-        <p class="title is-4">Gli ultimi articoli</p>
+  <div class="container is-widescreen px-5">
+    <p class="title is-4">Gli ultimi articoli</p>
+      <div class="columns is-multiline">
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
-            <div class="column is-full">
+          <div class="column is-one-third-tablet">
             {{ partial "card-small.html" . }}
-            </div>
+          </div>
         {{ end }}
-        <p class="title is-4">Esplora le racchette</p>
+      </div>
+    <p class="title is-4">Esplora le racchette</p>
+      <div class="columns is-multiline">
         {{ $racchette := (.GetPage "/wiki/racchette") }}
         {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
-            <div class="column is-full">
+          <div class="column is-one-third-tablet">
             {{ partial "card-small.html" . }}
-            </div>
+          </div>
         {{ end }}
-        <p class="title is-4">Scopri i VIP</p>
+      </div>
+    <p class="title is-4">Scopri i VIP</p>
+      <div class="columns is-multiline">
         {{ $vip := (.GetPage "/wiki/vip") }}
         {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
-            <div class="column is-full">
+          <div class="column is-one-third-tablet">
             {{ partial "card-small.html" . }}
-            </div>
+          </div>
         {{ end }}
-    </div>
+      </div>
   </section>
 {{ end }}
