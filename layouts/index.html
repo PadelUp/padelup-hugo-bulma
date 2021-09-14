@@ -23,7 +23,7 @@
           </div>
         {{ end }}
       </div>
-    <p class="title is-4">Esplora le racchette</p>
+    <p class="title is-4 mt-5">Esplora le racchette</p>
       <div class="columns is-multiline">
         {{ $racchette := (.GetPage "/wiki/racchette") }}
         {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
@@ -32,7 +32,7 @@
           </div>
         {{ end }}
       </div>
-    <p class="title is-4">Scopri i VIP</p>
+    <p class="title is-4 mt-5">Scopri i VIP</p>
       <div class="columns is-multiline">
         {{ $vip := (.GetPage "/wiki/vip") }}
         {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
@@ -41,5 +41,6 @@
           </div>
         {{ end }}
       </div>
+    </div> 
   </section>
 {{ end }}
