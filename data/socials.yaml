@@ -1,12 +1,12 @@
 - name: Instagram
   link: https://instagram.com/padelup.it
-  icon: fab fa-instagram
+  icon: fab fa-lg fa-instagram
 - name: Facebook
   link: https://www.facebook.com/padelup.it
-  icon: fab fa-facebook
+  icon: fab fa-lg fa-facebook
 - name: YouTube
   link: https://www.youtube.com/c/PadelUp
-  icon: fab fa-youtube
+  icon: fab fa-lg fa-youtube
 - name: TikTok
   link: https://vm.tiktok.com/JeBEsdU/
-  icon: fab fa-tiktok
+  icon: fab fa-lg fa-tiktok

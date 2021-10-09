@@ -9,7 +9,7 @@
                 {{ with .Description }}
                 <p class="subtitle mb-3">{{ with $.Date }}<time datetime="{{.}}">{{ .Format "January 2, 2006" }}</time> - {{ end }}{{ . }}</p>
                 {{ end }}
-                <a class="button is-uppercase" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
+                <a class="button is-uppercase" href="{{.Parent.RelPermalink }}" title="{{.Parent.Title}}">&#60; {{.Parent.Title}}</a>
                 {{ if .Params.image }}
                 <figure class="image is-5by3 my-4">
                     <img style="object-fit: {{ cond (.IsDescendant (.GetPage "/wiki/racchette")) "contain" "cover"}};" src="{{ .Params.image | absURL }}" alt="{{ $.Title }}">

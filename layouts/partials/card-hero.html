@@ -1,0 +1,24 @@
+<div class="column is-full">
+    <div class="columns is-vcentered">
+      <div class="column is-two-third-tablet is-hidden-tablet">
+        <figure class="image is-4by3">
+          <a href="{{ .RelPermalink }}">
+            <img style="object-fit: cover;" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+          </a>
+        </figure>
+      </div>
+      <div class="column is-one-third-tablet">
+        <p class="title is-3">{{ .Title }}</p>
+        <p class="content">{{ .Description }}</p>
+        <a href="{{ .RelPermalink }}" class="button is-uppercase">Entra &#62;</a>  
+      </div>
+      <div class="column is-two-third-tablet is-hidden-mobile">
+        <figure class="image is-5by3">
+          <a href="{{ .RelPermalink }}">
+            <img style="object-fit: cover;" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+          </a>
+        </figure>
+      </div>
+      
+    </div>
+  </div>

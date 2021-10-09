@@ -1,12 +1,12 @@
-{{$fit := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}
+{{/*  {{$fit := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection "cover" "contain") "cover"}}  */}}
 {{$title := cond (.IsDescendant (.GetPage "/wiki/racchette")) (cond .IsSection .Title .Params.Model) .Title }}
 <figure class="image is-4by3">
     <a href="{{.RelPermalink}}">
-    <img style="object-fit: {{ $fit }};" src="{{ .Params.image | absURL }}" alt="{{ $title }}">
+    <img style="object-fit: cover;" src="{{ .Params.image | absURL }}" alt="{{ $title }}">
     </a>
 </figure>
 <div class="my-4">
     <h3 class="title is-4 mb-1">{{ $title }}</h3>
     <p class="mb-3">{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}</p>
-    <a href="{{.RelPermalink}}" class="button is-uppercase">Entra &#62;</a>
+    <a href="{{.RelPermalink}}" title="{{ .Title }}" class="button is-uppercase">Entra &#62;</a>
 </div>
