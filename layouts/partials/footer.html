@@ -1,16 +1,16 @@
-<div class="columns is-variable is-5">
+<div class="columns is-variable is-5 content">
     <div class="column is-one-third is-hidden-mobile">
-        <p class="title is-4">Ultimi Post</p>
+        <h3><a class="click" href="/blog">Ultimi Post</a></h3>
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
             {{ partial "card-small.html" . }}
         {{ end }}
     </div>
     <div class="column is-one-third is-hidden-mobile">
-        <p class="title is-4">Instagram</p>
+        <h3>Instagram</h3>
         {{ partial "instagram.html" . }}
     </div>
     <div class="column is-one-third">
-        <p class="title is-4">Contattaci</p>
+        <h3>Contattaci</h3>
         {{ partial "contact-form.html" . }}
     </div>
 </div>

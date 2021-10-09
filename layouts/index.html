@@ -1,49 +1,39 @@
 {{ define "title" }} {{ .Title }} &#124; {{ .Site.Title }} {{ end }}
 {{ define "main" }}
-{{/*  <section class="hero">
-    <div class="hero-body has-text-centered">
-      <div class="container is-widescreen px-5">
-      <h1 class="title is-2">Benvenuto in Padel Up</h1>
-      <p class="subtitle">{{ .Description }}</p>
-      </div>
-    </div>
-    <div class="hero-foot">
-      <div class="container is-widescreen px-5">
-      </div>
-    </div>
-</section>  */}}
 
-<section class="section">
-  <div class="container is-widescreen px-5">
-    <div class="columns is-multiline">
-    {{ range $index, $pag := first 4 (where site.RegularPages "Type" "blog") }}
-    {{ if (eq $index 0) }}
-      {{ partial "card-hero.html" $pag }}
-    {{ else }}
-      <div class="column is-one-third-tablet">
-        {{ partial "card-home.html" $pag }}
-      </div>
-    {{ end }}
-    {{ end }}
+<section class="container py-6 px-5">
+  <div class="columns is-multiline content">
+  {{ range $index, $pag := first 4 (where site.RegularPages "Type" "blog") }}
+  {{ if (eq $index 0) }}
+    {{ partial "card-hero.html" $pag }}
+  {{ else }}
+    <div class="column is-one-third-tablet">
+      {{ partial "card.html" $pag }}
     </div>
-    <p class="title is-2 mt-5">Esplora le racchette</p>
-      <div class="columns is-multiline">
-        {{ $racchette := (.GetPage "/wiki/racchette") }}
-        {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
-          <div class="column is-one-third-tablet">
-            {{ partial "card-home.html" . }}
-          </div>
-        {{ end }}
+  {{ end }}
+  {{ end }}
+  </div>
+  <div class="columns is-multiline content">
+    <div class="column is-full">
+      <h1><a class="click" href="/wiki/racchette">Esplora le Racchette</a></h1>
+    </div>
+    {{ $racchette := (.GetPage "/wiki/racchette") }}
+    {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
+      <div class="column is-one-third-tablet">
+        {{ partial "card.html" . }}
       </div>
-    <p class="title is-2 mt-5">Scopri i VIP</p>
-      <div class="columns is-multiline">
-        {{ $vip := (.GetPage "/wiki/vip") }}
-        {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
-          <div class="column is-one-third-tablet">
-            {{ partial "card-home.html" . }}
-          </div>
-        {{ end }}
+    {{ end }}
+  </div>
+  <div class="columns is-multiline content">
+    <div class="column is-full">
+      <h1><a class="click" href="/wiki/vip">Scopri i VIP</a></h1>
+    </div>
+    {{ $vip := (.GetPage "/wiki/vip") }}
+    {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
+      <div class="column is-one-third-tablet">
+        {{ partial "card.html" . }}
       </div>
-    </div> 
-  </section>
+    {{ end }}
+  </div>
+</section> 
 {{ end }}

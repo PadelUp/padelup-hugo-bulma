@@ -1,14 +1,16 @@
-<p class="title is-4">Leggi i Post</p>
-{{ range first 3 (shuffle (where site.RegularPages "Type" "blog")) }}
-    {{ partial "card-small.html" . }}
-{{ end }}
-<p class="title is-4">Esplora le Racchette</p>
-{{ $racchette := (.GetPage "/wiki/racchette") }}
-{{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
-    {{ partial "card-small.html" . }}
-{{ end }}
-<p class="title is-4">Scopri i VIP</p>
-{{ $vip := (.GetPage "/wiki/vip") }}
-{{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
-    {{ partial "card-small.html" . }}
-{{ end }}
+<div class="content">
+    <h3><a class="click" href="/blog">Leggi i Post</a></h3>
+    {{ range first 3 (shuffle (where site.RegularPages "Type" "blog")) }}
+        {{ partial "card-small.html" . }}
+    {{ end }}
+    <h3><a class="click" href="/wiki/racchette">Esplora le Racchette</a></h3>
+    {{ $racchette := (.GetPage "/wiki/racchette") }}
+    {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
+        {{ partial "card-small.html" . }}
+    {{ end }}
+    <h3><a class="click" href="/wiki/vip">Scopri i VIP</a></h3>
+    {{ $vip := (.GetPage "/wiki/vip") }}
+    {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}
+        {{ partial "card-small.html" . }}
+    {{ end }}
+</div>
