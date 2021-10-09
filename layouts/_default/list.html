@@ -1,25 +1,23 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="container py-6 px-5">
-  <div class="columns is-multiline content">
-    <div class="column is-full">
-      <div class="has-text-centered content">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Description }}</p>
-      </div>
-      <a class="button is-uppercase" title="{{ .Parent.Title }}" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
+<div class="columns is-multiline content">
+  <div class="column is-full">
+    <div class="has-text-centered content">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
     </div>
-    <!-- if list page has no subsection, iterates over pages. otherwise iterates over subsections -->
-    {{ $list := (cond (eq .Sections nil) (.Paginate .Pages) (.Paginate .Sections))}}
-    {{ range $list.Pages }}
-    <div class="column is-one-third-desktop is-half-tablet">
-      {{ partial "card.html" . }}
-    </div> 
-    {{ end }}
-    <div class="column is-full">
-      {{ partial "pagination.html" . }}
-    </div>
+    <a class="button is-uppercase" title="{{ .Parent.Title }}" href="{{.Parent.RelPermalink }}">&#60; {{.Parent.Title}}</a>
   </div>
-</section>
+  <!-- if list page has no subsection, iterates over pages. otherwise iterates over subsections -->
+  {{ $list := (cond (eq .Sections nil) (.Paginate .Pages) (.Paginate .Sections))}}
+  {{ range $list.Pages }}
+  <div class="column is-one-third-desktop is-half-tablet">
+    {{ partial "card.html" . }}
+  </div> 
+  {{ end }}
+  <div class="column is-full">
+    {{ partial "pagination.html" . }}
+  </div>
+</div>
 {{ end }}

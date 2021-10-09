@@ -1,32 +1,30 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="container py-6 px-5">
-    <div class="columns is-variable is-5">
-        <div class="column is-two-thirds content">
-            <h1>{{ .Title }}</h1>
-            {{ with .Description }}
-            <p>{{ with $.Date }}<time datetime="{{.}}">{{ .Format "January 2, 2006" }}</time> - {{ end }}{{ . }}</p>
-            {{ end }}
-            <p><a class="button is-uppercase" href="{{.Parent.RelPermalink }}" title="{{.Parent.Title}}">&#60; {{.Parent.Title}}</a></p>
-            {{ if .Params.image }}
-            <figure class="image is-5by3 my-4">
-                <img src="{{ .Params.image | absURL }}" alt="{{ $.Title }}">
-            </figure>
-            {{ end }}
-            <div class="blog">
-                {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}{{ partial "racchetta.html" . }}
-                {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}{{ partial "vip.html" . }}
-                {{ else if (eq .Type "staff") }}{{ partial "staff.html" . }}
-                {{ else }}{{ .Content }}{{ end }}
-            </div>
-            {{ if (ne .Section "") }}{{ partial "prev-next.html" . }}{{ end }}
-            
-            {{ if (ne .Title "4🎾4") }}{{ partial "share.html" . }}{{ end }}
+<div class="columns is-variable is-5">
+    <div class="column is-two-thirds content">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}
+        <p>{{ with $.Date }}<time datetime="{{.}}">{{ .Format "January 2, 2006" }}</time> - {{ end }}{{ . }}</p>
+        {{ end }}
+        <p><a class="button is-uppercase" href="{{.Parent.RelPermalink }}" title="{{.Parent.Title}}">&#60; {{.Parent.Title}}</a></p>
+        {{ if .Params.image }}
+        <figure class="image is-5by3 my-4">
+            <img src="{{ .Params.image | absURL }}" alt="{{ $.Title }}">
+        </figure>
+        {{ end }}
+        <div class="blog">
+            {{ if (.IsDescendant (.GetPage "/wiki/racchette")) }}{{ partial "racchetta.html" . }}
+            {{ else if (.IsDescendant (.GetPage "/wiki/vip")) }}{{ partial "vip.html" . }}
+            {{ else if (eq .Type "staff") }}{{ partial "staff.html" . }}
+            {{ else }}{{ .Content }}{{ end }}
         </div>
-        <div class="column is-one-third">
-            {{ partial "sidebar.html" . }}
-        </div>
+        {{ if (ne .Section "") }}{{ partial "prev-next.html" . }}{{ end }}
+        
+        {{ if (ne .Title "4🎾4") }}{{ partial "share.html" . }}{{ end }}
     </div>
-</section>
+    <div class="column is-one-third">
+        {{ partial "sidebar.html" . }}
+    </div>
+</div>
 {{ end }}

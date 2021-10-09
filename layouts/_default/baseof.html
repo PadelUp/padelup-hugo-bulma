@@ -19,7 +19,6 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/main.sass" | toCSS).Permalink }}'>
-    {{/*  <link href="/css/bulma-carousel.min.css" rel="stylesheet">  */}}
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
 
     <!-- Favicons -->
@@ -37,17 +36,16 @@
   </head>
 <body class="is-unselectable">
   {{ partial "navbar.html" . }}
-  <main>
+  <main class="container py-5 px-4">
     {{ block "main" . }}
     {{ end }}
   </main>
   <footer class="footer">
-    <div class="container  px-5">
+    <div class="container py-6 px-5">
       {{ block "footer" . }}
       {{ partial "footer" . }}
       {{ end }}
     </div>
-  <!-- <script src="/js/bulma-carousel.min.js"></script> -->
   <script src="/js/script.js"></script>
   </footer>
 </html>

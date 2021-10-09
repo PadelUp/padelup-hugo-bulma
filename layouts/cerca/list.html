@@ -1,31 +1,29 @@
 {{ define "title" }}{{ .Title }} &#124; {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="container py-6 px-5">
-  <div class="columns is-multiline content">
-    <div class="column is-full">
-      <div class="has-text-centered">
-        <h1>{{ .Title }}</h1>
-        <p>{{ .Description }}</p>
-      </div>
+<div class="columns is-multiline content">
+  <div class="column is-full">
+    <div class="has-text-centered">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}</p>
     </div>
-    <div class="column is-full content">
-      <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
-        <label hidden for="search-input">Cerca nel sito</label>
-          <div class="field has-addons has-addons-centered">
-            <p class="control">
-             <input class="input" type="text" id="search-input" name="query" placeholder="Scrivi qui">
-            </p>
-            <p class="control">
-              <input class="button" type="submit" value="Cerca">
-            </p>
-          </div>
-      </form>
-    </div>
-
-    <div id="results" class="columns is-multiline content">
-    </div>
-</section>
+  </div>
+  <div class="column is-full content">
+    <form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+      <label hidden for="search-input">Cerca nel sito</label>
+        <div class="field has-addons has-addons-centered">
+          <p class="control">
+            <input class="input" type="text" id="search-input" name="query" placeholder="Scrivi qui">
+          </p>
+          <p class="control">
+            <input class="button" type="submit" value="Cerca">
+          </p>
+        </div>
+    </form>
+  </div>
+</div>
+<div id="results" class="columns is-multiline content">
+</div>
 {{ partial "search-index.html" . }}
 {{ end }}
  
