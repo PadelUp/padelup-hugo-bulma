@@ -1,24 +1,26 @@
-<div class="columns is-variable is-5 content">
+<div class="columns is-multiline is-variable is-4 content">
     <div class="column is-one-third is-hidden-mobile">
-        <h3><a class="click" href="/blog">Ultimi Post</a></h3>
+        <h2 class="mb-5"><a class="click" href="/blog">Ultimi Post</a></h2>
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
             {{ partial "card-small.html" . }}
         {{ end }}
     </div>
     <div class="column is-one-third is-hidden-mobile">
-        <h3>Instagram</h3>
+        <h2 class="mb-5">Instagram</h2>
         {{ partial "instagram.html" . }}
     </div>
     <div class="column is-one-third">
-        <h3>Contattaci</h3>
+        <h2 class="mb-5">Contattaci</h2>
         {{ partial "contact-form.html" . }}
     </div>
-</div>
-<div class="buttons is-centered">
-    {{ range .Site.Data.socials }}
-        <a class="button is-medium" href="{{.link}}" title="Padel Up su {{.name}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
-    {{ end }}
-</div>
-<div class="content has-text-centered">
-    <p>&copy; {{ now.Format "2006"}} <strong>{{ .Site.Title }}</strong></p>
+    <div class="column is-full">
+        <div class="buttons is-centered">
+            {{ range .Site.Data.socials }}
+                <a class="button is-medium" href="{{.link}}" title="Padel Up su {{.name}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
+            {{ end }}
+        </div>
+    </div>
+    <div class="column is-full content has-text-centered">
+        <p>&copy; {{ now.Format "2006"}} <strong>{{ .Site.Title }}</strong></p>
+    </div>
 </div>

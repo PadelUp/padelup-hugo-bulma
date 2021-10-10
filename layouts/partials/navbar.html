@@ -1,50 +1,36 @@
-<nav class="navbar is-fixed-top" id="navbar" role="navigation" aria-label="main navigation">
-  <div class="container px-4">
-    <div class="navbar-brand">
-      <a class="navbar-item pl-0" href="/" title="Home">
-        <img class="pr-2" src="/images/logo/padelup.svg" alt="{{ .Site.Title }} Logo">
-        <h1 class="title is-4">{{ .Site.Title }}</h1>
-      </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-
-      {{/*  <a class="navbar-item is-hidden-desktop" href="/cerca">
-      <span class="icon"><i class="fas fa-search"></i></span>
-      </a>  */}}
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end is-uppercase has-text-weight-medium">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
-        <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}">
-          <a class="navbar-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-          <div class="navbar-dropdown is-right">
-            {{ range .Children }}
-            <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{.Name}}</a>
-            {{ end }}
-          </div>
-        </div>
-        {{ else }}
-        <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}" href="{{ .URL }}" title="{{ .Name }}">
-          {{ if (eq .Name "Cerca") }}
-          <span class="icon"><i class="fas fa-search"></i></span>
-          {{ else }}
-          {{ .Name }}
-          {{ end }}
-        </a>
-        {{ end }}
+<div class="navbar-brand">
+  <a class="navbar-item" href="/" title="Home">
+    <img class="pr-2" src="/images/logo/padelup.svg" alt="{{ .Site.Title }} Logo">
+    <h1 class="title is-4">{{ .Site.Title }}</h1>
+  </a>
+  <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+</div>
+<div id="navbarBasicExample" class="navbar-menu">
+  <div class="navbar-end is-uppercase has-text-weight-bold">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+    <div class="navbar-item has-dropdown is-hoverable {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}">
+      <a class="navbar-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
+      <div class="navbar-dropdown is-right">
+        {{ range .Children }}
+        <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }}">{{.Name}}</a>
         {{ end }}
       </div>
     </div>
-
-
-
+    {{ else }}
+    <a class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}{{end}}" href="{{ .URL }}" title="{{ .Name }}">
+      {{ if (eq .Name "Cerca") }}
+      <span class="icon"><i class="fas fa-search"></i></span>
+      {{ else }}
+      {{ .Name }}
+      {{ end }}
+    </a>
+    {{ end }}
+    {{ end }}
   </div>
-</nav>
-
+</div>

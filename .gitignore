@@ -1,19 +1,7 @@
-# Hugo default output directory
-/public
-
-## OS Files
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# OSX
 .DS_Store
+/public
+.vscode/
 
 racchette.csv
 vip.csv
 script.py
-.vscode/
-package-lock.json
-node_modules/

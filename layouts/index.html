@@ -1,6 +1,6 @@
 {{ define "title" }} {{ .Title }} &#124; {{ .Site.Title }} {{ end }}
 {{ define "main" }}
-<div class="columns is-multiline content">
+<div class="columns is-multiline is-variable is-4 content">
 {{ range $index, $pag := first 4 (where site.RegularPages "Type" "blog") }}
 {{ if (eq $index 0) }}
   {{ partial "card-hero.html" $pag }}
@@ -10,8 +10,6 @@
   </div>
 {{ end }}
 {{ end }}
-</div>
-<div class="columns is-multiline content">
   <div class="column is-full">
     <h1><a class="click" href="/wiki/racchette">Esplora le Racchette</a></h1>
   </div>
@@ -21,8 +19,6 @@
       {{ partial "card.html" . }}
     </div>
   {{ end }}
-</div>
-<div class="columns is-multiline content">
   <div class="column is-full">
     <h1><a class="click" href="/wiki/vip">Scopri i VIP</a></h1>
   </div>
