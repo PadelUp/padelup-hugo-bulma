@@ -26,3 +26,4 @@ markup:
     renderer:
       unsafe: true
 
+enableRobotsTXT: true
