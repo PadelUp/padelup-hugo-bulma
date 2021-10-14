@@ -1,19 +1,17 @@
-<section class="section">
-    {{ range .Site.Data.staff }}
-    <div class="columns is-mobile is-centered is-multiline is-vcentered pb-5">
-        <div class="column is-4">
-            <figure class="image is-square">
-                <img class="is-rounded" style="object-fit: cover;" src="{{.avatar}}" alt="{{.name}}">
-            </figure>
-        </div>
-        <div class="column is-full-mobile has-text-centered-mobile content">
-            <h2>{{ .name }}</h2>
-            <p class="subtitle tag">{{.position}}</p>
-            <p>{{.bio}}</p>
-            {{ range .social }}
-            <a class="button" href="{{.link}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
-            {{ end }}
-        </div>
+{{ range .Site.Data.staff }}
+<div class="columns is-mobile is-centered is-multiline is-vcentered pb-5">
+    <div class="column is-4">
+        <figure class="image is-square">
+            <img class="is-rounded" style="object-fit: cover;" src="{{.avatar}}" alt="{{.name}}">
+        </figure>
     </div>
-    {{ end }}
-</section>
+    <div class="column is-full-mobile has-text-centered-mobile content">
+        <h2>{{ .name }}</h2>
+        <p class="subtitle tag">{{.position}}</p>
+        <p>{{.bio}}</p>
+        {{ range .social }}
+        <a class="button" href="{{.link}}"><span class="icon"><i class="{{.icon}}"></i></span></a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
