@@ -2949,7 +2949,7 @@ a.tag:hover {
     content: "\0227B"; }
 
 .card {
-  background-color: unset;
+  background-color: unset !important;
   border-radius: 0.5rem;
   box-shadow: unset;
   color: #0a0a0a;
