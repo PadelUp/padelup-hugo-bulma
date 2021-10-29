@@ -304,7 +304,7 @@ body {
   color: #0a0a0a;
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.6; }
+  line-height: 1.5; }
 
 a {
   color: #0077ff;
@@ -2950,19 +2950,19 @@ a.tag:hover {
 
 .card {
   background-color: unset !important;
-  border-radius: 0.5rem;
-  box-shadow: unset;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: #0a0a0a;
   max-width: 100%;
   position: relative; }
 
 .card-footer:first-child, .card-content:first-child, .card-header:first-child {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem; }
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
 
 .card-footer:last-child, .card-content:last-child, .card-header:last-child {
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem; }
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem; }
 
 .card-header {
   background-color: transparent;
@@ -3001,11 +3001,11 @@ a.tag:hover {
   display: block;
   position: relative; }
   .card-image:first-child img {
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem; }
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; }
   .card-image:last-child img {
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem; }
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem; }
 
 .card-content {
   background-color: transparent;
@@ -7757,7 +7757,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
         padding: 18rem 6rem; } }
 .footer {
   background-color: #fafafa;
-  padding: 0 0 4rem; }
+  padding: 0; }
 
 /*! Bulma Prefers Dark  | MIT License | github.com/jloh/bulma-prefers-dark */
 @media (prefers-color-scheme: dark) {
@@ -12507,7 +12507,8 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin: 0; }
 
 figure img {
-  object-fit: cover; }
+  object-fit: cover;
+  object-position: top; }
 
 .navbar {
   top: 0;
@@ -12521,7 +12522,7 @@ figure img {
   height: 2px; }
 
 img {
-  border-radius: 0.5rem; }
+  border-radius: 0.25rem; }
   img .no-radius {
     border-radius: unset; }
 

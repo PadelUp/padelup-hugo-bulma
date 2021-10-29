@@ -15,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href='{{ (resources.Get "sass/main.sass" | toCSS).Permalink }}'>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
     <!-- Favicons -->
     {{ partial "favicons.html" . }}
     <!-- PWA -->
@@ -31,12 +30,12 @@
         {{ partial "navbar.html" . }}
       </div>
     </nav>
-    <main class="container is-widescreen p-5">
+    <main class="container is-widescreen p-5 pb-6">
       {{ block "main" . }}
       {{ end }}
     </main>
     <footer class="footer">
-      <div class="container is-widescreen p-5">
+      <div class="container is-widescreen p-5 py-6">
         {{ block "footer" . }}
         {{ partial "footer" . }}
         {{ end }}

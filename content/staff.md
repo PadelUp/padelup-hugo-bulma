@@ -1,6 +1,6 @@
 ---
 title: Staff
-description: Le persone dietro questa realtà
+description: Il team di Padel Up
 type: "staff"
 menu:
   main:

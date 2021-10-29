@@ -1,6 +1,6 @@
 ---
 title: WIKI
-description: Benvenuto nel database di Padel Up
+description: Il database di Padel Up. Naviga tra più di 300 racchette e scopri le personalità che giocano a Padel.
 section: true
 menu:
   main:

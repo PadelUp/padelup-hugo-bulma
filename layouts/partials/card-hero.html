@@ -7,8 +7,9 @@
           </a>
         </figure>
       </div>
-      <div class="column is-one-third-tablet">
-        <h1><a class="click" href="{{ .RelPermalink }}">{{ .Title }}</a><span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></h1>
+      <div class="column is-one-third-tablet content mb-0">
+        <h4 class="is-hidden-tablet mb-1"><a class="click" href="{{ .RelPermalink }}">{{ .Title }} <span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></a></h4>
+        <h1 class="is-hidden-mobile"><a class="click" href="{{ .RelPermalink }}">{{ .Title }} <span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></a></h1>
         <p>{{ .Description }}</p>
       </div>
       <div class="column is-two-third-tablet is-hidden-mobile">

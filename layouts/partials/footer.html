@@ -1,16 +1,22 @@
-<div class="columns is-multiline is-variable is-4 content">
+<div class="columns is-multiline is-variable is-4">
     <div class="column is-one-third is-hidden-mobile">
-        <h2 class="mb-5"><a class="click" href="/blog">Ultimi Post</a></h2>
+        <div class="content">
+            <h2 class="mb-5"><a class="click" href="/blog">Ultimi Post <span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></a></h2>
+        </div>
         {{ range first 3 (where site.RegularPages "Type" "blog") }}
             {{ partial "card-small.html" . }}
         {{ end }}
     </div>
     <div class="column is-one-third is-hidden-mobile">
-        <h2 class="mb-5">Instagram</h2>
+        <div class="content">
+            <h2 class="mb-5">Instagram</h2>
+        </div>
         {{ partial "instagram.html" . }}
     </div>
     <div class="column is-one-third">
-        <h2 class="mb-5">Contattaci</h2>
+        <div class="content">
+            <h2 class="mb-5">Contattaci</h2>
+        </div>
         {{ partial "contact-form.html" . }}
     </div>
     <div class="column is-full">

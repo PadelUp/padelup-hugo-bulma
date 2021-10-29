@@ -1,17 +1,19 @@
 {{ define "title" }} {{ .Title }} &#124; {{ .Site.Title }} {{ end }}
 {{ define "main" }}
-<div class="columns is-multiline is-variable is-4 content">
-{{ range $index, $pag := first 4 (where site.RegularPages "Type" "blog") }}
-{{ if (eq $index 0) }}
-  {{ partial "card-hero.html" $pag }}
-{{ else }}
-  <div class="column is-one-third-tablet">
-    {{ partial "card.html" $pag }}
-  </div>
-{{ end }}
-{{ end }}
-  <div class="column is-full">
-    <h1><a class="click" href="/wiki/racchette">Esplora le Racchette</a></h1>
+<div class="columns is-multiline is-variable is-4">
+
+  {{ range $index, $pag := first 4 (where site.RegularPages "Type" "blog") }}
+  {{ if (eq $index 0) }}
+    {{ partial "card-hero.html" $pag }}
+  {{ else }}
+    <div class="column is-one-third-tablet">
+      {{ partial "card.html" $pag }}
+    </div>
+  {{ end }}
+  {{ end }}
+
+  <div class="column is-full content mt-5 mb-0">
+    <h2><a class="click" href="/wiki/racchette">Esplora le Racchette <span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></a></h2>
   </div>
   {{ $racchette := (.GetPage "/wiki/racchette") }}
   {{ range first 3 (shuffle $racchette.RegularPagesRecursive) }}
@@ -19,8 +21,8 @@
       {{ partial "card.html" . }}
     </div>
   {{ end }}
-  <div class="column is-full">
-    <h1><a class="click" href="/wiki/vip">Scopri i VIP</a></h1>
+  <div class="column is-full content mt-5 mb-0">
+    <h2 class="mb-0"><a class="click" href="/wiki/vip">Scopri i VIP <span class="icon has-text-primary"><i class="fas fa-chevron-right"></i></span></a></h2>
   </div>
   {{ $vip := (.GetPage "/wiki/vip") }}
   {{ range first 3 (shuffle $vip.RegularPagesRecursive) }}

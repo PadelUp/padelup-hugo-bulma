@@ -1,5 +1,6 @@
 ---
 title: Mission
+description: Vogliamo portare il Padel ad un livello superiore, diventando il punto di riferimento per la grande community italiana di giocatori, in continua in espansione.
 image: /images/mission/about.webp
 menu:
   main:
